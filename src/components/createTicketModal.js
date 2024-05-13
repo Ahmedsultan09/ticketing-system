@@ -72,6 +72,7 @@ export default function CreateTicketModal() {
   const handleSerialNumber = (e) => {
     setSerialNumber(e.target.value);
   };
+  console.log(serialNumber);
 
   return (
     <div>

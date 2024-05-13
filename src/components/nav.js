@@ -24,7 +24,7 @@ export default function Example() {
       current: item.href === location.pathname,
     }));
     setNavigation(updatedNavigation);
-  }, [location.pathname]);
+  }, [location.pathname, navigation]);
 
   return (
     <Disclosure as="nav" className="bg-gray-800">
