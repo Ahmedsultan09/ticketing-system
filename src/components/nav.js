@@ -20,11 +20,12 @@ export default function Example() {
   const [navigation, setNavigation] = useState(initialNavigation);
   const location = useLocation();
   useEffect(() => {
-    const updatedNavigation = navigation.map((item) => ({
-      ...item,
-      current: item.href === location.pathname,
-    }));
-    setNavigation(updatedNavigation);
+    setNavigation((prevNavigation) => {
+      return prevNavigation.map((item) => ({
+        ...item,
+        current: item.href === location.pathname,
+      }));
+    });
   }, [location.pathname]);
 
   return (

@@ -31,7 +31,6 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
     color: theme.palette.text.secondary,
   }));
 
-  const [ticketDetails, setTicketDetails] = useState([]);
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
