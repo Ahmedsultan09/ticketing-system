@@ -10,11 +10,12 @@ import {
 import Box from "@mui/material/Box";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import InfoLabel from "./ui/infoLabel";
+import InfoLabel from "../ui/infoLabel";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";
 import axios from "axios";
 import { styled } from "@mui/material/styles";
-import TasksModal from "./taskModal";
+import TasksModal from "../taskModal";
+import ConfirmCloseTicketModal from "./confirmCloseTicket";
 
 function SpecificTicket() {
   const params = useParams();
@@ -24,8 +25,9 @@ function SpecificTicket() {
   const [isCanceled, setIsCanceled] = useState(false);
   const [specificEngTasks, setSpecificEngTasks] = useState([]);
   const [specificEngName, setSpecificEngName] = useState("");
+  const [showCloseTicketModal, setShowCloseTicketModal] = useState(false);
 
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const navigate = useNavigate();
   function handleSelectingEng(e) {
@@ -42,6 +44,12 @@ function SpecificTicket() {
     display: "flex",
     alignItems: "center",
   }));
+  const handleShowCloseTicketModal = () => {
+    setShowCloseTicketModal(true);
+  };
+  const handleHideCloseTicketModal = () => {
+    setShowCloseTicketModal(false);
+  };
   useEffect(() => {
     if (isCanceled) {
       navigate("/tickets");
@@ -210,15 +218,26 @@ function SpecificTicket() {
             </Grid>
           )}
           <Box className="w-full flex flex-row gap-2 items-end justify-center my-3">
-            <Button onClick={handleOpen} variant="contained" color="success">
-              Check availability
-            </Button>
+            {specificTicket.ticketType === "open" && (
+              <Button onClick={handleOpen} variant="contained" color="success">
+                Check availability
+              </Button>
+            )}
+            {specificTicket.ticketType === "pending" && (
+              <Button
+                onClick={handleShowCloseTicketModal}
+                variant="contained"
+                color="success"
+              >
+                Close Ticket
+              </Button>
+            )}
             <Button
               onClick={() => setIsCanceled(true)}
               variant="contained"
               color="error"
             >
-              Cancel
+              Back
             </Button>
           </Box>{" "}
         </Grid>
@@ -229,6 +248,13 @@ function SpecificTicket() {
           handleClose={handleClose}
           tasksId={specificEngTasks}
           engName={specificEngName}
+        />
+      )}
+      {showCloseTicketModal && (
+        <ConfirmCloseTicketModal
+          ticketId={params.ticketID}
+          open={showCloseTicketModal}
+          hide={handleHideCloseTicketModal}
         />
       )}
     </main>

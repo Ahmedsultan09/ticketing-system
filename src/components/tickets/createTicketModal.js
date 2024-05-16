@@ -21,7 +21,7 @@ const style = {
   pb: 3,
 };
 
-function ChildModal() {
+function ChildModal({ serialNumber }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => {
     setOpen(true);
@@ -45,7 +45,7 @@ function ChildModal() {
           sx={{ ...style, width: "80%", maxWidth: 800, height: 600 }}
           className="flex flex-col items-center justify-center rounded-2xl"
         >
-          <TicketDetailsModal />
+          <TicketDetailsModal serialNumber={serialNumber} />
           <Box className="w-full flex flex-row gap-2 items-end justify-center">
             <Button onClick={handleClose} variant="contained" color="success">
               Confirm
@@ -72,12 +72,13 @@ export default function CreateTicketModal() {
   const handleSerialNumber = (e) => {
     setSerialNumber(e.target.value);
   };
-  console.log(serialNumber);
 
   return (
     <div>
       <div className="w-full h-16 bg-white flex items-center justify-between p-4">
-        <Typography className="text-orange-600">All Tickets</Typography>
+        <Typography className="text-orange-600 !font-bold">
+          All Tickets
+        </Typography>
         <Button variant="contained" color="success" onClick={handleOpen}>
           Create Ticket
           <AddCircleSharpIcon
@@ -113,7 +114,7 @@ export default function CreateTicketModal() {
             className="mt-3"
             onChange={handleSerialNumber}
           />
-          <ChildModal />
+          <ChildModal serialNumber={serialNumber} />
         </Box>
       </Modal>
     </div>

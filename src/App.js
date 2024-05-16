@@ -4,8 +4,8 @@ import SignIn from "./components/signIn";
 import Dashboard from "./components/dashboard";
 import SignUp from "./components/signUp";
 import Nav from "./components/nav";
-import Tickets from "./components/tickets";
-import SpecificTicket from "./components/specificTicket";
+import Tickets from "./components/tickets/tickets";
+import SpecificTicket from "./components/tickets/specificTicket";
 
 function App() {
   return (

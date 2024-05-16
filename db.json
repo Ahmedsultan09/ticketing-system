@@ -5305,117 +5305,397 @@
     {
       "id": 1,
       "name": "طارق احمد لولي",
-      "tasks": [214, 45, 76, 63, 213]
+      "tasks": [214, 45, 76, 63, 213],
+      "solvedTasks": 10,
+      "currentTasks": 5
     },
     {
       "id": 2,
       "name": "وليد عمر عبد القادر",
-      "tasks": [187, 212, 64, 145, 153]
+      "tasks": [187, 212, 64, 145, 153],
+      "solvedTasks": 8,
+      "currentTasks": 5
     },
     {
       "id": 3,
       "name": "أحمد عاطف عمر",
-      "tasks": [29, 126, 54, 186, 5]
+      "tasks": [29, 126, 54, 186, 5],
+      "solvedTasks": 15,
+      "currentTasks": 5
     },
     {
       "id": 4,
       "name": "سيد احمد سيد",
-      "tasks": [89, 170, 10, 63, 19]
+      "tasks": [89, 170, 10, 63, 19],
+      "solvedTasks": 12,
+      "currentTasks": 5
     },
     {
       "id": 5,
       "name": "عمرو جمال الصغير",
-      "tasks": [46, 149, 43, 118, 124]
+      "tasks": [46, 149, 43, 118, 124],
+      "solvedTasks": 14,
+      "currentTasks": 5
     },
     {
       "id": 6,
       "name": "هاني إبراهيم جلال",
-      "tasks": [230, 147, 94, 180, 212]
+      "tasks": [230, 147, 94, 180, 212],
+      "solvedTasks": 11,
+      "currentTasks": 5
     },
     {
       "id": 7,
       "name": "محمد جمال موسي",
-      "tasks": [156, 58, 126, 92, 146]
+      "tasks": [156, 58, 126, 92, 146],
+      "solvedTasks": 9,
+      "currentTasks": 5
     },
     {
       "id": 8,
       "name": "حسين فتحي محمد",
-      "tasks": [96, 124, 179, 190, 204]
+      "tasks": [96, 124, 179, 190, 204],
+      "solvedTasks": 13,
+      "currentTasks": 5
     },
     {
       "id": 9,
       "name": "أحمد شوقي احمد",
-      "tasks": [238, 15, 34, 125, 199]
+      "tasks": [238, 15, 34, 125, 199],
+      "solvedTasks": 16,
+      "currentTasks": 5
     },
     {
       "id": 10,
       "name": "عمرو محمود زينهم",
-      "tasks": [194, 19, 32, 66, 41]
+      "tasks": [194, 19, 32, 66, 41],
+      "solvedTasks": 7,
+      "currentTasks": 5
     },
     {
       "id": 11,
       "name": "محسن محمد احمد",
-      "tasks": [48, 168, 58, 158, 23]
+      "tasks": [48, 168, 58, 158, 23],
+      "solvedTasks": 10,
+      "currentTasks": 5
     },
     {
       "id": 12,
       "name": "محمد إسكندر محمد",
-      "tasks": [23, 85, 236, 202, 118]
+      "tasks": [23, 85, 236, 202, 118],
+      "solvedTasks": 14,
+      "currentTasks": 5
     },
     {
       "id": 13,
       "name": "عبد الرحمن يسري علي",
-      "tasks": [35, 83, 87, 219, 79]
+      "tasks": [35, 83, 87, 219, 79],
+      "solvedTasks": 11,
+      "currentTasks": 5
     },
     {
       "id": 14,
       "name": "قاضي سيد عبد العاطي",
-      "tasks": [106, 135, 54, 246, 179]
+      "tasks": [106, 135, 54, 246, 179],
+      "solvedTasks": 8,
+      "currentTasks": 5
     },
     {
       "id": 15,
       "name": "محمد رجب محمد",
-      "tasks": [128, 61, 160, 63, 169]
+      "tasks": [128, 61, 160, 63, 169],
+      "solvedTasks": 15,
+      "currentTasks": 5
     },
     {
       "id": 16,
       "name": "أحمد عبدالله محمود",
-      "tasks": [142, 63, 165, 101, 208]
+      "tasks": [142, 63, 165, 101, 208],
+      "solvedTasks": 12,
+      "currentTasks": 5
     },
     {
       "id": 17,
       "name": "زكى عبد العزيز محمد زكى",
-      "tasks": [55, 93, 68, 102, 91]
+      "tasks": [55, 93, 68, 102, 91],
+      "solvedTasks": 9,
+      "currentTasks": 5
     },
     {
       "id": 18,
       "name": "وليد عبد الرحيم علي",
-      "tasks": [124, 157, 132, 59, 214]
+      "tasks": [124, 157, 132, 59, 214],
+      "solvedTasks": 13,
+      "currentTasks": 5
     },
     {
       "id": 19,
       "name": "إسلام محمد عبد الفتاح محمد",
-      "tasks": [184, 99, 19, 30, 61]
+      "tasks": [184, 99, 19, 30, 61],
+      "solvedTasks": 11,
+      "currentTasks": 5
     },
     {
       "id": 20,
       "name": "محمد أحمد لولى",
-      "tasks": [84, 14, 109, 196, 55]
+      "tasks": [84, 14, 109, 196, 55],
+      "solvedTasks": 14,
+      "currentTasks": 5
     },
     {
       "id": 21,
       "name": "عربي وهدان سلامه",
-      "tasks": [100, 206, 249, 34, 204]
+      "tasks": [100, 206, 249, 34, 204],
+      "solvedTasks": 15,
+      "currentTasks": 5
     },
     {
       "id": 22,
       "name": "مصطفي احمد السيد",
-      "tasks": [59, 134, 13, 166, 219]
+      "tasks": [59, 134, 13, 166, 219],
+      "solvedTasks": 14,
+      "currentTasks": 5
     },
     {
       "id": 23,
       "name": "أحمد محمد محمود",
-      "tasks": [49, 105, 184, 189, 104, 207]
+      "tasks": [49, 105, 184, 189, 104, 207],
+      "solvedTasks": 10,
+      "currentTasks": 6
+    }
+  ],
+  "machines": [
+    {
+      "id": 1,
+      "name": "2 black gear"
+    },
+    {
+      "id": 2,
+      "name": "Black Gear"
+    },
+    {
+      "id": 3,
+      "name": "Camera"
+    },
+    {
+      "id": 4,
+      "name": "Disply"
+    },
+    {
+      "id": 5,
+      "name": "Drum sensour"
+    },
+    {
+      "id": 6,
+      "name": "Duplix Cluch"
+    },
+    {
+      "id": 7,
+      "name": "Exit roll"
+    },
+    {
+      "id": 8,
+      "name": "Exit unit"
+    },
+    {
+      "id": 9,
+      "name": "Feed roll"
+    },
+    {
+      "id": 10,
+      "name": "Feeder"
+    },
+    {
+      "id": 11,
+      "name": "Feeder Hings"
+    },
+    {
+      "id": 12,
+      "name": "Flat Sheet"
+    },
+    {
+      "id": 13,
+      "name": "Front Door"
+    },
+    {
+      "id": 14,
+      "name": "Fuser"
+    },
+    {
+      "id": 15,
+      "name": "Fuser sensour"
+    },
+    {
+      "id": 16,
+      "name": "HD DRIVE"
+    },
+    {
+      "id": 17,
+      "name": "HDD"
+    },
+    {
+      "id": 18,
+      "name": "Holder"
+    },
+    {
+      "id": 19,
+      "name": "Left tray Guide"
+    },
+    {
+      "id": 20,
+      "name": "Main Drive"
+    },
+    {
+      "id": 21,
+      "name": "Pick up roll set"
+    },
+    {
+      "id": 22,
+      "name": "Registration"
+    },
+    {
+      "id": 23,
+      "name": "Sensor Drum"
+    },
+    {
+      "id": 24,
+      "name": "Sensor exit fuser"
+    },
+    {
+      "id": 25,
+      "name": "Transfer Sensor"
+    },
+    {
+      "id": 26,
+      "name": "Tray"
+    }
+  ],
+  "operators": [
+    {
+      "id": 1,
+      "client": "QNB",
+      "name": "Mohamed loly",
+      "ticketsCreated": [
+        84, 142, 169, 82, 161, 53, 34, 132, 76, 131, 143, 79, 141, 215, 246, 65,
+        133, 207, 149, 235, 15, 72, 95, 217, 238, 195, 216, 80, 264, 139, 251,
+        213, 230, 32, 127, 257, 114, 150, 218, 167, 209, 220, 208, 178, 196,
+        186, 120
+      ],
+      "numberOfTicketsCreated": 48
+    },
+    {
+      "id": 2,
+      "client": "Alex Bank",
+      "name": "Mohamed Abdellah",
+      "ticketsCreated": [
+        40, 92, 265, 229, 93, 158, 153, 192, 55, 162, 171, 261, 166, 190, 126,
+        108, 183, 48, 224, 146, 13, 180, 83, 252, 176, 187, 239, 154, 22, 61,
+        173, 201, 262, 18, 28, 128, 100, 118, 159, 147, 104, 54, 260, 43, 255,
+        2, 219, 212
+      ],
+      "numberOfTicketsCreated": 48
+    },
+    {
+      "id": 3,
+      "client": "Alex Bank",
+      "name": "Yassin El-Dekn",
+      "ticketsCreated": [
+        3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57,
+        60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99, 102, 105, 108,
+        111, 114, 117, 120, 123, 126, 129, 132, 135, 138, 141, 144, 147, 150,
+        153, 156, 159, 162, 165, 168, 171, 174, 177, 180, 183, 186, 189, 192,
+        195, 198, 201, 204, 207, 210, 213, 216, 219, 222, 225, 228, 231, 234,
+        237, 240, 243, 246, 249, 252, 255, 258, 261, 264
+      ],
+      "numberOfTicketsCreated": 88
+    },
+    {
+      "id": 4,
+      "client": "Misr Bank",
+      "name": "Amira Ahmed",
+      "ticketsCreated": [
+        170, 137, 21, 210, 211, 70, 44, 202, 205, 111, 37, 226, 203, 39, 20,
+        240, 86, 62, 106, 188, 221, 12, 4, 179, 199, 250, 56, 112, 10, 181, 117,
+        107, 237, 3, 115, 185, 182, 174
+      ],
+      "numberOfTicketsCreated": 40
+    },
+    {
+      "id": 5,
+      "client": "BDC",
+      "name": "Ahmed Adel",
+      "ticketsCreated": [
+        227, 66, 124, 110, 145, 14, 160, 25, 228, 89, 225, 191, 31, 99, 96, 151,
+        90, 71, 97, 116
+      ],
+      "numberOfTicketsCreated": 20
+    },
+    {
+      "id": 6,
+      "client": "IDB",
+      "name": "Mohamed loly",
+      "ticketsCreated": [
+        156, 17, 27, 33, 30, 168, 73, 222, 58, 125, 78, 214, 87, 6, 204, 51,
+        177, 193, 64, 69
+      ],
+      "numberOfTicketsCreated": 20
+    },
+    {
+      "id": 7,
+      "client": "Juhayna",
+      "name": "Tarek Loly",
+      "ticketsCreated": [258, 130, 256, 57, 138, 122, 88, 197, 36],
+      "numberOfTicketsCreated": 9
+    },
+    {
+      "id": 8,
+      "client": "ADIB",
+      "name": "Dalia Mohamed",
+      "ticketsCreated": [
+        109, 81, 244, 233, 198, 101, 103, 74, 35, 163, 165, 259, 50, 206, 75,
+        140, 263, 47
+      ],
+      "numberOfTicketsCreated": 18
+    },
+    {
+      "id": 9,
+      "client": "NBE",
+      "name": "Islam Mohamed",
+      "ticketsCreated": [172, 8, 105, 1, 136, 242, 236, 254, 63, 247],
+      "numberOfTicketsCreated": 10
+    },
+    {
+      "id": 10,
+      "client": "NBE",
+      "name": "Dalia Mohamed",
+      "ticketsCreated": [19, 144, 23, 26, 91, 60, 121, 231, 7, 77, 119],
+      "numberOfTicketsCreated": 11
+    },
+    {
+      "id": 11,
+      "client": "Abu Dhabi Commercial Bank",
+      "name": "Mohamed Tarek",
+      "ticketsCreated": [
+        243, 5, 184, 94, 232, 234, 38, 152, 85, 11, 49, 164, 157, 200, 46, 123,
+        134, 9, 98, 24
+      ],
+      "numberOfTicketsCreated": 20
+    },
+    {
+      "id": 12,
+      "client": "UCP",
+      "name": "Mohamed Mostafa",
+      "ticketsCreated": [189, 113, 16, 41, 67, 42, 249, 129, 248, 194],
+      "numberOfTicketsCreated": 10
+    },
+    {
+      "id": 13,
+      "client": "UCP",
+      "name": "Hisham",
+      "ticketsCreated": [
+        245, 68, 148, 135, 223, 175, 253, 52, 59, 241, 155, 29, 45, 102
+      ],
+      "numberOfTicketsCreated": 14
     }
   ]
 }

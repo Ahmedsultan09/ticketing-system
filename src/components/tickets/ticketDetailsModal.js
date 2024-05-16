@@ -1,4 +1,3 @@
-import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -11,7 +10,9 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import MachineParts from "./machineParts";
+import MachineParts from "../machineParts";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -21,44 +22,67 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function TicketDetailsModal() {
-  const [issueType, setIssueType] = React.useState("");
+export default function TicketDetailsModal({ serialNumber }) {
+  const [issueType, setIssueType] = useState("");
+  const [ticketBySerial, setTicketBySerial] = useState([]);
   const handleIssueType = (e) => {
     setIssueType(e.target.value);
   };
-  console.log(issueType);
+  useEffect(() => {
+    async function fetchTicketBySerial() {
+      const response = await axios.get("http://localhost:3000/tickets");
+      const allTickets = await response.data;
+      const filteredTickets = allTickets.find(
+        (ticket) => parseInt(ticket.serialNumber) === parseInt(serialNumber)
+      );
+      setTicketBySerial(filteredTickets);
+    }
+    fetchTicketBySerial();
+  }, [serialNumber]);
+
+  console.log(ticketBySerial);
   return (
     <Box sx={{ flexGrow: 1, width: "100%" }}>
       <Grid container spacing={2}>
         <Grid xs={4}>
-          <Item>Client name: البنك الاهلى القطري الوطني</Item>
+          <Item>Client name: {ticketBySerial && ticketBySerial.client}</Item>
         </Grid>
         <Grid xs={8}>
-          <Item>Serial Number: 56813215</Item>
+          <Item>
+            Serial Number: {ticketBySerial && ticketBySerial.serialNumber}
+          </Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Machine Brand: Xerox</Item>
+          <Item>
+            Machine Brand: {ticketBySerial && ticketBySerial.machineBrand}
+          </Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Machine Model: B405</Item>
+          <Item>Machine Model: Xerox</Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Machine Type: Printer</Item>
+          <Item>Machine Type: MFP</Item>
         </Grid>
         <Grid xs={4}>
           <Item>QR Code: 152</Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Last visit date: 25/4/2024</Item>
+          <Item>
+            Last visit date: {ticketBySerial && ticketBySerial.lastVisitDate}
+          </Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Last Visit ENG: محمد رجب</Item>
+          <Item>
+            Last Visit ENG: {ticketBySerial && ticketBySerial.lastEng}
+          </Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Meter Reading: 15250</Item>
+          <Item>
+            Meter Reading: {ticketBySerial && ticketBySerial.lastMeterReading}
+          </Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Branch: وسط البلد</Item>
+          <Item>Branch: {ticketBySerial && ticketBySerial.branch}</Item>
         </Grid>
       </Grid>
       <Typography variant="h6" sx={{ marginY: 2 }}>

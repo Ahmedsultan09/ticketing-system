@@ -3,6 +3,16 @@ import { Link as Direct } from "react-router-dom";
 import CreateTicketModal from "./createTicketModal";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import OpenLabel from "../ui/openLabel";
+import PendingLabel from "../ui/pendingLabel";
+import ClosedLabel from "../ui/closedLabel";
+import { SupervisedUserCircleOutlined } from "@mui/icons-material";
+import BusinessIcon from "@mui/icons-material/Business";
+import EngineeringIcon from "@mui/icons-material/Engineering";
+import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
+import SubtitlesOutlinedIcon from "@mui/icons-material/SubtitlesOutlined";
+import PrintOutlinedIcon from "@mui/icons-material/PrintOutlined";
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
 const columns = [
   {
@@ -19,25 +29,23 @@ const columns = [
         {params.value}
       </Direct>
     ),
+
     headerAlign: "center",
   },
   {
-    field: "machineModel",
-    headerName: "Machine Model",
+    field: "client",
+    headerName: "Client",
     flex: 1,
     width: 130,
     minWidth: 100,
     align: "center",
     headerAlign: "center",
-  },
-  {
-    field: "serialNumber",
-    headerName: "Serial Number",
-    flex: 1,
-    width: 130,
-    minWidth: 100,
-    align: "center",
-    headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        <BusinessIcon />
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
   },
   {
     field: "branch",
@@ -47,7 +55,44 @@ const columns = [
     minWidth: 100,
     align: "center",
     headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        <LocationOnOutlinedIcon />
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
   },
+  {
+    field: "machineModel",
+    headerName: "Machine Model",
+    flex: 1,
+    width: 130,
+    minWidth: 100,
+    align: "center",
+    headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        <PrintOutlinedIcon />
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
+  },
+  {
+    field: "serialNumber",
+    headerName: "Serial Number",
+    flex: 1,
+    width: 130,
+    minWidth: 100,
+    align: "center",
+    headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        <SubtitlesOutlinedIcon />
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
+  },
+
   {
     field: "ticketDate",
     headerName: "Ticket Date",
@@ -56,6 +101,12 @@ const columns = [
     minWidth: 100,
     align: "center",
     headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        <CalendarMonthOutlinedIcon />
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
   },
   {
     field: "ticketType",
@@ -65,6 +116,20 @@ const columns = [
     minWidth: 100,
     align: "center",
     headerAlign: "center",
+    renderCell: (params) => (
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100%",
+        }}
+      >
+        {params.value === "open" ? <OpenLabel /> : null}
+        {params.value === "pending" ? <PendingLabel /> : null}
+        {params.value === "closed" ? <ClosedLabel /> : null}
+      </div>
+    ),
   },
   {
     field: "assignedTo",
@@ -74,6 +139,12 @@ const columns = [
     minWidth: 100,
     align: "center",
     headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        {params.value !== "" && <EngineeringIcon />}{" "}
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
   },
   {
     field: "operator",
@@ -83,21 +154,16 @@ const columns = [
     minWidth: 100,
     align: "center",
     headerAlign: "center",
+    renderCell: (params) => (
+      <div className="flex items-center justify-start gap-2">
+        <SupervisedUserCircleOutlined />
+        <span className="mx-auto">{params.value}</span>
+      </div>
+    ),
   },
   {
     field: "delay",
     headerName: "Delay",
-    flex: 1,
-    width: 130,
-    minWidth: 100,
-    align: "center",
-    headerAlign: "center",
-  },
-  {
-    field: "client",
-    headerName: "Client",
-    description: "This column has a value getter and is not sortable.",
-    sortable: false,
     flex: 1,
     width: 130,
     minWidth: 100,
@@ -131,13 +197,6 @@ const smallScreenColumns = [
     type: "number",
     align: "center",
     headerAlign: "center",
-  },
-  {
-    field: "ticketDate",
-    headerName: "Ticket Date",
-    flex: 1,
-    width: 130,
-    minWidth: 100,
   },
   {
     field: "ticketDate",
