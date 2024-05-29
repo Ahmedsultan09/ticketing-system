@@ -124,14 +124,14 @@ function Dashboard() {
       <Typography className="w-full text-orange-600 h-16 p-3 flex items-center justify-start !font-bold">
         Tickets overview
       </Typography>
-      <Box component="section" className="w-full h-1/4">
+      <Box component="section" className="w-full min-h-1/4">
         <Box
           component="div"
-          className="w-full h-full p-8 flex flex-grow gap-4 justify-center"
+          className="w-full h-full p-2 lg:p-8 flex flex-grow flex-col lg:flex-row gap-4 justify-center"
         >
           <Direct
             to="/tickets"
-            className="w-1/5 h-4/5 rounded-2xl bg-pink-300 flex flex-col items-center justify-start p-5"
+            className="lg:w-1/5 w-full h-4/5 rounded-2xl bg-pink-300 flex flex-col items-center justify-start p-5"
           >
             <Typography className="w-full !text-sm">Total Tickets</Typography>
             <Typography className="w-full !font-bold">
@@ -140,8 +140,8 @@ function Dashboard() {
           </Direct>
 
           <Direct
-            to="/tickets/opened"
-            className="w-1/5 h-4/5 rounded-2xl bg-blue-300 flex flex-col items-center justify-start p-5"
+            to="/tickets/type/opened"
+            className="lg:w-1/5 w-full h-4/5 rounded-2xl bg-blue-300 flex flex-col items-center justify-start p-5"
           >
             <Typography className="w-full !text-sm">Opened Tickets</Typography>
             <Typography className="w-full !font-bold">
@@ -150,8 +150,8 @@ function Dashboard() {
           </Direct>
 
           <Direct
-            to="/tickets/pending-tickets"
-            className="w-1/5 h-4/5 rounded-2xl bg-orange-300 flex flex-col items-center justify-start p-5"
+            to="/tickets/type/pending"
+            className="lg:w-1/5 w-fullh-4/5 rounded-2xl bg-orange-300 flex flex-col items-center justify-start p-5"
           >
             <Typography className="w-full !text-sm">
               On-Going Tickets
@@ -160,14 +160,15 @@ function Dashboard() {
               {pendingTickets}
             </Typography>
           </Direct>
-          <span className="w-1/5 h-4/5 rounded-2xl bg-green-300 flex flex-col items-center justify-start p-5">
-            <Direct to="/tickets/closed" className="w-full !text-sm">
-              Closed Tickets
-            </Direct>
+          <Direct
+            to="/tickets/type/closed"
+            className="lg:w-1/5 w-full h-4/5 rounded-2xl bg-green-300 flex flex-col items-center justify-start p-5"
+          >
+            <Typography className="w-full !text-sm">Closed Tickets</Typography>
             <Typography className="w-full !font-bold">
               {closedTickets}
             </Typography>
-          </span>
+          </Direct>
         </Box>
         <Box
           sx={{
@@ -177,7 +178,7 @@ function Dashboard() {
           }}
         >
           <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-            Engineer Workload Analysis
+            Engineers Workload Analysis
           </Typography>
         </Box>
         <DataGrid

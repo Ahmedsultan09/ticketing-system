@@ -19,6 +19,7 @@ const style = {
   pt: 2,
   px: 4,
   pb: 3,
+  overflowY: "auto", // Allows scrolling
 };
 
 function ChildModal({ serialNumber }) {
@@ -42,11 +43,18 @@ function ChildModal({ serialNumber }) {
         aria-describedby="child-modal-description"
       >
         <Box
-          sx={{ ...style, width: "80%", maxWidth: 800, height: 600 }}
+          sx={{
+            ...style,
+            height: "auto",
+            maxHeight: "90vh",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
           className="flex flex-col items-center justify-center rounded-2xl"
         >
           <TicketDetailsModal serialNumber={serialNumber} />
-          <Box className="w-full flex flex-row gap-2 items-end justify-center">
+          <Box className="w-full flex flex-row gap-2 mt-2 justify-center">
             <Button onClick={handleClose} variant="contained" color="success">
               Confirm
             </Button>
@@ -60,7 +68,7 @@ function ChildModal({ serialNumber }) {
   );
 }
 
-export default function CreateTicketModal() {
+export default function CreateTicketModal({ type }) {
   const [open, setOpen] = React.useState(false);
   const [serialNumber, setSerialNumber] = React.useState();
   const handleOpen = () => {
@@ -76,9 +84,28 @@ export default function CreateTicketModal() {
   return (
     <div>
       <div className="w-full h-16 bg-white flex items-center justify-between p-4">
-        <Typography className="text-orange-600 !font-bold">
-          All Tickets
-        </Typography>
+        {type === "opened" && (
+          <Typography className="text-orange-600 !font-bold">
+            Opened Tickets
+          </Typography>
+        )}
+        {type === "closed" && (
+          <Typography className="text-orange-600 !font-bold">
+            Closed Tickets
+          </Typography>
+        )}
+        {type === "pending" && (
+          <Typography className="text-orange-600 !font-bold">
+            Pending Tickets
+          </Typography>
+        )}
+
+        {type === undefined && (
+          <Typography className="text-orange-600 !font-bold">
+            All Tickets
+          </Typography>
+        )}
+
         <Button variant="contained" color="success" onClick={handleOpen}>
           Create Ticket
           <AddCircleSharpIcon
@@ -93,7 +120,14 @@ export default function CreateTicketModal() {
         aria-describedby="parent-modal-description"
       >
         <Box
-          sx={{ ...style, height: 200 }}
+          sx={{
+            ...style,
+            height: "auto", // Adjust height to fit content
+            maxHeight: "90vh", // Ensure the modal doesn't exceed the viewport height
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
           className="flex flex-col items-center justify-between rounded-2xl"
         >
           {" "}

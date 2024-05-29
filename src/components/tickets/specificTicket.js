@@ -59,7 +59,8 @@ function SpecificTicket() {
     async function fetchSpecificTicket() {
       try {
         const response = await axios.get("http://localhost:3000/tickets");
-        setSpecificTicket(response.data[params.ticketID - 1]);
+        const specificTicket = await response.data[params.ticketID - 1];
+        setSpecificTicket(specificTicket);
       } catch (error) {
         console.error(error);
       }
@@ -106,90 +107,90 @@ function SpecificTicket() {
           <InfoLabel
             title="Client Name"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.client}
+            details={specificTicket?.client}
             xs={4}
           />
           <InfoLabel
             title="Operator"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.operator}
+            details={specificTicket?.operator}
             xs={4}
           />
           <InfoLabel
             title="Branch"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.branch}
+            details={specificTicket?.branch}
           />
           <InfoLabel
             title="Machine brand"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.machineBrand}
+            details={specificTicket?.machineBrand}
           />
           <InfoLabel
             title="Machine model"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.machineModel}
+            details={specificTicket?.machineModel}
           />
           <InfoLabel
             title="Serial Number"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.serialNumber}
+            details={specificTicket?.serialNumber}
           />
           <InfoLabel
             title="Last visited Engnieer"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.lastEng}
+            details={specificTicket?.lastEng}
           />
           <InfoLabel
             title="Last visit date"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.lastVisitDate}
+            details={specificTicket?.lastVisitDate}
           />
           <InfoLabel
             title="Ticket Date"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.ticketDate}
+            details={specificTicket?.ticketDate}
           />
           {/* Edit visibaility here based on ticket type */}
           <InfoLabel
             title="Spare Part Needed"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.sparePart}
+            details={specificTicket?.sparePart}
           />
           <InfoLabel
             title="Latest meter reading"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.lastMeterReading}
+            details={specificTicket?.lastMeterReading}
           />
           <InfoLabel
             title="Latest meter date"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.lastMeterDate}
+            details={specificTicket?.lastMeterDate}
           />
           <InfoLabel
             title="Ticket Type"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.ticketType}
+            details={specificTicket?.ticketType}
           />
           {/* Edit visibaility here based on ticket type */}
-          {specificTicket.ticketType !== "open" && (
+          {specificTicket?.ticketType !== "open" && (
             <InfoLabel
               title="Assigned To"
               icon={<AccountBalanceOutlinedIcon />}
-              details={specificTicket.assignedTo}
+              details={specificTicket?.assignedTo}
             />
           )}
           <InfoLabel
             title="Issue"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.issue}
+            details={specificTicket?.issue}
           />
           <InfoLabel
             title="Suggestion"
             icon={<AccountBalanceOutlinedIcon />}
-            details={specificTicket.suggestion}
+            details={specificTicket?.suggestion}
           />
-          {specificTicket.ticketType === "open" && (
+          {specificTicket?.ticketType === "open" && (
             <Grid item xs={12}>
               <Item className="h-full">
                 {" "}
@@ -218,12 +219,17 @@ function SpecificTicket() {
             </Grid>
           )}
           <Box className="w-full flex flex-row gap-2 items-end justify-center my-3">
-            {specificTicket.ticketType === "open" && (
-              <Button onClick={handleOpen} variant="contained" color="success">
+            {specificTicket?.ticketType === "open" && (
+              <Button
+                onClick={handleOpen}
+                variant="contained"
+                color="success"
+                disabled={assignedEng === "" ? true : false}
+              >
                 Check availability
               </Button>
             )}
-            {specificTicket.ticketType === "pending" && (
+            {specificTicket?.ticketType === "pending" && (
               <Button
                 onClick={handleShowCloseTicketModal}
                 variant="contained"

@@ -3,9 +3,6 @@ import { Link as Direct } from "react-router-dom";
 import CreateTicketModal from "./createTicketModal";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import OpenLabel from "../ui/openLabel";
-import PendingLabel from "../ui/pendingLabel";
-import ClosedLabel from "../ui/closedLabel";
 import { SupervisedUserCircleOutlined } from "@mui/icons-material";
 import BusinessIcon from "@mui/icons-material/Business";
 import EngineeringIcon from "@mui/icons-material/Engineering";
@@ -13,6 +10,12 @@ import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined
 import SubtitlesOutlinedIcon from "@mui/icons-material/SubtitlesOutlined";
 import PrintOutlinedIcon from "@mui/icons-material/PrintOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import GreenLabel from "../ui/greenLabel";
+import YellowLabel from "../ui/yellowLabel";
+import RedLabel from "../ui/redLabel";
+import BlueLabel from "../ui/blueLabel";
+import GreyLabel from "../ui/greyLabel";
+import PurpleLabel from "../ui/purpleLabel";
 
 const columns = [
   {
@@ -49,7 +52,7 @@ const columns = [
   },
   {
     field: "branch",
-    headerName: "Branch Name",
+    headerName: "Branch",
     flex: 1,
     width: 130,
     minWidth: 100,
@@ -125,9 +128,40 @@ const columns = [
           height: "100%",
         }}
       >
-        {params.value === "open" ? <OpenLabel /> : null}
-        {params.value === "pending" ? <PendingLabel /> : null}
-        {params.value === "closed" ? <ClosedLabel /> : null}
+        {params.value === "open" ? <GreenLabel text="open" /> : null}
+        {params.value === "pending" ? <YellowLabel text="pending" /> : null}
+        {params.value === "closed" ? <RedLabel text="closed" /> : null}
+      </div>
+    ),
+  },
+  {
+    field: "status",
+    headerName: "Status",
+    flex: 1,
+    width: 130,
+    minWidth: 100,
+    align: "center",
+    headerAlign: "center",
+    renderCell: (params) => (
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100%",
+        }}
+      >
+        {params.value === "solved" ? <GreenLabel text="solved" /> : null}
+        {params.value === "spare-parts" ? (
+          <BlueLabel text="spare parts" />
+        ) : null}
+        {params.value === "irreparable" ? (
+          <RedLabel text="irreparable" />
+        ) : null}
+        {params.value === "on-going" ? <GreyLabel text="on-going" /> : null}
+        {params.value === "not-assigned-yet" ? (
+          <PurpleLabel text="not assigned yet" />
+        ) : null}
       </div>
     ),
   },
@@ -220,7 +254,7 @@ const smallScreenColumns = [
   },
 ];
 
-export default function Tickets() {
+export default function Tickets({ type }) {
   const isSmallScreen = window.innerWidth <= 768;
   const [rows, setRows] = useState([]);
 
@@ -228,17 +262,35 @@ export default function Tickets() {
     const fetchData = async () => {
       try {
         const response = await axios.get("http://localhost:3000/tickets");
-        setRows(response.data);
+        const allTickets = await response.data;
+        if (type === "opened") {
+          const openedTickets = allTickets.filter(
+            (ticket) => ticket.ticketType === "open"
+          );
+          setRows(openedTickets);
+        } else if (type === "pending") {
+          const pendingTickets = allTickets.filter(
+            (ticket) => ticket.ticketType === "pending"
+          );
+          setRows(pendingTickets);
+        } else if (type === "closed") {
+          const closedTicket = allTickets.filter(
+            (ticket) => ticket.ticketType === "closed"
+          );
+          setRows(closedTicket);
+        } else {
+          setRows(allTickets);
+        }
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
 
     fetchData();
-  }, []);
+  }, [type]);
   return (
     <div style={{ height: "90vh", width: "100%" }}>
-      <CreateTicketModal />
+      <CreateTicketModal type={type} />
       <DataGrid
         sx={{
           boxShadow: 2,

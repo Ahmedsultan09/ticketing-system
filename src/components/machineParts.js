@@ -14,7 +14,7 @@ export default function CheckboxesTags() {
 
   useEffect(() => {
     async function fetchSpareParts() {
-      const response = await axios.get("http://localhost:3000/machines");
+      const response = await axios.get("http://localhost:3000/spareParts");
       const sparePartsData = await response.data;
       setSpareParts(sparePartsData);
     }

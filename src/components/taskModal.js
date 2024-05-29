@@ -8,6 +8,8 @@ import { styled } from "@mui/material/styles";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const style = {
   position: "absolute",
@@ -32,6 +34,8 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
   }));
 
   const [tasks, setTasks] = useState([]);
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   useEffect(() => {
     async function fetchAllTickets() {
@@ -44,7 +48,9 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
     }
     fetchAllTickets();
   }, [tasksId]);
+
   const navigate = useNavigate();
+
   function handleNavigate(id) {
     navigate(`/tickets/${id}`);
     handleClose();
@@ -64,47 +70,101 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
         >
           <Box className="w-full flex flex-col gap-2 items-center justify-center">
             <Typography variant="h6" className="font-bold">
-              Before assigning can u please check ENG\ {engName} Tasks?
+              Before assigning, can you please check ENG\ {engName} Tasks?
             </Typography>
             <Box className="w-full h-full flex flex-col justify-around border border-gray-700 p-2 rounded-xl">
               <Box className="w-full mt-2 border border-gray-400 p-3 rounded-b-xl">
                 <Grid container spacing={1}>
                   <Grid item xs={3}>
-                    <Item className="!bg-gray-300">Client</Item>
+                    <Item className="!bg-gray-300">
+                      <Typography
+                        variant={isSmallScreen ? "body2" : "body1"}
+                        noWrap
+                      >
+                        Client
+                      </Typography>
+                    </Item>
                   </Grid>
                   <Grid item xs={3}>
-                    <Item className="!bg-gray-300">Branch</Item>
+                    <Item className="!bg-gray-300">
+                      <Typography
+                        variant={isSmallScreen ? "body2" : "body1"}
+                        noWrap
+                      >
+                        Branch
+                      </Typography>
+                    </Item>
                   </Grid>
                   <Grid item xs={3}>
-                    <Item className="!bg-gray-300">Issue</Item>
+                    <Item className="!bg-gray-300">
+                      <Typography
+                        variant={isSmallScreen ? "body2" : "body1"}
+                        noWrap
+                      >
+                        Issue
+                      </Typography>
+                    </Item>
                   </Grid>
                   <Grid item xs={3}>
-                    <Item className="!bg-gray-300">Ticket Number</Item>
+                    <Item className="!bg-gray-300">
+                      <Typography
+                        variant={isSmallScreen ? "body2" : "body1"}
+                        noWrap
+                      >
+                        Ticket Number
+                      </Typography>
+                    </Item>
                   </Grid>
                 </Grid>
               </Box>
-              {tasks.length > 0 ? (
-                tasks.map((item) => (
+              {tasks?.length > 0 ? (
+                tasks?.map((item) => (
                   <Box
                     key={item && item.id}
                     className="w-full mb-2 border border-gray-400 p-3 rounded-b-xl"
                   >
                     <Grid container spacing={1}>
                       <Grid item xs={3}>
-                        <Item>{item && item.client}</Item>
+                        <Item>
+                          <Typography
+                            variant={isSmallScreen ? "body2" : "body1"}
+                            noWrap
+                          >
+                            {item && item.client}
+                          </Typography>
+                        </Item>
                       </Grid>
                       <Grid item xs={3}>
-                        <Item>{item && item.branch}</Item>
+                        <Item>
+                          <Typography
+                            variant={isSmallScreen ? "body2" : "body1"}
+                            noWrap
+                          >
+                            {item && item.branch}
+                          </Typography>
+                        </Item>
                       </Grid>
                       <Grid item xs={3}>
-                        <Item>{item && item.issue}</Item>
+                        <Item>
+                          <Typography
+                            variant={isSmallScreen ? "body2" : "body1"}
+                            noWrap
+                          >
+                            {item && item.issue}
+                          </Typography>
+                        </Item>
                       </Grid>
                       <Grid item xs={3}>
                         <Item
                           onClick={() => handleNavigate(item.id)}
                           className="w-full h-full cursor-pointer !text-blue-500"
                         >
-                          {item && item.id}
+                          <Typography
+                            variant={isSmallScreen ? "body2" : "body1"}
+                            noWrap
+                          >
+                            {item && item.id}
+                          </Typography>
                         </Item>
                       </Grid>
                     </Grid>
@@ -114,7 +174,7 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
                 <Typography variant="body1">No tasks found.</Typography>
               )}
             </Box>
-            <Box className="flex flex-row gap-2 items-center justify-centers">
+            <Box className="flex flex-row gap-2 items-center justify-center">
               <Button onClick={handleClose} variant="contained" color="success">
                 Confirm
               </Button>

@@ -25,8 +25,12 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function TicketDetailsModal({ serialNumber }) {
   const [issueType, setIssueType] = useState("");
   const [ticketBySerial, setTicketBySerial] = useState([]);
+  const [branch, setBranch] = useState("");
   const handleIssueType = (e) => {
     setIssueType(e.target.value);
+  };
+  const handleBranch = (e) => {
+    setBranch(e.target.value);
   };
   useEffect(() => {
     async function fetchTicketBySerial() {
@@ -44,13 +48,11 @@ export default function TicketDetailsModal({ serialNumber }) {
   return (
     <Box sx={{ flexGrow: 1, width: "100%" }}>
       <Grid container spacing={2}>
-        <Grid xs={4}>
-          <Item>Client name: {ticketBySerial && ticketBySerial.client}</Item>
+        <Grid xs={6}>
+          <Item>Client: {ticketBySerial && ticketBySerial.client}</Item>
         </Grid>
-        <Grid xs={8}>
-          <Item>
-            Serial Number: {ticketBySerial && ticketBySerial.serialNumber}
-          </Item>
+        <Grid xs={6}>
+          <Item>S/N: {ticketBySerial && ticketBySerial.serialNumber}</Item>
         </Grid>
         <Grid xs={4}>
           <Item>
@@ -81,8 +83,38 @@ export default function TicketDetailsModal({ serialNumber }) {
             Meter Reading: {ticketBySerial && ticketBySerial.lastMeterReading}
           </Item>
         </Grid>
-        <Grid xs={4}>
-          <Item>Branch: {ticketBySerial && ticketBySerial.branch}</Item>
+        <Grid xs={12}>
+          <Box>
+            <FormControl fullWidth>
+              <TextField
+                required
+                id="end-user-name"
+                label="End user name"
+                type="text"
+              />
+              <TextField
+                required
+                type="number"
+                id="end-user-number"
+                label="End user number"
+              />
+            </FormControl>
+
+            <FormControl fullWidth>
+              <InputLabel id="branch">Branch</InputLabel>
+              <Select
+                labelId="branch"
+                id="branch"
+                value={branch}
+                label="Branch"
+                onChange={handleBranch}
+                required
+              >
+                <MenuItem value={312}>الميثاق - 312</MenuItem>
+                <MenuItem value={120}>وسط البلد - 120</MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
         </Grid>
       </Grid>
       <Typography variant="h6" sx={{ marginY: 2 }}>
@@ -107,6 +139,7 @@ export default function TicketDetailsModal({ serialNumber }) {
           </Select>
         </FormControl>
       </Box>
+
       {issueType === "spare-parts" && <MachineParts />}
       <TextField fullWidth label="Suggestion" id="issueSuggestion" />
     </Box>
