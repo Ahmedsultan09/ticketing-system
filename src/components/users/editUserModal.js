@@ -95,27 +95,27 @@ function ChildModal({ closeMainModal, onSave, isSaveDisabled }) {
 export default function EditUserModal({ open, handleClose, user }) {
   const [radioValue, setRadioValue] = useState("");
   const [nameValue, setName] = useState("");
-  const [emailValue, setEmail] = useState("");
+  const [userName, setUserName] = useState("");
   const [isSaveDisabled, setIsSaveDisabled] = useState(true);
 
   useEffect(() => {
     if (user) {
       setRadioValue(user.role || "");
       setName(user.name || "");
-      setEmail(user.email || "");
+      setUserName(user.userName || "");
     }
   }, [user]);
 
   useEffect(() => {
     const validateForm = () => {
-      if (nameValue && emailValue && radioValue) {
+      if (nameValue && userName && radioValue) {
         setIsSaveDisabled(false);
       } else {
         setIsSaveDisabled(true);
       }
     };
     validateForm();
-  }, [radioValue, nameValue, emailValue]);
+  }, [radioValue, nameValue, userName]);
 
   const handleRadio = (e) => {
     setRadioValue(e.target.value);
@@ -125,8 +125,8 @@ export default function EditUserModal({ open, handleClose, user }) {
     setName(e.target.value);
   };
 
-  const handleEmail = (e) => {
-    setEmail(e.target.value);
+  const handleUserName = (e) => {
+    setUserName(e.target.value);
   };
 
   const handleSave = () => {
@@ -166,11 +166,11 @@ export default function EditUserModal({ open, handleClose, user }) {
               required
             />
             <TextField
-              id="email"
-              label="E-mail address"
+              id="username"
+              label="username"
               size="small"
-              value={emailValue}
-              onChange={handleEmail}
+              value={userName}
+              onChange={handleUserName}
               fullWidth
               required
             />

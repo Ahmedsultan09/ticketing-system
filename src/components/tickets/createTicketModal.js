@@ -33,7 +33,12 @@ function ChildModal({ serialNumber }) {
 
   return (
     <React.Fragment>
-      <Button onClick={handleOpen} variant="contained" color="success">
+      <Button
+        onClick={handleOpen}
+        variant="contained"
+        color="success"
+        className="!mt-2"
+      >
         Next
       </Button>
       <Modal
@@ -144,8 +149,8 @@ export default function CreateTicketModal({ type }) {
           <TextField
             variant="outlined"
             label="Serial Number / QR Code"
-            type="Number"
-            className="mt-3"
+            type="text"
+            className="!mt-2"
             onChange={handleSerialNumber}
           />
           <ChildModal serialNumber={serialNumber} />

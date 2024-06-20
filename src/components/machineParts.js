@@ -49,7 +49,7 @@ export default function CheckboxesTags() {
         <TextField
           {...params}
           label="Choose spare parts needed"
-          placeholder="Favorites"
+          placeholder="Add spare part"
         />
       )}
     />

@@ -5,7 +5,7 @@ import GreenLabel from "./greenLabel";
 import YellowLabel from "./yellowLabel";
 import RedLabel from "./redLabel";
 
-function InfoLabel({ title, details, icon, xs = 4 }) {
+function InfoLabel({ title, details, icon, xs = 4, size }) {
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
     ...theme.typography.body2,

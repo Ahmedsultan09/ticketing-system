@@ -13,6 +13,12 @@ import {
 import MachineParts from "../machineParts";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
+import dayjs from "dayjs";
+import { TimeField } from "@mui/x-date-pickers";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -26,8 +32,15 @@ export default function TicketDetailsModal({ serialNumber }) {
   const [issueType, setIssueType] = useState("");
   const [ticketBySerial, setTicketBySerial] = useState([]);
   const [branch, setBranch] = useState("");
+  const [dateValue, setDateValue] = useState(dayjs(new Date()));
+  const [timeValue, setTimeValue] = useState(null);
+  const [solved, setSolved] = useState(true);
+
   const handleIssueType = (e) => {
     setIssueType(e.target.value);
+  };
+  const handleSolved = (e) => {
+    setSolved(e.target.value);
   };
   const handleBranch = (e) => {
     setBranch(e.target.value);
@@ -44,7 +57,7 @@ export default function TicketDetailsModal({ serialNumber }) {
     fetchTicketBySerial();
   }, [serialNumber]);
 
-  console.log(ticketBySerial);
+  console.log(timeValue);
   return (
     <Box sx={{ flexGrow: 1, width: "100%" }}>
       <Grid container spacing={2}>
@@ -60,7 +73,9 @@ export default function TicketDetailsModal({ serialNumber }) {
           </Item>
         </Grid>
         <Grid xs={4}>
-          <Item>Machine Model: Xerox</Item>
+          <Item>
+            Machine Model: {ticketBySerial && ticketBySerial.machineModel}
+          </Item>
         </Grid>
         <Grid xs={4}>
           <Item>Machine Type: MFP</Item>
@@ -84,22 +99,42 @@ export default function TicketDetailsModal({ serialNumber }) {
           </Item>
         </Grid>
         <Grid xs={12}>
-          <Box>
+          <Box sx={{ display: "flex", flexDirection: "column", gap: "4px" }}>
             <FormControl fullWidth>
+              <div className="w-full flex justify-end !my-2">
+                {" "}
+                <Typography className="bg-red-700 text-white rounded-2xl px-2">
+                  : تفاصيل وبيانات البلاغ{" "}
+                </Typography>
+              </div>
+              <TextField id="end-user-name" label="End user name" type="text" />
               <TextField
-                required
-                id="end-user-name"
-                label="End user name"
-                type="text"
-              />
-              <TextField
-                required
                 type="number"
                 id="end-user-number"
                 label="End user number"
+                className="!mt-1"
               />
+              <TextField
+                type="text"
+                id="ticket-number"
+                label="Ticket Number"
+                className="!mt-1"
+              />
+              <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <DemoContainer
+                  components={["DatePicker", "TimePicker"]}
+                  sx={{ width: "100%" }}
+                >
+                  <DatePicker
+                    label="Ticket Date"
+                    value={dateValue}
+                    onChange={(newValue) => setDateValue(newValue)}
+                    sx={{ width: "100%", pt: 0 }}
+                  />
+                  <TimeField onChange={(newValue) => setTimeValue(newValue)} />
+                </DemoContainer>
+              </LocalizationProvider>
             </FormControl>
-
             <FormControl fullWidth>
               <InputLabel id="branch">Branch</InputLabel>
               <Select
@@ -117,31 +152,78 @@ export default function TicketDetailsModal({ serialNumber }) {
           </Box>
         </Grid>
       </Grid>
-      <Typography variant="h6" sx={{ marginY: 2 }}>
-        Kindly provide a concise overview of the issue:
-      </Typography>
+      <div className="w-full flex justify-end !my-2">
+        {" "}
+        <Typography className=" bg-red-700 text-white rounded-2xl px-2">
+          : محتوى البلاغ طبقا لشكوى العميل كما هي{" "}
+        </Typography>
+      </div>
       <TextField fullWidth label="Issue" id="issueDetails" />
-      <Typography variant="h6" sx={{ marginY: 2 }}>
-        A Suggestion to solve the issue:
-      </Typography>
-      <Box sx={{ minWidth: 120 }}>
-        <FormControl fullWidth>
-          <InputLabel id="issue-type">Type</InputLabel>
+      <div className="w-full flex flex-col items-end !my-1">
+        {" "}
+        <Typography className=" bg-red-700 text-white rounded-2xl px-2">
+          هل تم حل المشكلة؟{" "}
+        </Typography>
+        <FormControl fullWidth className="!my-2">
+          <InputLabel id="issue-type">اختر الاجابة</InputLabel>
+
           <Select
-            labelId="issue-type"
-            id="issueType"
-            value={issueType}
-            label="Issue Type"
-            onChange={handleIssueType}
+            labelId="solved"
+            id="solved"
+            value={solved}
+            label="اختر الاجابة"
+            onChange={handleSolved}
           >
-            <MenuItem value={"spare-parts"}>Spare Parts</MenuItem>
-            <MenuItem value={"other"}>Other</MenuItem>
+            <MenuItem value={true}>نعم</MenuItem>
+            <MenuItem value={false}>لا</MenuItem>
           </Select>
         </FormControl>
-      </Box>
-
-      {issueType === "spare-parts" && <MachineParts />}
-      <TextField fullWidth label="Suggestion" id="issueSuggestion" />
+      </div>
+      {!solved ? (
+        <div>
+          {" "}
+          <div className="w-full flex justify-end !my-2">
+            {" "}
+            <Typography className=" bg-red-700 text-white rounded-2xl px-2">
+              : التشخيص المبدئى للعطل{" "}
+            </Typography>
+          </div>
+          <Box
+            sx={{
+              minWidth: 120,
+            }}
+          >
+            <FormControl fullWidth className="!mb-1">
+              <InputLabel id="issue-type">Issue Type</InputLabel>
+              <Select
+                labelId="issue-type"
+                id="issueType"
+                value={issueType}
+                label="Issue Type"
+                onChange={handleIssueType}
+              >
+                <MenuItem value={"spare-parts"}>Spare Parts</MenuItem>
+                <MenuItem value={"other"}>Misuse</MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
+          {issueType === "spare-parts" && <MachineParts />}
+          <TextField fullWidth label="Suggestion" id="issueSuggestion" />
+        </div>
+      ) : (
+        <div className="w-full flex flex-col items-end !my-1">
+          {" "}
+          <Typography className=" bg-red-700 text-white rounded-2xl px-2">
+            :شرح مبسط كيف قمت بحل المشكلة{" "}
+          </Typography>
+          <TextField
+            fullWidth
+            label="Explanation"
+            id="explanation"
+            className="!mt-2"
+          />
+        </div>
+      )}
     </Box>
   );
 }

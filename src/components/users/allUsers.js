@@ -36,42 +36,42 @@ function AllUsers() {
   const [allUsers, setAllUsers] = useState([
     {
       name: "Ahmed Alaa",
-      email: "ahmed.alaa@bigdataeg.com",
+      userName: "ahmed.alaa",
       role: "admin",
     },
     {
       name: "Osama Ahmed",
-      email: "osama.ahmed@bigdataeg.com",
+      userName: "osama.ahmed",
       role: "manager",
     },
     {
       name: "Rasha Ahmed",
-      email: "rasha.ahmed@bigdataeg.com",
+      userName: "rasha.ahmed",
       role: "manager",
     },
     {
       name: "Mohammed Ragab",
-      email: "mohamed.ragab@bigdataeg.com",
+      userName: "mohamed.ragab",
       role: "engineer",
     },
     {
       name: "Ahmed Abdullah",
-      email: "ahmed.abdullah@bigdataeg.com",
+      userName: "ahmed.abdullah",
       role: "engineer",
     },
     {
       name: "Mohammed Abdellah",
-      email: "mohammed.abdellah@bigdataeg.com",
+      userName: "mohammed.abdellah",
       role: "operator",
     },
     {
       name: "Mohammed Loly",
-      email: "mohammed.loly@bigdataeg.com",
+      userName: "mohammed.loly",
       role: "operator",
     },
     {
       name: "Mohammed Tarek",
-      email: "mohammed.tarek@bigdataeg.com",
+      userName: "mohammed.tarek",
       role: "operator",
     },
   ]);
@@ -130,7 +130,7 @@ function AllUsers() {
             <Item key={index} className="!mb-4">
               <div className="flex flex-col w-1/3">
                 <span className="font-bold !text-black">{user.name}</span>
-                <span>{user.email}</span>
+                <span>{user.userName}</span>
               </div>
               <div>
                 {user.role === "admin" && (
@@ -161,6 +161,7 @@ function AllUsers() {
                   className="h-7"
                   size="small"
                   onClick={() => handleOpenEditUser(user)}
+                  disabled={user.role === "admin"}
                 >
                   <EditIcon />
                 </IconButton>
@@ -170,6 +171,7 @@ function AllUsers() {
                   className="h-7"
                   size="small"
                   onClick={() => handleOpenDeleteUser(user)}
+                  disabled={user.role === "admin"}
                 >
                   <DeleteIcon />
                 </IconButton>

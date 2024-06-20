@@ -36,7 +36,7 @@ function ChildModal({ closeMainModal }) {
 
   return (
     <>
-      <div className="w-full flex items-center justify-center h-11 gap-3">
+      <div className="w-full flex items-center justify-center mt-2 h-11 gap-3">
         {" "}
         <Button variant="contained" color="success" onClick={handleOpen}>
           Create user
@@ -110,8 +110,8 @@ export default function CreateUserModal({ open, handleOpen, handleClose }) {
               required
             />
             <TextField
-              id="email"
-              label="E-mail address"
+              id="username"
+              label="username"
               size="small"
               fullWidth
               required

@@ -12,6 +12,8 @@ import AllOperators from "./components/users/operators/allOperators";
 import AllEngineers from "./components/users/engineers/allEngineers";
 import SpecificEngineer from "./components/users/engineers/specificEngineer";
 import SpecificOperator from "./components/users/operators/specificOperator";
+import AllMachines from "./components/machines/allMachines";
+import SpecificMachine from "./components/machines/specificMachine";
 function App() {
   return (
     <>
@@ -33,6 +35,9 @@ function App() {
         />
         <Route exact element={<AllEngineers />} path="/users/engineers" />
         <Route element={<SpecificEngineer />} path="/users/engineers/:engID" />
+
+        <Route exact element={<AllMachines />} path="/machines" />
+        <Route element={<SpecificMachine />} path="/machines/:serialNumber" />
 
         <Route element={<SignIn />} path="/sign-in" />
         <Route element={<SignUp />} path="/sign-up" />

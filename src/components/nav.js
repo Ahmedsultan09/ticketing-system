@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link as Direct, Link, useLocation } from "react-router-dom";
 import logo from "../assets/images/bigdata-logo.png";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
@@ -8,7 +8,7 @@ const initialNavigation = [
   { name: "Dashboard", href: "/", current: true },
   { name: "Tickets", href: "/tickets", current: false },
   { name: "Users", href: "/users/accounts", current: false },
-  { name: "Machines", href: "/machiens", current: false },
+  { name: "Machines", href: "/machines", current: false },
   { name: "Clients", href: "/clients", current: false },
 ];
 

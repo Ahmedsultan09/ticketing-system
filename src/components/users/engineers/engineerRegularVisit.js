@@ -36,6 +36,7 @@ function EngineerRegularVisit({ name }) {
       </Box>
 
       <Box sx={{ width: "100%" }}>
+        {/* edit this to be dynamic and fetch a data from data base , after creating the database :D */}
         <DropDown
           client="بنك مصر"
           branch="اول مكرم عبيد"
