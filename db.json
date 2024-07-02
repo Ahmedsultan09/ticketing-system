@@ -3,7 +3,7 @@
     {
       "id": 1,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Tarek",
       "branch": "اللواء عبد العزيز",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "client": "Misr bank",
-      "operator": "رشا احمد",
+      "operator": "Rasha Ahmed",
       "branch": "قطاع الاموال و المراسلين",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "client": "QNB",
-      "operator": "طارق  لولي",
+      "operator": "Tarek Loly",
       "branch": "الالفى - ادارة الشيكات",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -66,7 +66,7 @@
     {
       "id": 4,
       "client": "Eg Bank",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Mostafa",
       "branch": "التسعين الشمالى - 217",
       "machineBrand": "Xerox",
       "machineModel": 630,
@@ -87,7 +87,7 @@
     {
       "id": 5,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Dalia Mohamed",
       "branch": "الكيت كات",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -108,7 +108,7 @@
     {
       "id": 6,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Lama Osama",
       "branch": "السويس",
       "machineBrand": "Xerox",
       "machineModel": 4070,
@@ -129,7 +129,7 @@
     {
       "id": 7,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Amira Ahmed",
       "branch": "دجلة المعادى",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -150,7 +150,7 @@
     {
       "id": 8,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Eslam Mohamed",
       "branch": "دجلة المعادى",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -171,7 +171,7 @@
     {
       "id": 9,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Hisham",
       "branch": "قويسنا",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -192,7 +192,7 @@
     {
       "id": 10,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Ahmed Adel",
       "branch": "قصر النيل",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -213,7 +213,7 @@
     {
       "id": 11,
       "client": "QNB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Abdellah",
       "branch": "عمر بن الخطاب",
       "machineBrand": "Xerox",
       "machineModel": 3615,
@@ -234,7 +234,7 @@
     {
       "id": 12,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Yassin El Dekn",
       "branch": "عمر بن الخطاب",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -255,7 +255,7 @@
     {
       "id": 13,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Tarek",
       "branch": "الميرغنى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -276,7 +276,7 @@
     {
       "id": 14,
       "client": "BDC",
-      "operator": "محمد طارق",
+      "operator": "Rasha Ahmed",
       "branch": "الكوربه",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -297,7 +297,7 @@
     {
       "id": 15,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Tarek Loly",
       "branch": "معادى اللاسلكى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -318,7 +318,7 @@
     {
       "id": 16,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Mostafa",
       "branch": "جسر السويس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -339,7 +339,7 @@
     {
       "id": 17,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Dalia Mohamed",
       "branch": "السباق",
       "machineBrand": "Xerox",
       "machineModel": 3335,
@@ -360,7 +360,7 @@
     {
       "id": 18,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Lama Osama",
       "branch": "دقى",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -381,7 +381,7 @@
     {
       "id": 19,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Amira Ahmed",
       "branch": "ابو داود الظواهرى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -402,7 +402,7 @@
     {
       "id": 20,
       "client": "BDC",
-      "operator": "داليا محمد",
+      "operator": "Eslam Mohamed",
       "branch": "باكوس",
       "machineBrand": "Xerox",
       "machineModel": 7030,
@@ -423,7 +423,7 @@
     {
       "id": 21,
       "client": "BDC",
-      "operator": "احمد علاء",
+      "operator": "Hisham",
       "branch": "باكوس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -444,7 +444,7 @@
     {
       "id": 22,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Ahmed Adel",
       "branch": "الزقازيق",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -465,7 +465,7 @@
     {
       "id": 23,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Abdellah",
       "branch": "الزقازيق",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -486,7 +486,7 @@
     {
       "id": 24,
       "client": "Misr Bank",
-      "operator": "محمد طارق",
+      "operator": "Yassin El Dekn",
       "branch": "أبو رديس جنوب سيناء",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -507,7 +507,7 @@
     {
       "id": 25,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Tarek",
       "branch": "طريق النصر",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -528,7 +528,7 @@
     {
       "id": 26,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Rasha Ahmed",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -549,7 +549,7 @@
     {
       "id": 27,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Tarek Loly",
       "branch": "ابوداود الظواهرى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -570,7 +570,7 @@
     {
       "id": 28,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Mostafa",
       "branch": "السادات",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -591,7 +591,7 @@
     {
       "id": 29,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Dalia Mohamed",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -612,7 +612,7 @@
     {
       "id": 30,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Lama Osama",
       "branch": "بلقاس",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -633,7 +633,7 @@
     {
       "id": 31,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Amira Ahmed",
       "branch": "دمنهور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -654,7 +654,7 @@
     {
       "id": 32,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Eslam Mohamed",
       "branch": "بلقاس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -675,7 +675,7 @@
     {
       "id": 33,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Hisham",
       "branch": "الزمالك",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -696,7 +696,7 @@
     {
       "id": 34,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Ahmed Adel",
       "branch": "الجزيرة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -717,7 +717,7 @@
     {
       "id": 35,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Abdellah",
       "branch": "المنيا",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -738,7 +738,7 @@
     {
       "id": 36,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Yassin El Dekn",
       "branch": "دمنهور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -759,7 +759,7 @@
     {
       "id": 37,
       "client": "Eg Bank",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Tarek",
       "branch": "المندرة",
       "machineBrand": "Xerox",
       "machineModel": 402,
@@ -780,7 +780,7 @@
     {
       "id": 38,
       "client": "DBC",
-      "operator": "لمى أسامة",
+      "operator": "Rasha Ahmed",
       "branch": "الكوربة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -801,7 +801,7 @@
     {
       "id": 39,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Tarek Loly",
       "branch": "مصدق",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -822,7 +822,7 @@
     {
       "id": 40,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Mostafa",
       "branch": "الرباط مول",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -843,7 +843,7 @@
     {
       "id": 41,
       "client": "QNB",
-      "operator": "احمد علاء",
+      "operator": "Dalia Mohamed",
       "branch": "الرحاب",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -864,7 +864,7 @@
     {
       "id": 42,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Lama Osama",
       "branch": "cloud 9",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -885,7 +885,7 @@
     {
       "id": 43,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Amira Ahmed",
       "branch": "cloud 9",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -906,7 +906,7 @@
     {
       "id": 44,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Eslam Mohamed",
       "branch": "نصر الدين",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -927,7 +927,7 @@
     {
       "id": 45,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Hisham",
       "branch": "الدقى",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -948,7 +948,7 @@
     {
       "id": 46,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Ahmed Adel",
       "branch": "نادى الصيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -969,7 +969,7 @@
     {
       "id": 47,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Abdellah",
       "branch": "الجلاء",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -990,7 +990,7 @@
     {
       "id": 48,
       "client": "Eg Bank",
-      "operator": "لمى أسامة",
+      "operator": "Yassin El Dekn",
       "branch": "bld 131",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -1011,7 +1011,7 @@
     {
       "id": 49,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Tarek",
       "branch": "أكتوبر المنطقة الصناعيه",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1032,7 +1032,7 @@
     {
       "id": 50,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Rasha Ahmed",
       "branch": "جسر السويس",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -1053,7 +1053,7 @@
     {
       "id": 51,
       "client": "Misr Bank",
-      "operator": "احمد علاء",
+      "operator": "Tarek Loly",
       "branch": "منفلوط الإسلامي",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1074,7 +1074,7 @@
     {
       "id": 52,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Mostafa",
       "branch": "شربين",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1095,7 +1095,7 @@
     {
       "id": 53,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Dalia Mohamed",
       "branch": "اسيوط",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1116,7 +1116,7 @@
     {
       "id": 54,
       "client": "bdc",
-      "operator": "محمد طارق",
+      "operator": "Lama Osama",
       "branch": "سموحة",
       "machineBrand": "Xerox",
       "machineModel": 7030,
@@ -1137,7 +1137,7 @@
     {
       "id": 55,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Amira Ahmed",
       "branch": "عباسية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1158,7 +1158,7 @@
     {
       "id": 56,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Eslam Mohamed",
       "branch": "داندى مول",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1179,7 +1179,7 @@
     {
       "id": 57,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Hisham",
       "branch": "مينا جاردن سيتى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1200,7 +1200,7 @@
     {
       "id": 58,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Ahmed Adel",
       "branch": "الدقى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1221,7 +1221,7 @@
     {
       "id": 59,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Abdellah",
       "branch": "عباس العقاد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1242,7 +1242,7 @@
     {
       "id": 60,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Yassin El Dekn",
       "branch": "اغاخان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1263,7 +1263,7 @@
     {
       "id": 61,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Tarek",
       "branch": "روكسي",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1284,7 +1284,7 @@
     {
       "id": 62,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Rasha Ahmed",
       "branch": "دكرنس",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -1305,7 +1305,7 @@
     {
       "id": 63,
       "client": "Misr Bank",
-      "operator": "لمى أسامة",
+      "operator": "Tarek Loly",
       "branch": "اداره قانونيه مبني البرج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1326,7 +1326,7 @@
     {
       "id": 64,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Mostafa",
       "branch": "الهرم الجديد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1347,7 +1347,7 @@
     {
       "id": 65,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Dalia Mohamed",
       "branch": "السبتية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1368,7 +1368,7 @@
     {
       "id": 66,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Lama Osama",
       "branch": "المعادى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1389,7 +1389,7 @@
     {
       "id": 67,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Amira Ahmed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1410,7 +1410,7 @@
     {
       "id": 68,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Eslam Mohamed",
       "branch": "جاردنيا",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1431,7 +1431,7 @@
     {
       "id": 69,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Hisham",
       "branch": "بنها",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1452,7 +1452,7 @@
     {
       "id": 70,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Ahmed Adel",
       "branch": "صلاح سالم",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1473,7 +1473,7 @@
     {
       "id": 71,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Abdellah",
       "branch": "دمياط",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1494,7 +1494,7 @@
     {
       "id": 72,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Yassin El Dekn",
       "branch": "فاقوس",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1515,7 +1515,7 @@
     {
       "id": 73,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Tarek",
       "branch": "سيدى بشر",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1536,7 +1536,7 @@
     {
       "id": 74,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Rasha Ahmed",
       "branch": "دمياط",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1557,7 +1557,7 @@
     {
       "id": 75,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Tarek Loly",
       "branch": "وادي دجلة",
       "machineBrand": "Xerox",
       "machineModel": 4200,
@@ -1578,7 +1578,7 @@
     {
       "id": 76,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Mostafa",
       "branch": "شيراتون هليوبلس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1599,7 +1599,7 @@
     {
       "id": 77,
       "client": "Misr Bank",
-      "operator": "رشا احمد",
+      "operator": "Dalia Mohamed",
       "branch": "السنبلاوين الدقهليه",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1620,7 +1620,7 @@
     {
       "id": 78,
       "client": "Cib",
-      "operator": "لمى أسامة",
+      "operator": "Lama Osama",
       "branch": "الرحاب",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1641,7 +1641,7 @@
     {
       "id": 79,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Amira Ahmed",
       "branch": "امريكانا بلازا",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1662,7 +1662,7 @@
     {
       "id": 80,
       "client": "Misr Bank",
-      "operator": "داليا محمد",
+      "operator": "Eslam Mohamed",
       "branch": "أسيوط ميدان الجامعه",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1683,7 +1683,7 @@
     {
       "id": 81,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Hisham",
       "branch": "الزقازيق الجديدة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1704,7 +1704,7 @@
     {
       "id": 82,
       "client": "Cib",
-      "operator": "رشا احمد",
+      "operator": "Ahmed Adel",
       "branch": "CFC",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1725,7 +1725,7 @@
     {
       "id": 83,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Abdellah",
       "branch": "شريف",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1746,7 +1746,7 @@
     {
       "id": 84,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Yassin El Dekn",
       "branch": "عبد الخالق ثروت",
       "machineBrand": "Xerox",
       "machineModel": 4200,
@@ -1767,7 +1767,7 @@
     {
       "id": 85,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Tarek",
       "branch": "قصر النيل",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1788,7 +1788,7 @@
     {
       "id": 86,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Rasha Ahmed",
       "branch": "الباجور",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1809,7 +1809,7 @@
     {
       "id": 87,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Tarek Loly",
       "branch": "الطيران",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1830,7 +1830,7 @@
     {
       "id": 88,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Mostafa",
       "branch": "النايل تاور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1851,7 +1851,7 @@
     {
       "id": 89,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Dalia Mohamed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1872,7 +1872,7 @@
     {
       "id": 90,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Lama Osama",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1893,7 +1893,7 @@
     {
       "id": 91,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Amira Ahmed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1914,7 +1914,7 @@
     {
       "id": 92,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Eslam Mohamed",
       "branch": "النوبارية",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1935,7 +1935,7 @@
     {
       "id": 93,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Hisham",
       "branch": "الجمهورية بالفيوم",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -1956,7 +1956,7 @@
     {
       "id": 94,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Ahmed Adel",
       "branch": "سيتى جولف - العبور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -1977,7 +1977,7 @@
     {
       "id": 95,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Abdellah",
       "branch": "التحرير",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -1998,7 +1998,7 @@
     {
       "id": 96,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Yassin El Dekn",
       "branch": "النايل تاور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2019,7 +2019,7 @@
     {
       "id": 97,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Tarek",
       "branch": "أبو قورقاص",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -2040,7 +2040,7 @@
     {
       "id": 98,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Rasha Ahmed",
       "branch": "الجيزة",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -2061,7 +2061,7 @@
     {
       "id": 99,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Tarek Loly",
       "branch": "الماظة سنتر",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2082,7 +2082,7 @@
     {
       "id": 100,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Mostafa",
       "branch": "الشمس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2103,7 +2103,7 @@
     {
       "id": 101,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Dalia Mohamed",
       "branch": "الشمس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2124,7 +2124,7 @@
     {
       "id": 102,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Lama Osama",
       "branch": "J.W Marriot",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2145,7 +2145,7 @@
     {
       "id": 103,
       "client": "Misr Bank",
-      "operator": "لمى أسامة",
+      "operator": "Amira Ahmed",
       "branch": "دار السلام سوهاج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2166,7 +2166,7 @@
     {
       "id": 104,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Eslam Mohamed",
       "branch": "المعادى تاور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2187,7 +2187,7 @@
     {
       "id": 105,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Hisham",
       "branch": "مصطفى النحاس",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -2208,7 +2208,7 @@
     {
       "id": 106,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Ahmed Adel",
       "branch": "أبو تشت",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2229,7 +2229,7 @@
     {
       "id": 107,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Abdellah",
       "branch": "ابوتشت",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -2250,7 +2250,7 @@
     {
       "id": 108,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Yassin El Dekn",
       "branch": "الهرم - التعاون",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2271,7 +2271,7 @@
     {
       "id": 109,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Tarek",
       "branch": "شارع الطيران",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2292,7 +2292,7 @@
     {
       "id": 110,
       "client": "Misr Bank",
-      "operator": "داليا محمد",
+      "operator": "Rasha Ahmed",
       "branch": "اسطال المنيا",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2313,7 +2313,7 @@
     {
       "id": 111,
       "client": "Misr Bank",
-      "operator": "احمد علاء",
+      "operator": "Tarek Loly",
       "branch": "طهطا سوهاج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2334,7 +2334,7 @@
     {
       "id": 112,
       "client": "Misr Bank",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Mostafa",
       "branch": "طهطا سوهاج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2355,7 +2355,7 @@
     {
       "id": 113,
       "client": "Misr Bank",
-      "operator": "لمى أسامة",
+      "operator": "Dalia Mohamed",
       "branch": "مصطفى النحاس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2376,7 +2376,7 @@
     {
       "id": 114,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Lama Osama",
       "branch": "المنطقة المركزية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2397,7 +2397,7 @@
     {
       "id": 115,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Amira Ahmed",
       "branch": "دمياط الجديدة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2418,7 +2418,7 @@
     {
       "id": 116,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Eslam Mohamed",
       "branch": "Cairo Festival Mall",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2439,7 +2439,7 @@
     {
       "id": 117,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Hisham",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2460,7 +2460,7 @@
     {
       "id": 118,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Ahmed Adel",
       "branch": "Maadi Zahraa",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2481,7 +2481,7 @@
     {
       "id": 119,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Abdellah",
       "branch": "Maadi Zahraa",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2502,7 +2502,7 @@
     {
       "id": 120,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Yassin El Dekn",
       "branch": "اغاخان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2523,7 +2523,7 @@
     {
       "id": 121,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Tarek",
       "branch": "زمالك",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2544,7 +2544,7 @@
     {
       "id": 122,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Rasha Ahmed",
       "branch": "مصر و السودان",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -2565,7 +2565,7 @@
     {
       "id": 123,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Tarek Loly",
       "branch": "جسر السويس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2586,7 +2586,7 @@
     {
       "id": 124,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Mostafa",
       "branch": "طهطا",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -2607,7 +2607,7 @@
     {
       "id": 125,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Dalia Mohamed",
       "branch": "جليم الترام",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -2628,7 +2628,7 @@
     {
       "id": 126,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Lama Osama",
       "branch": "المنصورة",
       "machineBrand": "Xerox",
       "machineModel": 4200,
@@ -2649,7 +2649,7 @@
     {
       "id": 127,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Amira Ahmed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2670,7 +2670,7 @@
     {
       "id": 128,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Eslam Mohamed",
       "branch": "مدينه نصر",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -2691,7 +2691,7 @@
     {
       "id": 129,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Hisham",
       "branch": "الشيخ زايد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2712,7 +2712,7 @@
     {
       "id": 130,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Ahmed Adel",
       "branch": "القرية الذكية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2733,7 +2733,7 @@
     {
       "id": 131,
       "client": "Misr Bank",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Abdellah",
       "branch": "اركان مول",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2754,7 +2754,7 @@
     {
       "id": 132,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Yassin El Dekn",
       "branch": "كونكورد السلام",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -2775,7 +2775,7 @@
     {
       "id": 133,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Tarek",
       "branch": "سموحة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2796,7 +2796,7 @@
     {
       "id": 134,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Rasha Ahmed",
       "branch": "الغردقة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2817,7 +2817,7 @@
     {
       "id": 135,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Tarek Loly",
       "branch": "كفر الزيات",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2838,7 +2838,7 @@
     {
       "id": 136,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Mostafa",
       "branch": "طنطا",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2859,7 +2859,7 @@
     {
       "id": 137,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Dalia Mohamed",
       "branch": "وادي النطرون",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2880,7 +2880,7 @@
     {
       "id": 138,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Lama Osama",
       "branch": "أسيوط",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2901,7 +2901,7 @@
     {
       "id": 139,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Amira Ahmed",
       "branch": "سموحة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2922,7 +2922,7 @@
     {
       "id": 140,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Eslam Mohamed",
       "branch": "المعادى تاور",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2943,7 +2943,7 @@
     {
       "id": 141,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Hisham",
       "branch": "مول مصر",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2964,7 +2964,7 @@
     {
       "id": 142,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Ahmed Adel",
       "branch": "ميدى كير",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -2985,7 +2985,7 @@
     {
       "id": 143,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Abdellah",
       "branch": "الدقى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3006,7 +3006,7 @@
     {
       "id": 144,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Yassin El Dekn",
       "branch": "المحروسة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3027,7 +3027,7 @@
     {
       "id": 145,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Tarek",
       "branch": "ساحل سليم",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -3048,7 +3048,7 @@
     {
       "id": 146,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Rasha Ahmed",
       "branch": "طنطا",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -3069,7 +3069,7 @@
     {
       "id": 147,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Tarek Loly",
       "branch": "منفلوط",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -3090,7 +3090,7 @@
     {
       "id": 148,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Mostafa",
       "branch": "داندى مول",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3111,7 +3111,7 @@
     {
       "id": 149,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Dalia Mohamed",
       "branch": "داندى مول",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3132,7 +3132,7 @@
     {
       "id": 150,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Lama Osama",
       "branch": "فيوم جمهورية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3153,7 +3153,7 @@
     {
       "id": 151,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Amira Ahmed",
       "branch": "اغاخان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3174,7 +3174,7 @@
     {
       "id": 152,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Eslam Mohamed",
       "branch": "المنشية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3195,7 +3195,7 @@
     {
       "id": 153,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Hisham",
       "branch": "الميرغنى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3216,7 +3216,7 @@
     {
       "id": 154,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Ahmed Adel",
       "branch": "السواح",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3237,7 +3237,7 @@
     {
       "id": 155,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Abdellah",
       "branch": "ابنوب",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3258,7 +3258,7 @@
     {
       "id": 156,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Yassin El Dekn",
       "branch": "المنصورة",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -3279,7 +3279,7 @@
     {
       "id": 157,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Tarek",
       "branch": "سميراميس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3300,7 +3300,7 @@
     {
       "id": 158,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Rasha Ahmed",
       "branch": "ميدى كير",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3321,7 +3321,7 @@
     {
       "id": 159,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Tarek Loly",
       "branch": "عبدالخالق السنهورى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3342,7 +3342,7 @@
     {
       "id": 160,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Mostafa",
       "branch": "المهندسين",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3363,7 +3363,7 @@
     {
       "id": 161,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Dalia Mohamed",
       "branch": "ميناء جاردن سيتى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3384,7 +3384,7 @@
     {
       "id": 162,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Lama Osama",
       "branch": "التجمع - اميرالد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3405,7 +3405,7 @@
     {
       "id": 163,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Amira Ahmed",
       "branch": "التحرير",
       "machineBrand": "Xerox",
       "machineModel": 3320,
@@ -3426,7 +3426,7 @@
     {
       "id": 164,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Eslam Mohamed",
       "branch": "التحرير",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -3447,7 +3447,7 @@
     {
       "id": 165,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Hisham",
       "branch": "كايروفيستفال",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3468,7 +3468,7 @@
     {
       "id": 166,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Ahmed Adel",
       "branch": "هليوبلس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3489,7 +3489,7 @@
     {
       "id": 167,
       "client": "BDC",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Abdellah",
       "branch": "المعادى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3510,7 +3510,7 @@
     {
       "id": 168,
       "client": "BDC",
-      "operator": "لمى أسامة",
+      "operator": "Yassin El Dekn",
       "branch": "الالفى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3531,7 +3531,7 @@
     {
       "id": 169,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Tarek",
       "branch": "جامعة الدول العربية",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -3552,7 +3552,7 @@
     {
       "id": 170,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Rasha Ahmed",
       "branch": "السلطان حسين",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3573,7 +3573,7 @@
     {
       "id": 171,
       "client": "QNB",
-      "operator": "احمد علاء",
+      "operator": "Tarek Loly",
       "branch": "شيل اووت الرحاب",
       "machineBrand": "Xerox",
       "machineModel": 3335,
@@ -3594,7 +3594,7 @@
     {
       "id": 172,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Mostafa",
       "branch": "مصطفى النحاس",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -3615,7 +3615,7 @@
     {
       "id": 173,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Dalia Mohamed",
       "branch": "شامبليون",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -3636,7 +3636,7 @@
     {
       "id": 174,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Lama Osama",
       "branch": "الاقصر",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -3657,7 +3657,7 @@
     {
       "id": 175,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Amira Ahmed",
       "branch": "كايروفيستفال",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -3678,7 +3678,7 @@
     {
       "id": 176,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Eslam Mohamed",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3699,7 +3699,7 @@
     {
       "id": 177,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Hisham",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3720,7 +3720,7 @@
     {
       "id": 178,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Ahmed Adel",
       "branch": "رمسيس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3741,7 +3741,7 @@
     {
       "id": 179,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Abdellah",
       "branch": "الرحاب",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3762,7 +3762,7 @@
     {
       "id": 180,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Yassin El Dekn",
       "branch": "فاقوس",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -3783,7 +3783,7 @@
     {
       "id": 181,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Tarek",
       "branch": "زقازيق",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3804,7 +3804,7 @@
     {
       "id": 182,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Rasha Ahmed",
       "branch": "لاقصر",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3825,7 +3825,7 @@
     {
       "id": 183,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Tarek Loly",
       "branch": "الابراهيمية",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -3846,7 +3846,7 @@
     {
       "id": 184,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Mostafa",
       "branch": "البارون",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -3867,7 +3867,7 @@
     {
       "id": 185,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Dalia Mohamed",
       "branch": "CFC",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -3888,7 +3888,7 @@
     {
       "id": 186,
       "client": "Eg Bank",
-      "operator": "احمد علاء",
+      "operator": "Lama Osama",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
       "machineModel": 630,
@@ -3909,7 +3909,7 @@
     {
       "id": 187,
       "client": "Eg Bank",
-      "operator": "رشا احمد",
+      "operator": "Amira Ahmed",
       "branch": "احمد فخرى",
       "machineBrand": "Xerox",
       "machineModel": 630,
@@ -3930,7 +3930,7 @@
     {
       "id": 188,
       "client": "Eg Bank",
-      "operator": "لمى أسامة",
+      "operator": "Eslam Mohamed",
       "branch": "عباس العقاد",
       "machineBrand": "Xerox",
       "machineModel": 630,
@@ -3951,7 +3951,7 @@
     {
       "id": 189,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Hisham",
       "branch": "الباجور",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -3972,7 +3972,7 @@
     {
       "id": 190,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Ahmed Adel",
       "branch": "الميرغنى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -3993,7 +3993,7 @@
     {
       "id": 191,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Abdellah",
       "branch": "الدقى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4014,7 +4014,7 @@
     {
       "id": 192,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Yassin El Dekn",
       "branch": "شبين الكوم",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4035,7 +4035,7 @@
     {
       "id": 193,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Tarek",
       "branch": "السويس",
       "machineBrand": "Xerox",
       "machineModel": 3320,
@@ -4056,7 +4056,7 @@
     {
       "id": 194,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Rasha Ahmed",
       "branch": "السويس",
       "machineBrand": "Xerox",
       "machineModel": 3325,
@@ -4077,7 +4077,7 @@
     {
       "id": 195,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Tarek Loly",
       "branch": "ميناء بدر الجاف",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4098,7 +4098,7 @@
     {
       "id": 196,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Mostafa",
       "branch": "ميدىكير",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4119,7 +4119,7 @@
     {
       "id": 197,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Dalia Mohamed",
       "branch": "غمره",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -4140,7 +4140,7 @@
     {
       "id": 198,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Lama Osama",
       "branch": "المساحة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4161,7 +4161,7 @@
     {
       "id": 199,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Amira Ahmed",
       "branch": "ميدان المنشية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4182,7 +4182,7 @@
     {
       "id": 200,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Eslam Mohamed",
       "branch": "سيدي بشر",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4203,7 +4203,7 @@
     {
       "id": 201,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Hisham",
       "branch": "تيدا السويس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4224,7 +4224,7 @@
     {
       "id": 202,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Ahmed Adel",
       "branch": "شبرا",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4245,7 +4245,7 @@
     {
       "id": 203,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Abdellah",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4266,7 +4266,7 @@
     {
       "id": 204,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Yassin El Dekn",
       "branch": "مصطفى النحاس",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4287,7 +4287,7 @@
     {
       "id": 205,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Tarek",
       "branch": "شرم الشيخ",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4308,7 +4308,7 @@
     {
       "id": 206,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Rasha Ahmed",
       "branch": "تيران",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4329,7 +4329,7 @@
     {
       "id": 207,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Tarek Loly",
       "branch": "مصدق",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4350,7 +4350,7 @@
     {
       "id": 208,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Mostafa",
       "branch": "السادات",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4371,7 +4371,7 @@
     {
       "id": 209,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Dalia Mohamed",
       "branch": "اسوان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4392,7 +4392,7 @@
     {
       "id": 210,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Lama Osama",
       "branch": "اسوان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4413,7 +4413,7 @@
     {
       "id": 211,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Amira Ahmed",
       "branch": "اركان",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4434,7 +4434,7 @@
     {
       "id": 212,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Eslam Mohamed",
       "branch": "كايرو فيستفال",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4455,7 +4455,7 @@
     {
       "id": 213,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Hisham",
       "branch": "هيئة الاستثمار",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4476,7 +4476,7 @@
     {
       "id": 214,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Ahmed Adel",
       "branch": "الزقازيق",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4497,7 +4497,7 @@
     {
       "id": 215,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Abdellah",
       "branch": "الطيران",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4518,7 +4518,7 @@
     {
       "id": 216,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Yassin El Dekn",
       "branch": "الزقازيق",
       "machineBrand": "Xerox",
       "machineModel": 3335,
@@ -4539,7 +4539,7 @@
     {
       "id": 217,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Tarek",
       "branch": "المنيا",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4560,7 +4560,7 @@
     {
       "id": 218,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Rasha Ahmed",
       "branch": "زهراء المعادى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4581,7 +4581,7 @@
     {
       "id": 219,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Tarek Loly",
       "branch": "التسعين",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4602,7 +4602,7 @@
     {
       "id": 220,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Mostafa",
       "branch": "شرم الشيخ",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4623,7 +4623,7 @@
     {
       "id": 221,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Dalia Mohamed",
       "branch": "الفيوم",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -4644,7 +4644,7 @@
     {
       "id": 222,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Lama Osama",
       "branch": "طيبة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4665,7 +4665,7 @@
     {
       "id": 223,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Amira Ahmed",
       "branch": "المساحة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4686,7 +4686,7 @@
     {
       "id": 224,
       "client": "Alexbank",
-      "operator": "محمد طارق",
+      "operator": "Eslam Mohamed",
       "branch": "دشنا",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -4707,7 +4707,7 @@
     {
       "id": 225,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Hisham",
       "branch": "شبين الكوم",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4728,7 +4728,7 @@
     {
       "id": 226,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Ahmed Adel",
       "branch": "ميناء دمياط",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4749,7 +4749,7 @@
     {
       "id": 227,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Abdellah",
       "branch": "الجزيرة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4770,7 +4770,7 @@
     {
       "id": 228,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Yassin El Dekn",
       "branch": "المطار",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4791,7 +4791,7 @@
     {
       "id": 229,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Tarek",
       "branch": "سيتى فيو",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4812,7 +4812,7 @@
     {
       "id": 230,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Rasha Ahmed",
       "branch": "لاقصر",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4833,7 +4833,7 @@
     {
       "id": 231,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Tarek Loly",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4854,7 +4854,7 @@
     {
       "id": 232,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Mohamed Mostafa",
       "branch": "اسوان",
       "machineBrand": "Xerox",
       "machineModel": 631,
@@ -4875,7 +4875,7 @@
     {
       "id": 233,
       "client": "Alexbank",
-      "operator": "لمى أسامة",
+      "operator": "Dalia Mohamed",
       "branch": "سوهاج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4896,7 +4896,7 @@
     {
       "id": 234,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Lama Osama",
       "branch": "شيل اوت ( اكتوبر )",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -4917,7 +4917,7 @@
     {
       "id": 235,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Amira Ahmed",
       "branch": "ايفر جرين",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -4938,7 +4938,7 @@
     {
       "id": 236,
       "client": "QNB",
-      "operator": "احمد علاء",
+      "operator": "Eslam Mohamed",
       "branch": "شيل اووت",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -4959,7 +4959,7 @@
     {
       "id": 237,
       "client": "QNB",
-      "operator": "رشا احمد",
+      "operator": "Hisham",
       "branch": "نبق",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -4980,7 +4980,7 @@
     {
       "id": 238,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Ahmed Adel",
       "branch": "منية السيرج",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -5001,7 +5001,7 @@
     {
       "id": 239,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Abdellah",
       "branch": "الحصرى",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5022,7 +5022,7 @@
     {
       "id": 240,
       "client": "BDC",
-      "operator": "داليا محمد",
+      "operator": "Yassin El Dekn",
       "branch": "ميراج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5043,7 +5043,7 @@
     {
       "id": 241,
       "client": "BDC",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Tarek",
       "branch": "ورديان",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5064,7 +5064,7 @@
     {
       "id": 242,
       "client": "Misr Bank",
-      "operator": "رشا احمد",
+      "operator": "Rasha Ahmed",
       "branch": "بلقاس الدقهليه",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5085,7 +5085,7 @@
     {
       "id": 243,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Tarek Loly",
       "branch": "المساحة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5106,7 +5106,7 @@
     {
       "id": 244,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Mohamed Mostafa",
       "branch": "ميناء دمياط",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -5127,7 +5127,7 @@
     {
       "id": 245,
       "client": "Alexbank",
-      "operator": "داليا محمد",
+      "operator": "Dalia Mohamed",
       "branch": "أكتوبر الحى المتميز",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -5148,7 +5148,7 @@
     {
       "id": 246,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Lama Osama",
       "branch": "الجامعة الالمانية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5169,7 +5169,7 @@
     {
       "id": 247,
       "client": "CIB",
-      "operator": "رشا احمد",
+      "operator": "Amira Ahmed",
       "branch": "التسعين",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5190,7 +5190,7 @@
     {
       "id": 248,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Eslam Mohamed",
       "branch": "جزيرة العرب",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5211,7 +5211,7 @@
     {
       "id": 249,
       "client": "CIB",
-      "operator": "محمد طارق",
+      "operator": "Hisham",
       "branch": "دمياط الجديدة",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5232,7 +5232,7 @@
     {
       "id": 250,
       "client": "CIB",
-      "operator": "داليا محمد",
+      "operator": "Ahmed Adel",
       "branch": "مول العرب",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5253,7 +5253,7 @@
     {
       "id": 251,
       "client": "CIB",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Abdellah",
       "branch": "القرية الذكية",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5274,7 +5274,7 @@
     {
       "id": 252,
       "client": "BDC",
-      "operator": "رشا احمد",
+      "operator": "Yassin El Dekn",
       "branch": "الجمهورية - بورسعيد",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5295,7 +5295,7 @@
     {
       "id": 253,
       "client": "CIB",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Tarek",
       "branch": "برج العرب",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5316,7 +5316,7 @@
     {
       "id": 254,
       "client": "Misr Bank",
-      "operator": "محمد طارق",
+      "operator": "Rasha Ahmed",
       "branch": "دار السلام سوهاج",
       "machineBrand": "Xerox",
       "machineModel": 405,
@@ -5337,7 +5337,7 @@
     {
       "id": 255,
       "client": "QNB",
-      "operator": "داليا محمد",
+      "operator": "Tarek Loly",
       "branch": "زيزينيا",
       "machineBrand": "Xerox",
       "machineModel": 4580,
@@ -5358,7 +5358,7 @@
     {
       "id": 256,
       "client": "Alexbank",
-      "operator": "احمد علاء",
+      "operator": "Mohamed Mostafa",
       "branch": "روكسي",
       "machineBrand": "Xerox",
       "machineModel": 3225,
@@ -5379,7 +5379,7 @@
     {
       "id": 257,
       "client": "Alexbank",
-      "operator": "رشا احمد",
+      "operator": "Dalia Mohamed",
       "branch": "التحرير",
       "machineBrand": "Xerox",
       "machineModel": 3320,
@@ -5400,7 +5400,7 @@
     {
       "id": 258,
       "client": "QNB",
-      "operator": "لمى أسامة",
+      "operator": "Lama Osama",
       "branch": "ميدان عرابى",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -5421,7 +5421,7 @@
     {
       "id": 259,
       "client": "QNB",
-      "operator": "محمد طارق",
+      "operator": "Amira Ahmed",
       "branch": "لبنان",
       "machineBrand": "Xerox",
       "machineModel": 3655,
@@ -5442,7 +5442,7 @@
     {
       "id": 260,
       "client": "Naser Bank",
-      "operator": "داليا محمد",
+      "operator": "Eslam Mohamed",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 3330,
@@ -5463,7 +5463,7 @@
     {
       "id": 261,
       "client": "Naser Bank",
-      "operator": "احمد علاء",
+      "operator": "Hisham",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 3330,
@@ -5484,7 +5484,7 @@
     {
       "id": 262,
       "client": "Naser Bank",
-      "operator": "رشا احمد",
+      "operator": "Ahmed Adel",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 3330,
@@ -5505,7 +5505,7 @@
     {
       "id": 263,
       "client": "Naser Bank",
-      "operator": "لمى أسامة",
+      "operator": "Mohamed Abdellah",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 3330,
@@ -5526,7 +5526,7 @@
     {
       "id": 264,
       "client": "Naser Bank",
-      "operator": "محمد طارق",
+      "operator": "Yassin El Dekn",
       "branch": "حلوان",
       "machineBrand": "Xerox",
       "machineModel": 3330,
@@ -5547,7 +5547,7 @@
     {
       "id": 265,
       "client": "Eg Bank",
-      "operator": "داليا محمد",
+      "operator": "Mohamed Tarek",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
       "machineModel": 426,
@@ -15678,6 +15678,383 @@
       "meterReading": 13184,
       "machineType": "Printer",
       "lastVisitDate": "8/25/2024"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "id": 1,
+      "client": "BDC",
+      "operator": "Mohamed loly",
+      "branch": "ورديان",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 405,
+      "serialNumber": 3718837250,
+      "lastEng": "Walid",
+      "lastVisitDate": "9/2/2023",
+      "issueDate": "2/20/2024",
+      "lastMeterReading": 23826,
+      "lastMeterDate": "9/2/2023"
+    },
+    {
+      "id": 2,
+      "client": "Misr Bank",
+      "operator": "Mohamed Abdellah",
+      "branch": "بلقاس الدقهليه",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 405,
+      "serialNumber": 3719705161,
+      "lastEng": "Mohsen",
+      "lastVisitDate": "9/3/2023",
+      "issueDate": "2/14/2024",
+      "lastMeterReading": 23827,
+      "lastMeterDate": "9/3/2023"
+    },
+    {
+      "id": 3,
+      "client": "CIB",
+      "operator": "Yassin El-Dekn",
+      "branch": "المساحة",
+      "machineBrand": "Xerox",
+      "machineType": "Scanner",
+      "machineModel": 405,
+      "serialNumber": 3718895854,
+      "lastEng": "Hany",
+      "lastVisitDate": "9/4/2023",
+      "issueDate": "2/27/2024",
+      "lastMeterReading": 23828,
+      "lastMeterDate": "9/4/2023"
+    },
+    {
+      "id": 4,
+      "client": "QNB",
+      "operator": "Amira Ahmed",
+      "branch": "ميناء دمياط",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 3655,
+      "serialNumber": 3353508481,
+      "lastEng": "Mustafa",
+      "lastVisitDate": "9/5/2023",
+      "issueDate": "1/23/2024",
+      "lastMeterReading": 23829,
+      "lastMeterDate": "9/5/2023"
+    },
+    {
+      "id": 5,
+      "client": "Alexbank",
+      "operator": "Ahmed Adel",
+      "branch": "أكتوبر الحى المتميز",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 3225,
+      "serialNumber": 3365180511,
+      "lastEng": "Tarek",
+      "lastVisitDate": "9/6/2023",
+      "issueDate": "2/25/2024",
+      "lastMeterReading": 23830,
+      "lastMeterDate": "9/6/2023"
+    },
+    {
+      "id": 6,
+      "client": "NBE",
+      "operator": "Tarek Loly",
+      "branch": "الجامعة الالمانية",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 405,
+      "serialNumber": 3718890380,
+      "lastEng": "Kady",
+      "lastVisitDate": "9/7/2023",
+      "issueDate": "2/26/2024",
+      "lastMeterReading": 23831,
+      "lastMeterDate": "9/7/2023"
+    },
+    {
+      "id": 7,
+      "client": "UCP",
+      "operator": "Dalia Mohamed",
+      "branch": "التسعين",
+      "machineBrand": "Xerox",
+      "machineType": "Scanner",
+      "machineModel": 405,
+      "serialNumber": 3718901935,
+      "lastEng": "Kady",
+      "lastVisitDate": "9/8/2023",
+      "issueDate": "2/28/2024",
+      "lastMeterReading": 23832,
+      "lastMeterDate": "9/8/2023"
+    },
+    {
+      "id": 8,
+      "client": "NBK",
+      "operator": "Islam Mohamed",
+      "branch": "جزيرة العرب",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 405,
+      "serialNumber": 3718877660,
+      "lastEng": "Mohamed Ragab",
+      "lastVisitDate": "9/9/2023",
+      "issueDate": "2/26/2024",
+      "lastMeterReading": 23833,
+      "lastMeterDate": "9/9/2023"
+    },
+    {
+      "id": 9,
+      "client": "BDC",
+      "operator": "Mohamed Tarek",
+      "branch": "دمياط الجديدة",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 405,
+      "serialNumber": 3718878550,
+      "lastEng": "Mustafa",
+      "lastVisitDate": "9/10/2023",
+      "issueDate": "2/28/2024",
+      "lastMeterReading": 23834,
+      "lastMeterDate": "9/10/2023"
+    },
+    {
+      "id": 10,
+      "client": "Misr Bank",
+      "operator": "Mohamed Mostafa",
+      "branch": "مول العرب",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 405,
+      "serialNumber": 3718882280,
+      "lastEng": "Ahmed Abdullah",
+      "lastVisitDate": "9/11/2023",
+      "issueDate": "2/20/2024",
+      "lastMeterReading": 23835,
+      "lastMeterDate": "9/11/2023"
+    },
+    {
+      "id": 11,
+      "client": "CIB",
+      "operator": "Hisham",
+      "branch": "القرية الذكية",
+      "machineBrand": "Xerox",
+      "machineType": "Scanner",
+      "machineModel": 405,
+      "serialNumber": 3718919958,
+      "lastEng": "Tarek",
+      "lastVisitDate": "9/12/2023",
+      "issueDate": "2/27/2024",
+      "lastMeterReading": 23836,
+      "lastMeterDate": "9/12/2023"
+    },
+    {
+      "id": 12,
+      "client": "QNB",
+      "operator": "Mohamed loly",
+      "branch": "الجمهورية - بورسعيد",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 405,
+      "serialNumber": 3718867672,
+      "lastEng": "Mustafa",
+      "lastVisitDate": "9/13/2023",
+      "issueDate": "2/22/2024",
+      "lastMeterReading": 23837,
+      "lastMeterDate": "9/13/2023"
+    },
+    {
+      "id": 13,
+      "client": "Alexbank",
+      "operator": "Mohamed Abdellah",
+      "branch": "برج العرب",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 405,
+      "serialNumber": 3718889951,
+      "lastEng": "Walid",
+      "lastVisitDate": "9/14/2023",
+      "issueDate": "2/27/2024",
+      "lastMeterReading": 23838,
+      "lastMeterDate": "9/14/2023"
+    },
+    {
+      "id": 14,
+      "client": "NBE",
+      "operator": "Yassin El-Dekn",
+      "branch": "دار السلام سوهاج",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 405,
+      "serialNumber": 3719781151,
+      "lastEng": "Iskander",
+      "lastVisitDate": "9/15/2023",
+      "issueDate": "2/13/2024",
+      "lastMeterReading": 23839,
+      "lastMeterDate": "9/15/2023"
+    },
+    {
+      "id": 15,
+      "client": "UCP",
+      "operator": "Amira Ahmed",
+      "branch": "زيزينيا",
+      "machineBrand": "Xerox",
+      "machineType": "Scanner",
+      "machineModel": 4580,
+      "serialNumber": "079FBJFJ20004MA",
+      "lastEng": "Walid",
+      "lastVisitDate": "9/16/2023",
+      "issueDate": "12/20/2023",
+      "lastMeterReading": 23840,
+      "lastMeterDate": "9/16/2023"
+    },
+    {
+      "id": 16,
+      "client": "NBK",
+      "operator": "Ahmed Adel",
+      "branch": "روكسي",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 3225,
+      "serialNumber": 3364904648,
+      "lastEng": "hussien",
+      "lastVisitDate": "9/17/2023",
+      "issueDate": "2/29/2024",
+      "lastMeterReading": 23841,
+      "lastMeterDate": "9/17/2023"
+    },
+    {
+      "id": 17,
+      "client": "BDC",
+      "operator": "Tarek Loly",
+      "branch": "التحرير",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 3320,
+      "serialNumber": 3972030235,
+      "lastEng": "YOSSRY",
+      "lastVisitDate": "9/18/2023",
+      "issueDate": "2/29/2024",
+      "lastMeterReading": 23842,
+      "lastMeterDate": "9/18/2023"
+    },
+    {
+      "id": 18,
+      "client": "Misr Bank",
+      "operator": "Dalia Mohamed",
+      "branch": "ميدان عرابى",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 3655,
+      "serialNumber": 3353448942,
+      "lastEng": "Walid o",
+      "lastVisitDate": "9/19/2023",
+      "issueDate": "1/28/2024",
+      "lastMeterReading": 23843,
+      "lastMeterDate": "9/19/2023"
+    },
+    {
+      "id": 19,
+      "client": "CIB",
+      "operator": "Islam Mohamed",
+      "branch": "لبنان",
+      "machineBrand": "Xerox",
+      "machineType": "Scanner",
+      "machineModel": 3655,
+      "serialNumber": 3353509895,
+      "lastEng": "Hany",
+      "lastVisitDate": "9/20/2023",
+      "issueDate": "2/21/2024",
+      "lastMeterReading": 23844,
+      "lastMeterDate": "9/20/2023"
+    },
+    {
+      "id": 20,
+      "client": "QNB",
+      "operator": "Mohamed Tarek",
+      "branch": "حلوان",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 3330,
+      "serialNumber": 3386025885,
+      "lastEng": "Mohamed Gamal",
+      "lastVisitDate": "9/21/2023",
+      "issueDate": "2/26/2024",
+      "lastMeterReading": 23845,
+      "lastMeterDate": "9/21/2023"
+    },
+    {
+      "id": 21,
+      "client": "Alexbank",
+      "operator": "Mohamed Mostafa",
+      "branch": "حلوان",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 3330,
+      "serialNumber": 3386025796,
+      "lastEng": "Ahmed Sherif",
+      "lastVisitDate": "9/22/2023",
+      "issueDate": "2/27/2024",
+      "lastMeterReading": 23846,
+      "lastMeterDate": "9/22/2023"
+    },
+    {
+      "id": 22,
+      "client": "NBE",
+      "operator": "Hisham",
+      "branch": "حلوان",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 3330,
+      "serialNumber": 3386025788,
+      "lastEng": "Eslam",
+      "lastVisitDate": "9/23/2023",
+      "issueDate": "2/28/2024",
+      "lastMeterReading": 23847,
+      "lastMeterDate": "9/23/2023"
+    },
+    {
+      "id": 23,
+      "client": "UCP",
+      "operator": "Mohamed loly",
+      "branch": "حلوان",
+      "machineBrand": "Xerox",
+      "machineType": "Scanner",
+      "machineModel": 3330,
+      "serialNumber": 3386025737,
+      "lastEng": "Zaky",
+      "lastVisitDate": "9/24/2023",
+      "issueDate": "2/29/2024",
+      "lastMeterReading": 23848,
+      "lastMeterDate": "9/24/2023"
+    },
+    {
+      "id": 24,
+      "client": "NBK",
+      "operator": "Mohamed Abdellah",
+      "branch": "حلوان",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "machineModel": 3330,
+      "serialNumber": 3386027870,
+      "lastEng": "Mahmoud",
+      "lastVisitDate": "9/25/2023",
+      "issueDate": "3/1/2024",
+      "lastMeterReading": 23849,
+      "lastMeterDate": "9/25/2023"
+    },
+    {
+      "id": 25,
+      "client": "BDC",
+      "operator": "Yassin El-Dekn",
+      "branch": "سيتى ستارز",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "machineModel": 426,
+      "serialNumber": "P4B8J3738V",
+      "lastEng": "Abdelrahman",
+      "lastVisitDate": "9/26/2023",
+      "issueDate": "2/4/2024",
+      "lastMeterReading": 23850,
+      "lastMeterDate": "9/26/2023"
     }
   ]
 }
