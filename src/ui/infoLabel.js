@@ -4,6 +4,7 @@ import { styled } from "@mui/material/styles";
 import GreenLabel from "./type-labels/greenLabel";
 import YellowLabel from "./type-labels/yellowLabel";
 import RedLabel from "./type-labels/redLabel";
+import BlueLabel from "./type-labels/blueLabel";
 
 function InfoLabel({ title, details, icon, xs = 4, size }) {
   const Item = styled(Paper)(({ theme }) => ({
@@ -13,7 +14,7 @@ function InfoLabel({ title, details, icon, xs = 4, size }) {
     textAlign: "start",
   }));
 
-  if (title !== "Ticket Type") {
+  if (title !== "Ticket Type" && title !== "Priority") {
     return (
       <Grid item xs={xs}>
         <Item className="min-h-20 flex flex-row justify-between items-center">
@@ -43,6 +44,9 @@ function InfoLabel({ title, details, icon, xs = 4, size }) {
             {details === "open" && <GreenLabel text={details} />}
             {details === "pending" && <YellowLabel text={details} />}
             {details === "closed" && <RedLabel text={details} />}
+            {details === "high" && <RedLabel text={details} />}
+            {details === "medium" && <BlueLabel text={details} />}
+            {details === "low" && <GreenLabel text={details} />}
           </Box>
         </Item>
       </Grid>

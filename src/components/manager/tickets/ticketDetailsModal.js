@@ -37,12 +37,16 @@ export default function TicketDetailsModal({ serialNumber }) {
   const [dateValue, setDateValue] = useState(dayjs(new Date()));
   const [timeValue, setTimeValue] = useState(null);
   const [solved, setSolved] = useState(true);
+  const [priority, setPriority] = useState("");
 
   const handleIssueType = (e) => {
     setIssueType(e.target.value);
   };
   const handleSolved = (e) => {
     setSolved(e.target.value);
+  };
+  const handlePriority = (e) => {
+    setPriority(e.target.value);
   };
   const handleBranch = (e) => {
     setBranch(e.target.value);
@@ -242,6 +246,32 @@ export default function TicketDetailsModal({ serialNumber }) {
           </Box>
           {issueType === "spare-parts" && <MachinePartsOptions />}
           <TextField fullWidth label="Suggestion" id="issueSuggestion" />
+          <div className="w-full flex justify-end !my-2">
+            {" "}
+            <Typography className=" bg-red-700 text-white rounded-2xl px-2">
+              ما هو تصنيفك لأولية إصلاح هذا العطل؟
+            </Typography>
+          </div>
+          <Box
+            sx={{
+              minWidth: 120,
+            }}
+          >
+            <FormControl fullWidth className="!mb-1">
+              <InputLabel id="priority">Priority</InputLabel>
+              <Select
+                labelId="priority"
+                id="priority"
+                value={priority}
+                label="Priority"
+                onChange={handlePriority}
+              >
+                <MenuItem value={"low"}>Low</MenuItem>
+                <MenuItem value={"medium"}>Medium</MenuItem>
+                <MenuItem value={"high"}>High</MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
         </div>
       ) : (
         <div className="w-full flex flex-col items-end !my-1">

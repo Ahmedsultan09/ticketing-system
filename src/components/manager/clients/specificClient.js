@@ -1,7 +1,7 @@
 import React from "react";
 
 function SpecificClient() {
-  return <div>SpecificClient</div>;
+  return <div></div>;
 }
 
 export default SpecificClient;

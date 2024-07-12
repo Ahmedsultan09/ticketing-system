@@ -19,11 +19,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 2,
-      "client": "Misr bank",
+      "client": "Banque Misr",
       "operator": "Rasha Ahmed",
       "branch": "قطاع الاموال و المراسلين",
       "machineBrand": "Xerox",
@@ -40,7 +41,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 3,
@@ -61,7 +63,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 4,
@@ -82,7 +85,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 5,
@@ -103,7 +107,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 6,
@@ -124,7 +129,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 7,
@@ -145,7 +151,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 8,
@@ -166,7 +173,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 9,
@@ -187,7 +195,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 10,
@@ -208,7 +217,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 11,
@@ -229,7 +239,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 12,
@@ -250,11 +261,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 13,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "الميرغنى",
       "machineBrand": "Xerox",
@@ -271,11 +283,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 14,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Rasha Ahmed",
       "branch": "الكوربه",
       "machineBrand": "Xerox",
@@ -292,11 +305,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 15,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "معادى اللاسلكى",
       "machineBrand": "Xerox",
@@ -313,11 +327,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 16,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "جسر السويس",
       "machineBrand": "Xerox",
@@ -334,7 +349,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 17,
@@ -355,7 +371,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 18,
@@ -376,11 +393,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 19,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "ابو داود الظواهرى",
       "machineBrand": "Xerox",
@@ -397,11 +415,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 20,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Eslam Mohamed",
       "branch": "باكوس",
       "machineBrand": "Xerox",
@@ -418,11 +437,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 21,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Hisham",
       "branch": "باكوس",
       "machineBrand": "Xerox",
@@ -439,7 +459,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 22,
@@ -460,7 +481,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 23,
@@ -481,11 +503,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 24,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Yassin El Dekn",
       "branch": "أبو رديس جنوب سيناء",
       "machineBrand": "Xerox",
@@ -502,11 +525,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 25,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "طريق النصر",
       "machineBrand": "Xerox",
@@ -523,11 +547,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 26,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
@@ -544,11 +569,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 27,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "ابوداود الظواهرى",
       "machineBrand": "Xerox",
@@ -565,11 +591,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 28,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "السادات",
       "machineBrand": "Xerox",
@@ -586,11 +613,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 29,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
@@ -607,7 +635,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 30,
@@ -628,11 +657,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 31,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "دمنهور",
       "machineBrand": "Xerox",
@@ -649,7 +679,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 32,
@@ -670,7 +701,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 33,
@@ -691,11 +723,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 34,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "الجزيرة",
       "machineBrand": "Xerox",
@@ -712,11 +745,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 35,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "المنيا",
       "machineBrand": "Xerox",
@@ -733,11 +767,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 36,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "دمنهور",
       "machineBrand": "Xerox",
@@ -754,7 +789,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 37,
@@ -775,7 +811,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 38,
@@ -796,11 +833,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 39,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "مصدق",
       "machineBrand": "Xerox",
@@ -817,11 +855,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 40,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "الرباط مول",
       "machineBrand": "Xerox",
@@ -838,7 +877,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 41,
@@ -859,7 +899,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 42,
@@ -880,7 +921,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 43,
@@ -901,7 +943,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 44,
@@ -922,7 +965,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 45,
@@ -943,11 +987,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 46,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "نادى الصيد",
       "machineBrand": "Xerox",
@@ -964,7 +1009,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 47,
@@ -985,7 +1031,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 48,
@@ -1006,7 +1053,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 49,
@@ -1027,7 +1075,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 50,
@@ -1048,11 +1097,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 51,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Tarek Loly",
       "branch": "منفلوط الإسلامي",
       "machineBrand": "Xerox",
@@ -1069,7 +1119,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 52,
@@ -1090,11 +1141,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 53,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "اسيوط",
       "machineBrand": "Xerox",
@@ -1111,11 +1163,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 54,
-      "client": "bdc",
+      "client": "NBE",
       "operator": "Lama Osama",
       "branch": "سموحة",
       "machineBrand": "Xerox",
@@ -1132,11 +1185,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 55,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "عباسية",
       "machineBrand": "Xerox",
@@ -1153,11 +1207,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 56,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "داندى مول",
       "machineBrand": "Xerox",
@@ -1174,11 +1229,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 57,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "مينا جاردن سيتى",
       "machineBrand": "Xerox",
@@ -1195,11 +1251,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 58,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "الدقى",
       "machineBrand": "Xerox",
@@ -1216,11 +1273,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 59,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "عباس العقاد",
       "machineBrand": "Xerox",
@@ -1237,11 +1295,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 60,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "اغاخان",
       "machineBrand": "Xerox",
@@ -1258,7 +1317,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 61,
@@ -1279,7 +1339,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 62,
@@ -1300,11 +1361,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 63,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Tarek Loly",
       "branch": "اداره قانونيه مبني البرج",
       "machineBrand": "Xerox",
@@ -1321,11 +1383,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 64,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "الهرم الجديد",
       "machineBrand": "Xerox",
@@ -1342,11 +1405,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 65,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "السبتية",
       "machineBrand": "Xerox",
@@ -1363,11 +1427,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 66,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "المعادى",
       "machineBrand": "Xerox",
@@ -1384,11 +1449,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 67,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
@@ -1405,11 +1471,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 68,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "جاردنيا",
       "machineBrand": "Xerox",
@@ -1426,11 +1493,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 69,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "بنها",
       "machineBrand": "Xerox",
@@ -1447,7 +1515,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 70,
@@ -1468,11 +1537,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 71,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "دمياط",
       "machineBrand": "Xerox",
@@ -1489,7 +1559,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 72,
@@ -1510,7 +1581,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 73,
@@ -1531,7 +1603,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 74,
@@ -1552,7 +1625,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 75,
@@ -1573,11 +1647,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 76,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "شيراتون هليوبلس",
       "machineBrand": "Xerox",
@@ -1594,11 +1669,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 77,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Dalia Mohamed",
       "branch": "السنبلاوين الدقهليه",
       "machineBrand": "Xerox",
@@ -1615,11 +1691,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 78,
-      "client": "Cib",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "الرحاب",
       "machineBrand": "Xerox",
@@ -1636,11 +1713,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 79,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "امريكانا بلازا",
       "machineBrand": "Xerox",
@@ -1657,11 +1735,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 80,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Eslam Mohamed",
       "branch": "أسيوط ميدان الجامعه",
       "machineBrand": "Xerox",
@@ -1678,11 +1757,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 81,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "الزقازيق الجديدة",
       "machineBrand": "Xerox",
@@ -1699,11 +1779,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 82,
-      "client": "Cib",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "CFC",
       "machineBrand": "Xerox",
@@ -1720,7 +1801,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 83,
@@ -1741,7 +1823,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 84,
@@ -1762,7 +1845,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 85,
@@ -1783,7 +1867,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 86,
@@ -1804,11 +1889,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 87,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "الطيران",
       "machineBrand": "Xerox",
@@ -1825,11 +1911,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 88,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "النايل تاور",
       "machineBrand": "Xerox",
@@ -1846,11 +1933,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 89,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
@@ -1867,11 +1955,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 90,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
@@ -1888,7 +1977,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 91,
@@ -1909,7 +1999,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 92,
@@ -1930,7 +2021,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 93,
@@ -1951,7 +2043,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 94,
@@ -1972,7 +2065,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 95,
@@ -1993,11 +2087,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 96,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "النايل تاور",
       "machineBrand": "Xerox",
@@ -2014,7 +2109,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 97,
@@ -2035,7 +2131,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 98,
@@ -2056,11 +2153,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 99,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "الماظة سنتر",
       "machineBrand": "Xerox",
@@ -2077,11 +2175,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 100,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "الشمس",
       "machineBrand": "Xerox",
@@ -2098,11 +2197,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 101,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "الشمس",
       "machineBrand": "Xerox",
@@ -2119,11 +2219,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 102,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "J.W Marriot",
       "machineBrand": "Xerox",
@@ -2140,11 +2241,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 103,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Amira Ahmed",
       "branch": "دار السلام سوهاج",
       "machineBrand": "Xerox",
@@ -2161,11 +2263,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 104,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "المعادى تاور",
       "machineBrand": "Xerox",
@@ -2182,7 +2285,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 105,
@@ -2203,7 +2307,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 106,
@@ -2224,7 +2329,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 107,
@@ -2245,11 +2351,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 108,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "الهرم - التعاون",
       "machineBrand": "Xerox",
@@ -2266,11 +2373,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 109,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "شارع الطيران",
       "machineBrand": "Xerox",
@@ -2287,11 +2395,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 110,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Rasha Ahmed",
       "branch": "اسطال المنيا",
       "machineBrand": "Xerox",
@@ -2308,11 +2417,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 111,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Tarek Loly",
       "branch": "طهطا سوهاج",
       "machineBrand": "Xerox",
@@ -2329,11 +2439,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 112,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Mohamed Mostafa",
       "branch": "طهطا سوهاج",
       "machineBrand": "Xerox",
@@ -2350,11 +2461,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 113,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Dalia Mohamed",
       "branch": "مصطفى النحاس",
       "machineBrand": "Xerox",
@@ -2371,7 +2483,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 114,
@@ -2392,7 +2505,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 115,
@@ -2413,11 +2527,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 116,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "Cairo Festival Mall",
       "machineBrand": "Xerox",
@@ -2434,11 +2549,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 117,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "حلوان",
       "machineBrand": "Xerox",
@@ -2455,11 +2571,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 118,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "Maadi Zahraa",
       "machineBrand": "Xerox",
@@ -2476,11 +2593,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 119,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "Maadi Zahraa",
       "machineBrand": "Xerox",
@@ -2497,11 +2615,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 120,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "اغاخان",
       "machineBrand": "Xerox",
@@ -2518,11 +2637,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 121,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "زمالك",
       "machineBrand": "Xerox",
@@ -2539,7 +2659,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 122,
@@ -2560,11 +2681,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 123,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "جسر السويس",
       "machineBrand": "Xerox",
@@ -2581,7 +2703,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 124,
@@ -2602,7 +2725,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 125,
@@ -2623,7 +2747,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 126,
@@ -2644,11 +2769,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 127,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
@@ -2665,7 +2791,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 128,
@@ -2686,11 +2813,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 129,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "الشيخ زايد",
       "machineBrand": "Xerox",
@@ -2707,11 +2835,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 130,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "القرية الذكية",
       "machineBrand": "Xerox",
@@ -2728,11 +2857,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 131,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Mohamed Abdellah",
       "branch": "اركان مول",
       "machineBrand": "Xerox",
@@ -2749,7 +2879,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 132,
@@ -2770,11 +2901,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 133,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "سموحة",
       "machineBrand": "Xerox",
@@ -2791,11 +2923,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 134,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "الغردقة",
       "machineBrand": "Xerox",
@@ -2812,7 +2945,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 135,
@@ -2833,7 +2967,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 136,
@@ -2854,7 +2989,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 137,
@@ -2875,7 +3011,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 138,
@@ -2896,11 +3033,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 139,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "سموحة",
       "machineBrand": "Xerox",
@@ -2917,11 +3055,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 140,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "المعادى تاور",
       "machineBrand": "Xerox",
@@ -2938,11 +3077,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 141,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "مول مصر",
       "machineBrand": "Xerox",
@@ -2959,11 +3099,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 142,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "ميدى كير",
       "machineBrand": "Xerox",
@@ -2980,11 +3121,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 143,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "الدقى",
       "machineBrand": "Xerox",
@@ -3001,11 +3143,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 144,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "المحروسة",
       "machineBrand": "Xerox",
@@ -3022,7 +3165,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 145,
@@ -3043,7 +3187,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 146,
@@ -3064,7 +3209,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 147,
@@ -3085,11 +3231,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 148,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "داندى مول",
       "machineBrand": "Xerox",
@@ -3106,11 +3253,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 149,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "داندى مول",
       "machineBrand": "Xerox",
@@ -3127,7 +3275,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 150,
@@ -3148,11 +3297,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 151,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "اغاخان",
       "machineBrand": "Xerox",
@@ -3169,11 +3319,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 152,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "المنشية",
       "machineBrand": "Xerox",
@@ -3190,11 +3341,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 153,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "الميرغنى",
       "machineBrand": "Xerox",
@@ -3211,11 +3363,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 154,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "السواح",
       "machineBrand": "Xerox",
@@ -3232,7 +3385,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 155,
@@ -3253,7 +3407,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 156,
@@ -3274,11 +3429,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 157,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "سميراميس",
       "machineBrand": "Xerox",
@@ -3295,11 +3451,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 158,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "ميدى كير",
       "machineBrand": "Xerox",
@@ -3316,11 +3473,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 159,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "عبدالخالق السنهورى",
       "machineBrand": "Xerox",
@@ -3337,11 +3495,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 160,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "المهندسين",
       "machineBrand": "Xerox",
@@ -3358,11 +3517,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 161,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "ميناء جاردن سيتى",
       "machineBrand": "Xerox",
@@ -3379,11 +3539,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 162,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "التجمع - اميرالد",
       "machineBrand": "Xerox",
@@ -3400,7 +3561,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 163,
@@ -3421,7 +3583,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 164,
@@ -3442,11 +3605,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 165,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "كايروفيستفال",
       "machineBrand": "Xerox",
@@ -3463,11 +3627,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 166,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "هليوبلس",
       "machineBrand": "Xerox",
@@ -3484,11 +3649,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 167,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Mohamed Abdellah",
       "branch": "المعادى",
       "machineBrand": "Xerox",
@@ -3505,11 +3671,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 168,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Yassin El Dekn",
       "branch": "الالفى",
       "machineBrand": "Xerox",
@@ -3526,7 +3693,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 169,
@@ -3547,11 +3715,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 170,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "السلطان حسين",
       "machineBrand": "Xerox",
@@ -3568,7 +3737,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 171,
@@ -3589,7 +3759,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 172,
@@ -3610,7 +3781,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 173,
@@ -3631,7 +3803,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 174,
@@ -3652,7 +3825,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 175,
@@ -3673,11 +3847,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 176,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "حلوان",
       "machineBrand": "Xerox",
@@ -3694,11 +3869,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 177,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
@@ -3715,11 +3891,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 178,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "رمسيس",
       "machineBrand": "Xerox",
@@ -3736,11 +3913,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 179,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "الرحاب",
       "machineBrand": "Xerox",
@@ -3757,7 +3935,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 180,
@@ -3778,11 +3957,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 181,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "زقازيق",
       "machineBrand": "Xerox",
@@ -3799,11 +3979,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 182,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "لاقصر",
       "machineBrand": "Xerox",
@@ -3820,7 +4001,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 183,
@@ -3841,7 +4023,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 184,
@@ -3862,7 +4045,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 185,
@@ -3883,7 +4067,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 186,
@@ -3904,7 +4089,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 187,
@@ -3925,7 +4111,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 188,
@@ -3946,7 +4133,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 189,
@@ -3967,11 +4155,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 190,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "الميرغنى",
       "machineBrand": "Xerox",
@@ -3988,11 +4177,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 191,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "الدقى",
       "machineBrand": "Xerox",
@@ -4009,7 +4199,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 192,
@@ -4030,7 +4221,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 193,
@@ -4051,7 +4243,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 194,
@@ -4072,11 +4265,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 195,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "ميناء بدر الجاف",
       "machineBrand": "Xerox",
@@ -4093,11 +4287,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 196,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "ميدىكير",
       "machineBrand": "Xerox",
@@ -4114,7 +4309,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 197,
@@ -4135,11 +4331,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 198,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "المساحة",
       "machineBrand": "Xerox",
@@ -4156,11 +4353,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 199,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "ميدان المنشية",
       "machineBrand": "Xerox",
@@ -4177,7 +4375,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 200,
@@ -4198,11 +4397,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 201,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "تيدا السويس",
       "machineBrand": "Xerox",
@@ -4219,7 +4419,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 202,
@@ -4240,11 +4441,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 203,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",
@@ -4261,11 +4463,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 204,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "مصطفى النحاس",
       "machineBrand": "Xerox",
@@ -4282,11 +4485,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 205,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "شرم الشيخ",
       "machineBrand": "Xerox",
@@ -4303,11 +4507,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 206,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "تيران",
       "machineBrand": "Xerox",
@@ -4324,11 +4529,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 207,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "مصدق",
       "machineBrand": "Xerox",
@@ -4345,11 +4551,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 208,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Mostafa",
       "branch": "السادات",
       "machineBrand": "Xerox",
@@ -4366,11 +4573,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 209,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Dalia Mohamed",
       "branch": "اسوان",
       "machineBrand": "Xerox",
@@ -4387,11 +4595,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 210,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "اسوان",
       "machineBrand": "Xerox",
@@ -4408,7 +4617,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 211,
@@ -4429,11 +4639,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 212,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "كايرو فيستفال",
       "machineBrand": "Xerox",
@@ -4450,7 +4661,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 213,
@@ -4471,7 +4683,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 214,
@@ -4492,7 +4705,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 215,
@@ -4513,7 +4727,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 216,
@@ -4534,11 +4749,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 217,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "المنيا",
       "machineBrand": "Xerox",
@@ -4555,11 +4771,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 218,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "زهراء المعادى",
       "machineBrand": "Xerox",
@@ -4576,11 +4793,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 219,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "التسعين",
       "machineBrand": "Xerox",
@@ -4597,7 +4815,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 220,
@@ -4618,7 +4837,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 221,
@@ -4639,11 +4859,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 222,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "طيبة",
       "machineBrand": "Xerox",
@@ -4660,11 +4881,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 223,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "المساحة",
       "machineBrand": "Xerox",
@@ -4681,7 +4903,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 224,
@@ -4702,11 +4925,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 225,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "شبين الكوم",
       "machineBrand": "Xerox",
@@ -4723,7 +4947,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 226,
@@ -4744,11 +4969,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 227,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "الجزيرة",
       "machineBrand": "Xerox",
@@ -4765,11 +4991,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 228,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El Dekn",
       "branch": "المطار",
       "machineBrand": "Xerox",
@@ -4786,11 +5013,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 229,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "سيتى فيو",
       "machineBrand": "Xerox",
@@ -4807,11 +5035,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 230,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Rasha Ahmed",
       "branch": "لاقصر",
       "machineBrand": "Xerox",
@@ -4828,11 +5057,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "high"
     },
     {
       "id": 231,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "بورسعيد",
       "machineBrand": "Xerox",
@@ -4849,7 +5079,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 232,
@@ -4870,7 +5101,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 233,
@@ -4891,7 +5123,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 234,
@@ -4912,7 +5145,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "medium"
     },
     {
       "id": 235,
@@ -4933,7 +5167,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 236,
@@ -4954,7 +5189,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 237,
@@ -4975,7 +5211,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 238,
@@ -4996,11 +5233,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 239,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "الحصرى",
       "machineBrand": "Xerox",
@@ -5017,11 +5255,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 240,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Yassin El Dekn",
       "branch": "ميراج",
       "machineBrand": "Xerox",
@@ -5038,11 +5277,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 241,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Mohamed Tarek",
       "branch": "ورديان",
       "machineBrand": "Xerox",
@@ -5059,11 +5299,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 242,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Rasha Ahmed",
       "branch": "بلقاس الدقهليه",
       "machineBrand": "Xerox",
@@ -5080,11 +5321,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 243,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Tarek Loly",
       "branch": "المساحة",
       "machineBrand": "Xerox",
@@ -5101,7 +5343,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 244,
@@ -5122,7 +5365,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     },
     {
       "id": 245,
@@ -5143,11 +5387,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "medium"
     },
     {
       "id": 246,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Lama Osama",
       "branch": "الجامعة الالمانية",
       "machineBrand": "Xerox",
@@ -5164,11 +5409,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 247,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Amira Ahmed",
       "branch": "التسعين",
       "machineBrand": "Xerox",
@@ -5185,11 +5431,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 248,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Eslam Mohamed",
       "branch": "جزيرة العرب",
       "machineBrand": "Xerox",
@@ -5206,11 +5453,12 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "low"
     },
     {
       "id": 249,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "دمياط الجديدة",
       "machineBrand": "Xerox",
@@ -5227,11 +5475,12 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "low"
     },
     {
       "id": 250,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Ahmed Adel",
       "branch": "مول العرب",
       "machineBrand": "Xerox",
@@ -5248,11 +5497,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 251,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Abdellah",
       "branch": "القرية الذكية",
       "machineBrand": "Xerox",
@@ -5269,11 +5519,12 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 252,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Yassin El Dekn",
       "branch": "الجمهورية - بورسعيد",
       "machineBrand": "Xerox",
@@ -5290,11 +5541,12 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "high"
     },
     {
       "id": 253,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Mohamed Tarek",
       "branch": "برج العرب",
       "machineBrand": "Xerox",
@@ -5311,11 +5563,12 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 254,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Rasha Ahmed",
       "branch": "دار السلام سوهاج",
       "machineBrand": "Xerox",
@@ -5332,7 +5585,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 255,
@@ -5353,7 +5607,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "high"
     },
     {
       "id": 256,
@@ -5374,7 +5629,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "medium"
     },
     {
       "id": 257,
@@ -5395,7 +5651,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "on-going"
+      "status": "on-going",
+      "priority": "medium"
     },
     {
       "id": 258,
@@ -5416,7 +5673,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 259,
@@ -5437,7 +5695,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 260,
@@ -5458,7 +5717,8 @@
       "assignedTo": "احمد عبدالله",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "low"
     },
     {
       "id": 261,
@@ -5479,7 +5739,8 @@
       "assignedTo": "محمد جمال",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "scrabed"
+      "status": "scrabed",
+      "priority": "low"
     },
     {
       "id": 262,
@@ -5500,7 +5761,8 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "low"
     },
     {
       "id": 263,
@@ -5521,7 +5783,8 @@
       "assignedTo": "احمد شريف",
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
-      "status": "spare-parts"
+      "status": "spare-parts",
+      "priority": "high"
     },
     {
       "id": 264,
@@ -5542,7 +5805,8 @@
       "assignedTo": "ذكى",
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
-      "status": "solved"
+      "status": "solved",
+      "priority": "medium"
     },
     {
       "id": 265,
@@ -5563,14 +5827,15 @@
       "assignedTo": "",
       "issue": "حشر",
       "suggestion": "فك الماكينة",
-      "status": "not-assigned-yet"
+      "status": "not-assigned-yet",
+      "priority": "high"
     }
   ],
   "engineers": [
     {
       "id": 1,
       "name": "طارق احمد لولي",
-      "tasks": [214, 45, 76, 63, 213],
+      "tasks": [214, 63, 213],
       "solvedTasks": 10,
       "currentTasks": 5,
       "spareParts": [],
@@ -5581,7 +5846,7 @@
     {
       "id": 2,
       "name": "وليد عمر عبد القادر",
-      "tasks": [187, 212, 64, 145, 153],
+      "tasks": [187, 212, 64, 145, 45, 153, 76],
       "solvedTasks": 8,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5592,7 +5857,7 @@
     {
       "id": 3,
       "name": "أحمد عاطف عمر",
-      "tasks": [29, 126, 54, 186, 5],
+      "tasks": [29],
       "solvedTasks": 15,
       "currentTasks": 5,
       "spareParts": [],
@@ -5603,7 +5868,7 @@
     {
       "id": 4,
       "name": "سيد احمد سيد",
-      "tasks": [89, 170, 10, 63, 19],
+      "tasks": [89, 170, 10, 63, 19, 126, 54, 186, 5],
       "solvedTasks": 12,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5614,7 +5879,7 @@
     {
       "id": 5,
       "name": "عمرو جمال الصغير",
-      "tasks": [46, 149, 43, 118, 124],
+      "tasks": [46, 149, 43, 124],
       "solvedTasks": 14,
       "currentTasks": 5,
       "spareParts": [],
@@ -5625,7 +5890,7 @@
     {
       "id": 6,
       "name": "هاني إبراهيم جلال",
-      "tasks": [230, 147, 94, 180, 212],
+      "tasks": [230, 147, 94, 180, 118, 212],
       "solvedTasks": 11,
       "currentTasks": 5,
       "spareParts": [],
@@ -5636,7 +5901,7 @@
     {
       "id": 7,
       "name": "محمد جمال موسي",
-      "tasks": [156, 58, 126, 92, 146],
+      "tasks": [156, 92, 146],
       "solvedTasks": 9,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5647,7 +5912,7 @@
     {
       "id": 8,
       "name": "حسين فتحي محمد",
-      "tasks": [96, 124, 179, 190, 204],
+      "tasks": [96, 124, 179, 58, 126, 190, 204],
       "solvedTasks": 13,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5658,7 +5923,7 @@
     {
       "id": 9,
       "name": "أحمد شوقي احمد",
-      "tasks": [238, 15, 34, 125, 199],
+      "tasks": [238, 15, 34, 125],
       "solvedTasks": 16,
       "currentTasks": 5,
       "spareParts": [],
@@ -5669,7 +5934,7 @@
     {
       "id": 10,
       "name": "عمرو محمود زينهم",
-      "tasks": [194, 19, 32, 66, 41],
+      "tasks": [194, 19, 32, 66, 41, 199, 58, 158],
       "solvedTasks": 7,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5680,7 +5945,7 @@
     {
       "id": 11,
       "name": "محسن محمد احمد",
-      "tasks": [48, 168, 58, 158, 23],
+      "tasks": [48, 168, 23],
       "solvedTasks": 10,
       "currentTasks": 5,
       "spareParts": [],
@@ -5691,7 +5956,7 @@
     {
       "id": 12,
       "name": "محمد إسكندر محمد",
-      "tasks": [23, 85, 236, 202, 118],
+      "tasks": [23, 85],
       "solvedTasks": 14,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5702,7 +5967,7 @@
     {
       "id": 13,
       "name": "عبد الرحمن يسري علي",
-      "tasks": [35, 83, 87, 219, 79],
+      "tasks": [35, 83, 87, 219, 79, 236, 202, 118],
       "solvedTasks": 11,
       "currentTasks": 5,
       "spareParts": ["Drum"],
@@ -5977,7 +6242,7 @@
     },
     {
       "id": 4,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "name": "Amira Ahmed",
       "ticketsCreated": [
         170, 137, 21, 210, 211, 70, 44, 202, 205, 111, 37, 226, 203, 39, 20,
@@ -5991,7 +6256,7 @@
     },
     {
       "id": 5,
-      "client": "BDC",
+      "client": "NBE",
       "name": "Ahmed Adel",
       "ticketsCreated": [
         227, 66, 124, 110, 145, 14, 160, 25, 228, 89, 225, 191, 31, 99, 96, 151,
@@ -6101,7 +6366,7 @@
       "machineModel": 3225,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": 3364943066,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "مبني الفلكي",
       "area": "القاهرة",
       "qrCode": 120,
@@ -6181,7 +6446,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3364942159,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "كونكوررد الرملي",
       "area": "الاسكندرية",
       "qrCode": 125,
@@ -6213,7 +6478,7 @@
       "machineModel": 4200,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": "v1s5272521",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "كونكوررد الرملي",
       "area": "الاسكندرية",
       "qrCode": 127,
@@ -6229,7 +6494,7 @@
       "machineModel": 4070,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": "30005tw",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "كونكوررد الرملي",
       "area": "الاسكندرية",
       "qrCode": 128,
@@ -6309,7 +6574,7 @@
       "machineModel": 631,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": "cncvl520xt",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الموسكى",
       "area": "القاهرة",
       "qrCode": 133,
@@ -6341,7 +6606,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3365181720,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الموسكى",
       "area": "القاهرة",
       "qrCode": 135,
@@ -6357,7 +6622,7 @@
       "machineModel": 635,
       "lastVisitEng": "محمد رجب",
       "serialNumber": "CNBBQ360NZ",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الموسكى",
       "area": "القاهرة",
       "qrCode": 136,
@@ -6437,7 +6702,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3364904656,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الموسكى",
       "area": "القاهرة",
       "qrCode": 141,
@@ -6469,7 +6734,7 @@
       "machineModel": "B405",
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3718923955,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الموسكى",
       "area": "القاهرة",
       "qrCode": 143,
@@ -6485,7 +6750,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3365112290,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الموسكى",
       "area": "القاهرة",
       "qrCode": 144,
@@ -6565,7 +6830,7 @@
       "machineModel": 3320,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3384088286,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 149,
@@ -6597,7 +6862,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364924894,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 151,
@@ -6613,7 +6878,7 @@
       "machineModel": 631,
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": "CNFVM2V183",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 152,
@@ -6693,7 +6958,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3364905709,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 157,
@@ -6725,7 +6990,7 @@
       "machineModel": 4070,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": "3000FMY",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 159,
@@ -6741,7 +7006,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": 3364925025,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 160,
@@ -6821,7 +7086,7 @@
       "machineModel": 3320,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3384042235,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 165,
@@ -6853,7 +7118,7 @@
       "machineModel": 3320,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3384047636,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 167,
@@ -6869,7 +7134,7 @@
       "machineModel": 3320,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": 3384087719,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 168,
@@ -6949,7 +7214,7 @@
       "machineModel": "B405",
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3718873354,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 173,
@@ -6981,7 +7246,7 @@
       "machineModel": "B405",
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3718968118,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 175,
@@ -6997,7 +7262,7 @@
       "machineModel": 3225,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3364901622,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 176,
@@ -7077,7 +7342,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3364941330,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الشريف",
       "area": "القاهرة",
       "qrCode": 181,
@@ -7109,7 +7374,7 @@
       "machineModel": 635,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": "CNBBQ330BP",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "التحرير",
       "area": "القاهرة",
       "qrCode": 183,
@@ -7125,7 +7390,7 @@
       "machineModel": 3320,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": 3972030235,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "التحرير",
       "area": "القاهرة",
       "qrCode": 184,
@@ -7205,7 +7470,7 @@
       "machineModel": 4200,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "v1s5272741",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "التحرير",
       "area": "القاهرة",
       "qrCode": 189,
@@ -7237,7 +7502,7 @@
       "machineModel": 635,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": "CNBBQ36093",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 191,
@@ -7253,7 +7518,7 @@
       "machineModel": 4070,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": "300041v",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 192,
@@ -7333,7 +7598,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3364902076,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 197,
@@ -7365,7 +7630,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3364897331,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 199,
@@ -7381,7 +7646,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": 3365311675,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 200,
@@ -7461,7 +7726,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364908805,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 205,
@@ -7493,7 +7758,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3364943694,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 207,
@@ -7509,7 +7774,7 @@
       "machineModel": "B405",
       "lastVisitEng": "محمد رجب",
       "serialNumber": 3718924811,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "مصر الجديدة",
       "area": "القاهرة",
       "qrCode": 208,
@@ -7589,7 +7854,7 @@
       "machineModel": 631,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": "CNFVLC40QM",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 213,
@@ -7621,7 +7886,7 @@
       "machineModel": 631,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": "CNCVL520r1",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "أسيوط",
       "area": "أسيوط",
       "qrCode": 215,
@@ -7637,7 +7902,7 @@
       "machineModel": 631,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": "CNFVLC00RX",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "أسيوط",
       "area": "أسيوط",
       "qrCode": 216,
@@ -7717,7 +7982,7 @@
       "machineModel": 631,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": "CNFVLC60DL",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "البلينا",
       "area": "سوهاج",
       "qrCode": 221,
@@ -7749,7 +8014,7 @@
       "machineModel": 631,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": "CNFVLC60CF",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "البداري",
       "area": "سوهاج",
       "qrCode": 223,
@@ -7765,7 +8030,7 @@
       "machineModel": 631,
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": "CNFVLC00W9",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "البداري",
       "area": "سوهاج",
       "qrCode": 224,
@@ -7845,7 +8110,7 @@
       "machineModel": 631,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": "CNCVL520PZ",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سميراميس",
       "area": "القاهرة",
       "qrCode": 229,
@@ -7877,7 +8142,7 @@
       "machineModel": 631,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": "CNCVL520Q2",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "حلوان",
       "area": "القاهرة",
       "qrCode": 231,
@@ -7893,7 +8158,7 @@
       "machineModel": 631,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": "CNFVM2V18B",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع 23 يوليو الجديد",
       "area": "قنا",
       "qrCode": 232,
@@ -7973,7 +8238,7 @@
       "machineModel": 631,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": "CNCVL53008",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "هيئة التنمية الصناعية",
       "area": "القاهرة",
       "qrCode": 237,
@@ -8005,7 +8270,7 @@
       "machineModel": 635,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": "CNBBQ3609c",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الزمالك",
       "area": "القاهرة",
       "qrCode": 239,
@@ -8021,7 +8286,7 @@
       "machineModel": 4200,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": "V1S5272921",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الزمالك",
       "area": "القاهرة",
       "qrCode": 240,
@@ -8101,7 +8366,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3365138019,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الزمالك",
       "area": "القاهرة",
       "qrCode": 245,
@@ -8133,7 +8398,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3365311705,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الزمالك",
       "area": "القاهرة",
       "qrCode": 247,
@@ -8149,7 +8414,7 @@
       "machineModel": 3225,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3364897552,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الزمالك",
       "area": "القاهرة",
       "qrCode": 248,
@@ -8229,7 +8494,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3365180066,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "حلوان",
       "area": "القاهرة",
       "qrCode": 253,
@@ -8261,7 +8526,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364901371,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "حلوان",
       "area": "القاهرة",
       "qrCode": 255,
@@ -8277,7 +8542,7 @@
       "machineModel": 631,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": "cnfvlc60cy",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع غمرة",
       "area": "القاهرة",
       "qrCode": 256,
@@ -8357,7 +8622,7 @@
       "machineModel": 3320,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3384063054,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "مبني الفلكي",
       "area": "القاهرة",
       "qrCode": 261,
@@ -8389,7 +8654,7 @@
       "machineModel": 631,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": "CNFVLC40S5",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "معادي",
       "area": "القاهرة",
       "qrCode": 263,
@@ -8405,7 +8670,7 @@
       "machineModel": 3320,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": 3384087905,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "معادي",
       "area": "القاهرة",
       "qrCode": 264,
@@ -8485,7 +8750,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3364897447,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "معادي",
       "area": "القاهرة",
       "qrCode": 269,
@@ -8517,7 +8782,7 @@
       "machineModel": 4070,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": "3000AZN",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "العباسية",
       "area": "القاهرة",
       "qrCode": 271,
@@ -8533,7 +8798,7 @@
       "machineModel": 4070,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": "30002ZK",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "العباسية",
       "area": "القاهرة",
       "qrCode": 272,
@@ -8613,7 +8878,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364896670,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "العباسية",
       "area": "القاهرة",
       "qrCode": 277,
@@ -8645,7 +8910,7 @@
       "machineModel": "B405",
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3719542165,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "العباسية",
       "area": "القاهرة",
       "qrCode": 279,
@@ -8661,7 +8926,7 @@
       "machineModel": "B405",
       "lastVisitEng": "محمد رجب",
       "serialNumber": 3718924170,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "العباسية",
       "area": "القاهرة",
       "qrCode": 280,
@@ -8741,7 +9006,7 @@
       "machineModel": 3320,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3384096815,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "فرع الجيزة",
       "area": "الجيزة",
       "qrCode": 285,
@@ -8773,7 +9038,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3364899431,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "فرع الجيزة",
       "area": "الجيزة",
       "qrCode": 287,
@@ -8789,7 +9054,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3365311586,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع الجيزة",
       "area": "الجيزة",
       "qrCode": 288,
@@ -8869,7 +9134,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3364905300,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الدقي",
       "area": "الجيزة",
       "qrCode": 293,
@@ -8901,7 +9166,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364905784,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الدقي",
       "area": "الجيزة",
       "qrCode": 295,
@@ -8917,7 +9182,7 @@
       "machineModel": 3225,
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": 3364943287,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الدقي",
       "area": "الجيزة",
       "qrCode": 296,
@@ -8997,7 +9262,7 @@
       "machineModel": 4600,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3883659014,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "شبرا - مصر",
       "area": "القاهرة",
       "qrCode": 301,
@@ -9029,7 +9294,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3364905393,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "شبرا - مصر",
       "area": "القاهرة",
       "qrCode": 303,
@@ -9045,7 +9310,7 @@
       "machineModel": "B405",
       "lastVisitEng": "عمرو جمال",
       "serialNumber": 3718855267,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "شبرا - مصر",
       "area": "القاهرة",
       "qrCode": 304,
@@ -9125,7 +9390,7 @@
       "machineModel": "B405",
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3718977923,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "شبرا الخيمة",
       "area": "قليوبية",
       "qrCode": 309,
@@ -9157,7 +9422,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3364909003,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "شبرا الخيمة",
       "area": "قليوبية",
       "qrCode": 311,
@@ -9173,7 +9438,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": 3365137896,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "شبرا الخيمة",
       "area": "قليوبية",
       "qrCode": 312,
@@ -9253,7 +9518,7 @@
       "machineModel": 4070,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": "5000b7x",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "روكسي",
       "area": "القاهرة",
       "qrCode": 317,
@@ -9285,7 +9550,7 @@
       "machineModel": 3320,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3384084531,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "روكسي",
       "area": "القاهرة",
       "qrCode": 319,
@@ -9301,7 +9566,7 @@
       "machineModel": 3225,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3364904648,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "روكسي",
       "area": "القاهرة",
       "qrCode": 320,
@@ -9381,7 +9646,7 @@
       "machineModel": "B405",
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3718924048,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سيتي ستارز",
       "area": "القاهرة",
       "qrCode": 325,
@@ -9413,7 +9678,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364192605,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "عباس العقاد",
       "area": "القاهرة",
       "qrCode": 327,
@@ -9429,7 +9694,7 @@
       "machineModel": 631,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": "CNEVLBK0F1",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "نادي مدينة نصر",
       "area": "القاهرة",
       "qrCode": 328,
@@ -9509,7 +9774,7 @@
       "machineModel": 631,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "CNFVLC6j013",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "حدائق القبة",
       "area": "القاهرة",
       "qrCode": 333,
@@ -9541,7 +9806,7 @@
       "machineModel": 3320,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3384033732,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "حدائق القبة",
       "area": "القاهرة",
       "qrCode": 335,
@@ -9557,7 +9822,7 @@
       "machineModel": 4200,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": "v1s5272129",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "حدائق القبة",
       "area": "القاهرة",
       "qrCode": 336,
@@ -9637,7 +9902,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3365319587,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الخانكة",
       "area": "قليوبية",
       "qrCode": 341,
@@ -9669,7 +9934,7 @@
       "machineModel": "B405",
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3718979608,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الخانكة",
       "area": "قليوبية",
       "qrCode": 343,
@@ -9685,7 +9950,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": 3364901940,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الخانكة",
       "area": "قليوبية",
       "qrCode": 344,
@@ -9765,7 +10030,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3365181852,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "فرع 26 يوليو",
       "area": "القاهرة",
       "qrCode": 349,
@@ -9797,7 +10062,7 @@
       "machineModel": 631,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "CNFVLC40XP",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الهرم",
       "area": "الجيزة",
       "qrCode": 351,
@@ -9813,7 +10078,7 @@
       "machineModel": 3335,
       "lastVisitEng": "محمد رجب",
       "serialNumber": 5314276541,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الهرم",
       "area": "الجيزة",
       "qrCode": 352,
@@ -9893,7 +10158,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3365180260,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الهرم",
       "area": "الجيزة",
       "qrCode": 357,
@@ -9925,7 +10190,7 @@
       "machineModel": 635,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": "CNBBQ360BF",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الحوامدية",
       "area": "الجيزة",
       "qrCode": 359,
@@ -9941,7 +10206,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3364904524,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الحوامدية",
       "area": "الجيزة",
       "qrCode": 360,
@@ -10021,7 +10286,7 @@
       "machineModel": 635,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": "CNBBQ360P0",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "فرع 15 مايو",
       "area": "القاهرة",
       "qrCode": 365,
@@ -10053,7 +10318,7 @@
       "machineModel": 3335,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 5292139871,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "فرع 15 مايو",
       "area": "القاهرة",
       "qrCode": 367,
@@ -10069,7 +10334,7 @@
       "machineModel": 3225,
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": 3364898290,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع 15 مايو",
       "area": "القاهرة",
       "qrCode": 368,
@@ -10149,7 +10414,7 @@
       "machineModel": "B405",
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3718924412,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "أكتوبر الصناعية",
       "area": "الجيزة",
       "qrCode": 373,
@@ -10181,7 +10446,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3364924800,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "أكتوبر الصناعية",
       "area": "الجيزة",
       "qrCode": 375,
@@ -10197,7 +10462,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": 3365161972,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "أكتوبر الصناعية",
       "area": "الجيزة",
       "qrCode": 376,
@@ -10277,7 +10542,7 @@
       "machineModel": 3320,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3384047202,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "العاشر من رمضان",
       "area": "الشرقية",
       "qrCode": 381,
@@ -10309,7 +10574,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3365178924,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "العاشر من رمضان",
       "area": "الشرقية",
       "qrCode": 383,
@@ -10325,7 +10590,7 @@
       "machineModel": "B405",
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": 3718925010,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "العاشر من رمضان",
       "area": "الشرقية",
       "qrCode": 384,
@@ -10405,7 +10670,7 @@
       "machineModel": 3320,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3384034038,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 389,
@@ -10437,7 +10702,7 @@
       "machineModel": 3335,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 5292139898,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 391,
@@ -10453,7 +10718,7 @@
       "machineModel": 3320,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3972030790,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 392,
@@ -10533,7 +10798,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3364942370,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 397,
@@ -10565,7 +10830,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3365112176,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 399,
@@ -10581,7 +10846,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": 3364908910,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 400,
@@ -10661,7 +10926,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3364898044,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "هيئة الاستثمار",
       "area": "القاهرة",
       "qrCode": 405,
@@ -10693,7 +10958,7 @@
       "machineModel": 631,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": "CNFVLC00ZQ",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الفاو",
       "area": "الجيزة",
       "qrCode": 407,
@@ -10709,7 +10974,7 @@
       "machineModel": 3225,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": 3364901932,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الفاو",
       "area": "الجيزة",
       "qrCode": 408,
@@ -10789,7 +11054,7 @@
       "machineModel": "B405",
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3718924250,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "أكتوبر الحى المتميز",
       "area": "الجيزة",
       "qrCode": 413,
@@ -10821,7 +11086,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3364905440,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "أكتوبر الحى المتميز",
       "area": "الجيزة",
       "qrCode": 415,
@@ -10837,7 +11102,7 @@
       "machineModel": 631,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": "CNFVLc603w",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "جامعة الدول العربية",
       "area": "الجيزة",
       "qrCode": 416,
@@ -10917,7 +11182,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364945300,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "جامعة الدول العربية",
       "area": "الجيزة",
       "qrCode": 421,
@@ -10949,7 +11214,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3365180104,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "جامعة الدول العربية",
       "area": "الجيزة",
       "qrCode": 423,
@@ -10965,7 +11230,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد رجب",
       "serialNumber": 3364944445,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "جامعة الدول العربية",
       "area": "الجيزة",
       "qrCode": 424,
@@ -11045,7 +11310,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3364904745,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "مساكن شيرتون",
       "area": "القاهرة",
       "qrCode": 429,
@@ -11077,7 +11342,7 @@
       "machineModel": "B405",
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3718976838,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مصر والسودان",
       "area": "القاهرة",
       "qrCode": 431,
@@ -11093,7 +11358,7 @@
       "machineModel": "B405",
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3718867915,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "مصر والسودان",
       "area": "القاهرة",
       "qrCode": 432,
@@ -11173,7 +11438,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3365101662,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "النزهة الجديدة",
       "area": "القاهرة",
       "qrCode": 437,
@@ -11205,7 +11470,7 @@
       "machineModel": 631,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": "cnfvm2v182",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "فرع النيل بالعجوزة",
       "area": "الجيزة",
       "qrCode": 439,
@@ -11221,7 +11486,7 @@
       "machineModel": 3225,
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": 3364903285,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع النيل بالعجوزة",
       "area": "الجيزة",
       "qrCode": 440,
@@ -11301,7 +11566,7 @@
       "machineModel": 3320,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3384093972,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "البحر الأعظم",
       "area": "الجيزة",
       "qrCode": 445,
@@ -11333,7 +11598,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3364898737,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "البحر الأعظم",
       "area": "الجيزة",
       "qrCode": 447,
@@ -11349,7 +11614,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": 3365101220,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "البحر الأعظم",
       "area": "الجيزة",
       "qrCode": 448,
@@ -11429,7 +11694,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364904486,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سيتى ستارز",
       "area": "القاهرة",
       "qrCode": 453,
@@ -11461,7 +11726,7 @@
       "machineModel": 631,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": "CNFVLC507B",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سيتي كلوب",
       "area": "القاهرة",
       "qrCode": 455,
@@ -11477,7 +11742,7 @@
       "machineModel": 3320,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": 3384048225,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "سيتي كلوب",
       "area": "القاهرة",
       "qrCode": 456,
@@ -11557,7 +11822,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3364901142,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سيتي كلوب",
       "area": "القاهرة",
       "qrCode": 461,
@@ -11589,7 +11854,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3364903242,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "المنيل",
       "area": "القاهرة",
       "qrCode": 463,
@@ -11605,7 +11870,7 @@
       "machineModel": 3330,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3385143264,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "المنيل",
       "area": "القاهرة",
       "qrCode": 464,
@@ -11685,7 +11950,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3364941616,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الحى الاول العاشر من رمضان",
       "area": "الشرقية",
       "qrCode": 469,
@@ -11717,7 +11982,7 @@
       "machineModel": "B405",
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3718922622,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الحى الاول العاشر من رمضان",
       "area": "الشرقية",
       "qrCode": 471,
@@ -11733,7 +11998,7 @@
       "machineModel": 631,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": "CNFVLC00Q7",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "لطيف حلوان",
       "area": "القاهرة",
       "qrCode": 472,
@@ -11813,7 +12078,7 @@
       "machineModel": 631,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "CNFVM6B07H",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "جاردن سيتي",
       "area": "القاهرة",
       "qrCode": 477,
@@ -11845,7 +12110,7 @@
       "machineModel": "B405",
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3718925044,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "جاردن سيتي",
       "area": "القاهرة",
       "qrCode": 479,
@@ -11861,7 +12126,7 @@
       "machineModel": 635,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": "CNBBQ330BC",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع الماظة",
       "area": "القاهرة",
       "qrCode": 480,
@@ -11941,7 +12206,7 @@
       "machineModel": 631,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": "CNFVLC602S",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "الشيخ زايد",
       "area": "الجيزة",
       "qrCode": 485,
@@ -11973,7 +12238,7 @@
       "machineModel": 3335,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 5314277157,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "الشيخ زايد",
       "area": "الجيزة",
       "qrCode": 487,
@@ -11989,7 +12254,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": 3364943244,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "الشيخ زايد",
       "area": "الجيزة",
       "qrCode": 488,
@@ -12069,7 +12334,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364943198,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "فرع الطيران",
       "area": "القاهرة",
       "qrCode": 493,
@@ -12101,7 +12366,7 @@
       "machineModel": "B405",
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3718973111,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "القرية الزكية",
       "area": "الجيزة",
       "qrCode": 495,
@@ -12117,7 +12382,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد رجب",
       "serialNumber": 3365137853,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "القرية الزكية",
       "area": "الجيزة",
       "qrCode": 496,
@@ -12197,7 +12462,7 @@
       "machineModel": 3335,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 5292143763,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "نادي الصيد",
       "area": "الجيزة",
       "qrCode": 501,
@@ -12229,7 +12494,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3365180325,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "نادي الصيد",
       "area": "الجيزة",
       "qrCode": 503,
@@ -12245,7 +12510,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3364926234,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "نادي الصيد",
       "area": "الجيزة",
       "qrCode": 504,
@@ -12325,7 +12590,7 @@
       "machineModel": "B405",
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3718921138,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "كونكورد السلام",
       "area": "القاهرة",
       "qrCode": 509,
@@ -12357,7 +12622,7 @@
       "machineModel": "B405",
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3718922738,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سميراميس",
       "area": "القاهرة",
       "qrCode": 511,
@@ -12373,7 +12638,7 @@
       "machineModel": 631,
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": "CNFVM2V18G",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "عباس العقاد",
       "area": "القاهرة",
       "qrCode": 512,
@@ -12453,7 +12718,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3365137802,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "عباس العقاد",
       "area": "القاهرة",
       "qrCode": 517,
@@ -12485,7 +12750,7 @@
       "machineModel": 4600,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3883659219,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "عباس العقاد",
       "area": "القاهرة",
       "qrCode": 519,
@@ -12501,7 +12766,7 @@
       "machineModel": 635,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": "CNBBQ3309N",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "وادي دجلة",
       "area": "القاهرة",
       "qrCode": 520,
@@ -12581,7 +12846,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364897927,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "وادي دجلة",
       "area": "القاهرة",
       "qrCode": 525,
@@ -12613,7 +12878,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3364941446,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "التجمع الخامس",
       "area": "القاهرة",
       "qrCode": 527,
@@ -12629,7 +12894,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": 3364941578,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "التجمع الخامس",
       "area": "القاهرة",
       "qrCode": 528,
@@ -12709,7 +12974,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3365319781,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "التجمع الخامس",
       "area": "القاهرة",
       "qrCode": 533,
@@ -12741,7 +13006,7 @@
       "machineModel": 4600,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3883665057,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "هليوبلس الشروق",
       "area": "القاهرة",
       "qrCode": 535,
@@ -12757,7 +13022,7 @@
       "machineModel": 3335,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 5314276487,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "هليوبلس الشروق",
       "area": "القاهرة",
       "qrCode": 536,
@@ -12837,7 +13102,7 @@
       "machineModel": 4070,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": "30009cl",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "هيئة التنمية الصناعية",
       "area": "القاهرة",
       "qrCode": 541,
@@ -12869,7 +13134,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364943988,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "هيئة التنمية الصناعية",
       "area": "القاهرة",
       "qrCode": 543,
@@ -12885,7 +13150,7 @@
       "machineModel": 631,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": "CNCVL520G1",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "بيفلي هيلز",
       "area": "الجيزة",
       "qrCode": 544,
@@ -12965,7 +13230,7 @@
       "machineModel": 631,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "CNFVLC40T8",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "كلود 9",
       "area": "القاهرة",
       "qrCode": 549,
@@ -12997,7 +13262,7 @@
       "machineModel": "B405",
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3718924366,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "كلود 9",
       "area": "القاهرة",
       "qrCode": 551,
@@ -13013,7 +13278,7 @@
       "machineModel": "B405",
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": 3718924293,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "كلود 9",
       "area": "القاهرة",
       "qrCode": 552,
@@ -13093,7 +13358,7 @@
       "machineModel": "B405",
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3718919826,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "المعادي الجديدة",
       "area": "القاهرة",
       "qrCode": 557,
@@ -13125,7 +13390,7 @@
       "machineModel": "B405",
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3718873133,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "المعادي الجديدة",
       "area": "القاهرة",
       "qrCode": 559,
@@ -13141,7 +13406,7 @@
       "machineModel": 631,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": "CNFVM6B07Z",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "نادي الجلاء",
       "area": "القاهرة",
       "qrCode": 560,
@@ -13221,7 +13486,7 @@
       "machineModel": "B405",
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3718974797,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "نادي الجلاء",
       "area": "القاهرة",
       "qrCode": 565,
@@ -13253,7 +13518,7 @@
       "machineModel": 631,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "CNFVMCD0LM",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "اركان",
       "area": "القاهرة",
       "qrCode": 567,
@@ -13269,7 +13534,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد رجب",
       "serialNumber": 3365181780,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "اركان",
       "area": "القاهرة",
       "qrCode": 568,
@@ -13349,7 +13614,7 @@
       "machineModel": 1120,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": "q5y2296677",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 573,
@@ -13381,7 +13646,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3364897307,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 575,
@@ -13397,7 +13662,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3364898842,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 576,
@@ -13477,7 +13742,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3364945697,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 581,
@@ -13509,7 +13774,7 @@
       "machineModel": 3225,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3364897900,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 583,
@@ -13525,7 +13790,7 @@
       "machineModel": "B405",
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": 3718857278,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 584,
@@ -13605,7 +13870,7 @@
       "machineModel": "B405",
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3718868100,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "صلاح سالم",
       "area": "الاسكندرية",
       "qrCode": 589,
@@ -13637,7 +13902,7 @@
       "machineModel": 631,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": "CNFVLC5119",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سعد زغلول",
       "area": "الاسكندرية",
       "qrCode": 591,
@@ -13653,7 +13918,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": 3364902300,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "سعد زغلول",
       "area": "الاسكندرية",
       "qrCode": 592,
@@ -13733,7 +13998,7 @@
       "machineModel": 3220,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3224089146,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سعد زغلول",
       "area": "الاسكندرية",
       "qrCode": 597,
@@ -13765,7 +14030,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3364905199,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سعد زغلول",
       "area": "الاسكندرية",
       "qrCode": 599,
@@ -13781,7 +14046,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": 3364901673,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "سعد زغلول",
       "area": "الاسكندرية",
       "qrCode": 600,
@@ -13861,7 +14126,7 @@
       "machineModel": 4600,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3883661922,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سيدى بشر",
       "area": "الاسكندرية",
       "qrCode": 605,
@@ -13893,7 +14158,7 @@
       "machineModel": 4622,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3226985149,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سيدى بشر",
       "area": "الاسكندرية",
       "qrCode": 607,
@@ -13909,7 +14174,7 @@
       "machineModel": 3225,
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3364942280,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "سيدى بشر",
       "area": "الاسكندرية",
       "qrCode": 608,
@@ -13989,7 +14254,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3365111978,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سيدى بشر",
       "area": "الاسكندرية",
       "qrCode": 613,
@@ -14021,7 +14286,7 @@
       "machineModel": 4600,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3883665065,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مينا البصل",
       "area": "الاسكندرية",
       "qrCode": 615,
@@ -14037,7 +14302,7 @@
       "machineModel": 4600,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": 3883647202,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "مينا البصل",
       "area": "الاسكندرية",
       "qrCode": 616,
@@ -14117,7 +14382,7 @@
       "machineModel": 4600,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": 3883659405,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "مينا البصل",
       "area": "الاسكندرية",
       "qrCode": 621,
@@ -14149,7 +14414,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3364926374,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مينا البصل",
       "area": "الاسكندرية",
       "qrCode": 623,
@@ -14165,7 +14430,7 @@
       "machineModel": 631,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": "CNFVM2V181",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "طلعت حرب",
       "area": "الاسكندرية",
       "qrCode": 624,
@@ -14245,7 +14510,7 @@
       "machineModel": 3225,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3364905415,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "طلعت حرب",
       "area": "الاسكندرية",
       "qrCode": 629,
@@ -14277,7 +14542,7 @@
       "machineModel": "B405",
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3718924641,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "طلعت حرب",
       "area": "الاسكندرية",
       "qrCode": 631,
@@ -14293,7 +14558,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": 3364908848,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "طلعت حرب",
       "area": "الاسكندرية",
       "qrCode": 632,
@@ -14373,7 +14638,7 @@
       "machineModel": 3320,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3384034224,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 637,
@@ -14405,7 +14670,7 @@
       "machineModel": 4070,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "30005HN",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 639,
@@ -14421,7 +14686,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد رجب",
       "serialNumber": 3364941470,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 640,
@@ -14501,7 +14766,7 @@
       "machineModel": 3225,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 3365180180,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 645,
@@ -14533,7 +14798,7 @@
       "machineModel": 4200,
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": "v1s5272512",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 647,
@@ -14549,7 +14814,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محمد جمال موسى",
       "serialNumber": 3364941764,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 648,
@@ -14629,7 +14894,7 @@
       "machineModel": "B405",
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3718955920,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 653,
@@ -14661,7 +14926,7 @@
       "machineModel": 4600,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": 3883660225,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "سبورتنج",
       "area": "الاسكندرية",
       "qrCode": 655,
@@ -14677,7 +14942,7 @@
       "machineModel": "B405",
       "lastVisitEng": "زكي عبد العزيز محمد",
       "serialNumber": 3719589749,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "السادات",
       "area": "المنوفية",
       "qrCode": 656,
@@ -14757,7 +15022,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3364898656,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "السادات",
       "area": "المنوفية",
       "qrCode": 661,
@@ -14789,7 +15054,7 @@
       "machineModel": 3335,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": 5314275669,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "السادات",
       "area": "المنوفية",
       "qrCode": 663,
@@ -14805,7 +15070,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو جمال",
       "serialNumber": 3364898532,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "السادات",
       "area": "المنوفية",
       "qrCode": 664,
@@ -14885,7 +15150,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364908996,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "مرسي مطروح",
       "area": "مرسي مطروح",
       "qrCode": 669,
@@ -14917,7 +15182,7 @@
       "machineModel": "B405",
       "lastVisitEng": "محمد إسكندر محمد",
       "serialNumber": 3718923858,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مرسي مطروح",
       "area": "مرسي مطروح",
       "qrCode": 671,
@@ -14933,7 +15198,7 @@
       "machineModel": 631,
       "lastVisitEng": "عبد الرحمن يسرى علي",
       "serialNumber": "CNFVM2T0ZJ",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "برج العرب",
       "area": "الاسكندرية",
       "qrCode": 672,
@@ -15013,7 +15278,7 @@
       "machineModel": 3225,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": 3364941438,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "برج العرب",
       "area": "الاسكندرية",
       "qrCode": 677,
@@ -15045,7 +15310,7 @@
       "machineModel": 3225,
       "lastVisitEng": "وليد عمر عبد القادر",
       "serialNumber": 3365101263,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "برج العرب",
       "area": "الاسكندرية",
       "qrCode": 679,
@@ -15061,7 +15326,7 @@
       "machineModel": "B405",
       "lastVisitEng": "أحمد عاطف عمر",
       "serialNumber": 3718857480,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "برج العرب",
       "area": "الاسكندرية",
       "qrCode": 680,
@@ -15141,7 +15406,7 @@
       "machineModel": 3225,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": 3364905342,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "أبو قير",
       "area": "الاسكندرية",
       "qrCode": 685,
@@ -15173,7 +15438,7 @@
       "machineModel": 3225,
       "lastVisitEng": "عمرو محمود زينهم",
       "serialNumber": 3364942868,
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "مينا البصل",
       "area": "الاسكندرية",
       "qrCode": 687,
@@ -15189,7 +15454,7 @@
       "machineModel": 3225,
       "lastVisitEng": "محسن محمد احمد",
       "serialNumber": 3364905601,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "فرع الدخيلة",
       "area": "الاسكندرية",
       "qrCode": 688,
@@ -15269,7 +15534,7 @@
       "machineModel": 4070,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "50004cj",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "فرع الدخيلة",
       "area": "الاسكندرية",
       "qrCode": 693,
@@ -15301,7 +15566,7 @@
       "machineModel": 631,
       "lastVisitEng": "احمد عبد الله",
       "serialNumber": "CNCVL6K12G",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "جليم",
       "area": "الاسكندرية",
       "qrCode": 695,
@@ -15317,7 +15582,7 @@
       "machineModel": 631,
       "lastVisitEng": "طارق احمد لولي",
       "serialNumber": "CNFVLC40ZH",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "جليم",
       "area": "الاسكندرية",
       "qrCode": 696,
@@ -15397,7 +15662,7 @@
       "machineModel": "B405",
       "lastVisitEng": "هاني إبراهيم جلال",
       "serialNumber": 3718922720,
-      "client": "BDC",
+      "client": "NBE",
       "branch": "جليم",
       "area": "الاسكندرية",
       "qrCode": 701,
@@ -15429,7 +15694,7 @@
       "machineModel": 631,
       "lastVisitEng": "حسين فتحي محمد",
       "serialNumber": "cnfvlc503g",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "دمنهور",
       "area": "البحيرة",
       "qrCode": 703,
@@ -15445,7 +15710,7 @@
       "machineModel": "B405",
       "lastVisitEng": "احمد شوقي احمد",
       "serialNumber": 3718923769,
-      "client": "CIB",
+      "client": "NBK",
       "branch": "دمنهور",
       "area": "البحيرة",
       "qrCode": 704,
@@ -15525,7 +15790,7 @@
       "machineModel": 4200,
       "lastVisitEng": "قاضي سيد عبد العاطي",
       "serialNumber": "V1S4730885",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "دمنهور",
       "area": "البحيرة",
       "qrCode": 709,
@@ -15557,7 +15822,7 @@
       "machineModel": 4070,
       "lastVisitEng": "وليد عبد الرحيم على",
       "serialNumber": "5000lef",
-      "client": "AAIB",
+      "client": "Banque Misr",
       "branch": "دمنهور",
       "area": "البحيرة",
       "qrCode": 711,
@@ -15573,7 +15838,7 @@
       "machineModel": 4070,
       "lastVisitEng": "محمد رجب",
       "serialNumber": "300053z",
-      "client": "CIB",
+      "client": "NBK",
       "branch": "دمنهور",
       "area": "البحيرة",
       "qrCode": 712,
@@ -15653,7 +15918,7 @@
       "machineModel": 631,
       "lastVisitEng": "سيد أحمد سيد",
       "serialNumber": "CNCVL6G024",
-      "client": "BDC",
+      "client": "NBE",
       "branch": "رشيد",
       "area": "البحيرة",
       "qrCode": 717,
@@ -15683,7 +15948,7 @@
   "troubleshooting": [
     {
       "id": 1,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Mohamed loly",
       "branch": "ورديان",
       "machineBrand": "Xerox",
@@ -15698,7 +15963,7 @@
     },
     {
       "id": 2,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Mohamed Abdellah",
       "branch": "بلقاس الدقهليه",
       "machineBrand": "Xerox",
@@ -15713,7 +15978,7 @@
     },
     {
       "id": 3,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Yassin El-Dekn",
       "branch": "المساحة",
       "machineBrand": "Xerox",
@@ -15803,7 +16068,7 @@
     },
     {
       "id": 9,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Mohamed Tarek",
       "branch": "دمياط الجديدة",
       "machineBrand": "Xerox",
@@ -15818,7 +16083,7 @@
     },
     {
       "id": 10,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Mohamed Mostafa",
       "branch": "مول العرب",
       "machineBrand": "Xerox",
@@ -15833,7 +16098,7 @@
     },
     {
       "id": 11,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Hisham",
       "branch": "القرية الذكية",
       "machineBrand": "Xerox",
@@ -15923,7 +16188,7 @@
     },
     {
       "id": 17,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Tarek Loly",
       "branch": "التحرير",
       "machineBrand": "Xerox",
@@ -15938,7 +16203,7 @@
     },
     {
       "id": 18,
-      "client": "Misr Bank",
+      "client": "Banque Misr",
       "operator": "Dalia Mohamed",
       "branch": "ميدان عرابى",
       "machineBrand": "Xerox",
@@ -15953,7 +16218,7 @@
     },
     {
       "id": 19,
-      "client": "CIB",
+      "client": "NBK",
       "operator": "Islam Mohamed",
       "branch": "لبنان",
       "machineBrand": "Xerox",
@@ -16043,7 +16308,7 @@
     },
     {
       "id": 25,
-      "client": "BDC",
+      "client": "NBE",
       "operator": "Yassin El-Dekn",
       "branch": "سيتى ستارز",
       "machineBrand": "Xerox",

@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useEffect, useState } from "react";
+import React, { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import { Button, TextField, Typography } from "@mui/material";
 import AddCircleSharpIcon from "@mui/icons-material/AddCircleSharp";
 import AddMachineModal from "./addMachineModal";
@@ -20,7 +20,25 @@ function AllMachines() {
   const LazyMachineCard = lazy(() =>
     import("../../../ui/cards/machineCard.js")
   );
-
+  const memoMachines = useMemo(
+    () => (
+      <div className="w-full flex flex-1 flex-row flex-wrap justify-center items-center gap-2 mt-2">
+        {matchedMachines.map((machine) => (
+          <LazyMachineCard
+            key={machine.id}
+            serialNumber={machine.serialNumber}
+            qrCode={machine.qrCode}
+            client={machine.client}
+            branch={machine.branch}
+            model={machine.machineModel}
+            area={machine.area}
+            property={machine.ownership === "property"}
+          />
+        ))}
+      </div>
+    ),
+    [matchedMachines]
+  );
   useEffect(() => {
     async function fetchAllMachines() {
       try {
@@ -151,20 +169,7 @@ function AllMachines() {
             </div>
           }
         >
-          <div className="w-full flex flex-1 flex-row flex-wrap justify-around items-center gap-2 mt-2">
-            {matchedMachines.map((machine) => (
-              <LazyMachineCard
-                key={machine.id}
-                serialNumber={machine.serialNumber}
-                qrCode={machine.qrCode}
-                client={machine.client}
-                branch={machine.branch}
-                model={machine.machineModel}
-                area={machine.area}
-                property={machine.ownership === "property"}
-              />
-            ))}
-          </div>
+          {memoMachines}
         </Suspense>
       ) : (
         <div className="w-full h-[70vh] flex justify-center items-center">

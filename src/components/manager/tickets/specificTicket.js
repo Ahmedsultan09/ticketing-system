@@ -25,6 +25,7 @@ import SubtitlesOutlinedIcon from "@mui/icons-material/SubtitlesOutlined";
 import PrintOutlinedIcon from "@mui/icons-material/PrintOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { SupervisedUserCircleOutlined } from "@mui/icons-material";
+import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 
 function SpecificTicket() {
   const params = useParams();
@@ -185,6 +186,11 @@ function SpecificTicket() {
           )}
           <InfoLabel title="Issue" details={specificTicket?.issue} />
           <InfoLabel title="Suggestion" details={specificTicket?.suggestion} />
+          <InfoLabel
+            title="Priority"
+            icon={<PriorityHighIcon />}
+            details={specificTicket?.priority}
+          />
           {specificTicket?.ticketType === "open" && (
             <Grid item xs={12}>
               <Item className="h-full">

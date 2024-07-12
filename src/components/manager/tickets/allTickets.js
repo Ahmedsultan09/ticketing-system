@@ -24,10 +24,9 @@ export default function Tickets({ type }) {
   const columns = [
     {
       field: "id",
-      headerName: "Ticket Number",
-      flex: 1,
-      width: 130,
-      minWidth: 100,
+      headerName: "T/N",
+      width: 70,
+      minWidth: 60,
       renderCell: (params) => (
         <Direct
           to={`/tickets/${params.value}`}
@@ -159,7 +158,7 @@ export default function Tickets({ type }) {
           {params.value === "spare-parts" ? (
             <BlueLabel text="spare parts" />
           ) : null}
-          {params.value === "irreparable" ? <RedLabel text="scarbed" /> : null}
+          {params.value === "scrabed" ? <RedLabel text="scarbed" /> : null}
           {params.value === "on-going" ? <GreyLabel text="assigned" /> : null}
           {params.value === "not-assigned-yet" ? (
             <PurpleLabel text="not assigned yet" />
@@ -197,6 +196,29 @@ export default function Tickets({ type }) {
         </div>
       ),
     },
+    {
+      field: "priority",
+      headerName: "Priority",
+      flex: 1,
+      width: 130,
+      minWidth: 100,
+      align: "center",
+      headerAlign: "center",
+      renderCell: (params) => (
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100%",
+          }}
+        >
+          {params.value === "low" ? <GreenLabel text="low" /> : null}
+          {params.value === "medium" ? <BlueLabel text="Medium" /> : null}
+          {params.value === "high" ? <RedLabel text="High" /> : null}
+        </div>
+      ),
+    },
 
     ...(isManager
       ? [
@@ -225,7 +247,7 @@ export default function Tickets({ type }) {
   const smallScreenColumns = [
     {
       field: "id",
-      headerName: "Ticket Number",
+      headerName: "T/N",
       flex: 1,
       minWidth: 140,
       renderCell: (params) => (

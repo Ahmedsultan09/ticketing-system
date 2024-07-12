@@ -18,7 +18,7 @@ export default function MachineCard({
   property,
 }) {
   return (
-    <div className="lg:w-[290px] sm:w-1/2 h-56 rounded-2xl shadow-xl shadow-slate-200 p-2">
+    <div className="lg:w-[280px] sm:w-1/2 h-56 rounded-2xl shadow-xl shadow-slate-200 p-2">
       <div className="h-full">
         <div className="lg:w-full h-1/5 flex lg:flex-row md:w-full md:flex-row flex-col items-center justify-center lg:justify-between px-2">
           <Direct

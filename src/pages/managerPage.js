@@ -14,8 +14,8 @@ import AllMachines from "../components/manager/machines/allMachines";
 import SpecificMachine from "../components/manager/machines/specificMachine";
 import AllTroubleshooting from "../components/manager/troubleshooting/allTroubleshooting";
 import SpecificTroubleshooting from "../components/manager/troubleshooting/specificTroubleshooting";
-import AllClients from "../components/manager/client/allClients";
-import SpecificClient from "../components/manager/client/specificClient";
+import AllClients from "../components/manager/clients/allClients";
+import SpecificClient from "../components/manager/clients/specificClient";
 function ManagerPage() {
   return (
     <>

@@ -63,6 +63,7 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        className="overflow-auto"
       >
         <Box
           sx={{ ...style, width: "80%", maxWidth: 800, height: 600 }}

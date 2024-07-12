@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link as Direct, Link, useLocation, useParams } from "react-router-dom";
+import { Link as Direct, Link, useLocation } from "react-router-dom";
 import logo from "../../assets/images/bigdata-logo.png";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import UsersNavigationBtn from "./usersNavigationBtn";
