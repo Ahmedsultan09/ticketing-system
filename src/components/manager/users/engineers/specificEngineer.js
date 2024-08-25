@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import EngineerInfo from "./engineerInfo";
 import EngineerRegularVisit from "./engineerRegularVisit";
-import axios from "axios";
+import axiosInstance from "../../../../api/axiosInstance";
 
 function SpecificEngineer() {
   const [tap, setTap] = useState("info");
@@ -14,7 +14,7 @@ function SpecificEngineer() {
 
   useEffect(() => {
     async function fetchSepecificEng() {
-      const response = await axios.get("http://localhost:3000/engineers");
+      const response = await axiosInstance.get("/engineers");
       const allEngineers = response.data;
       if (allEngineers) {
         const specificEngineer = allEngineers.find(

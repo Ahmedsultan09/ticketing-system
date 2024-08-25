@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../../../api/axiosInstance";
 import {
   Grid,
   Paper,
@@ -45,7 +45,7 @@ function SpecificTasksModal({ open, handleClose, operator }) {
 
   useEffect(() => {
     async function fetchAllTickets() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("/tickets");
       const allTickets = response.data;
       if (operator && operator.ticketsCreated) {
         const filteredTickets = operator.ticketsCreated.map((id) =>
@@ -200,7 +200,9 @@ function AllOperators() {
 
   useEffect(() => {
     async function fetchOperators() {
-      const response = await axios.get("http://localhost:3000/operators");
+      const response = await axiosInstance.get(
+        "http://localhost:3000/operators"
+      );
       const allOperators = await response.data;
       setOperator(allOperators);
     }

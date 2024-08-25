@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 import EditIcon from "@mui/icons-material/Edit";
 import EditOperatorModal from "./editOperatorModal";
 import { DataGrid } from "@mui/x-data-grid";
-import axios from "axios";
+import axiosInstance from "../../../../api/axiosInstance";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import PrintOutlinedIcon from "@mui/icons-material/PrintOutlined";
 import { Link as Direct } from "react-router-dom";
@@ -36,7 +36,7 @@ function OperatorInfo({
 
   useEffect(() => {
     async function fetchAllTicketsCreated() {
-      const response = await axios.get("http://localhost:3000/operators");
+      const response = await axiosInstance.get("/operators");
       const allOperators = await response.data;
       const SpecificOperator = allOperators.find((operator) => {
         return parseInt(operator.id) === parseInt(id);
@@ -49,7 +49,7 @@ function OperatorInfo({
 
   useEffect(() => {
     async function fetchTicketsDetails() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("/tickets");
       const allTickets = await response.data;
       const ticketsDetails = [];
       for (let i = 0; i < allTickets.length; i++) {

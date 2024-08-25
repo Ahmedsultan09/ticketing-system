@@ -4,7 +4,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -14,7 +14,7 @@ export default function MachinePartsOptions() {
 
   useEffect(() => {
     async function fetchSpareParts() {
-      const response = await axios.get("http://localhost:3000/spareParts");
+      const response = await axiosInstance.get("/spareParts");
       const sparePartsData = await response.data;
       setSpareParts(sparePartsData);
     }

@@ -36,6 +36,7 @@ export default function CreateRegularVisitModal({ open, handleClose, name }) {
   const [branch, setBranch] = useState("");
   const [dateValue, setDateValue] = useState(dayjs("2022-04-17"));
   const [period, setPeriod] = useState("");
+  const [area, setArea] = useState("القاهرة");
   const [isFormValid, setIsFormValid] = useState(false);
 
   useEffect(() => {
@@ -47,6 +48,9 @@ export default function CreateRegularVisitModal({ open, handleClose, name }) {
   }, [client, branch, dateValue, period]);
   const handleClientChange = (event) => {
     setClient(event.target.value);
+  };
+  const handleChangeArea = (event) => {
+    setArea(event.target.value);
   };
   const handleBranchChange = (event) => {
     setBranch(event.target.value);
@@ -102,13 +106,23 @@ export default function CreateRegularVisitModal({ open, handleClose, name }) {
                   </MenuItem>
                 </Select>
               </FormControl>
-              {client === "" ? (
-                <FormControl
-                  fullWidth
-                  size="small"
-                  className="!mt-3 !w-[49%]"
-                  disabled
+              <FormControl fullWidth size="small" className="!mt-3 !w-[49%]">
+                <InputLabel id="branch">Area</InputLabel>
+                <Select
+                  labelId="area"
+                  id="area"
+                  value={area}
+                  label="Area"
+                  onChange={handleChangeArea}
+                  required
                 >
+                  <MenuItem value={"القاهرة"}>القاهرة</MenuItem>
+                  <MenuItem value={"الاسكندرية"}>الاسكندرية</MenuItem>
+                  <MenuItem value={"السويس"}>السويس</MenuItem>
+                </Select>
+              </FormControl>
+              {client === "" ? (
+                <FormControl fullWidth size="small" className="!mt-3" disabled>
                   <InputLabel id="demo-simple-select-label">Branch</InputLabel>
                   <Select
                     labelId="demo-simple-select-label"
@@ -129,7 +143,7 @@ export default function CreateRegularVisitModal({ open, handleClose, name }) {
                   </Select>
                 </FormControl>
               ) : (
-                <FormControl fullWidth size="small" className="!mt-3 !w-[49%]">
+                <FormControl fullWidth size="small" className="!mt-3">
                   <InputLabel id="demo-simple-select-label">Branch</InputLabel>
                   <Select
                     labelId="demo-simple-select-label"

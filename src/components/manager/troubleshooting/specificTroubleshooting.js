@@ -2,9 +2,9 @@ import { Button, Grid, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import InfoLabel from "../../../ui/infoLabel";
+import InfoLabel from "../../../ui/components/infoLabel";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 import NumbersIcon from "@mui/icons-material/Numbers";
 import BusinessIcon from "@mui/icons-material/Business";
 import EngineeringIcon from "@mui/icons-material/Engineering";
@@ -21,9 +21,7 @@ function SpecificTroubleshooting() {
   useEffect(() => {
     async function fetchTroubleshooting() {
       try {
-        const response = await axios.get(
-          "http://localhost:3000/troubleshooting"
-        );
+        const response = await axiosInstance.get("/troubleshooting");
         const specificIssue = await response.data[params.issueID - 1];
         setSpecificIssue(specificIssue);
       } catch (error) {
@@ -104,7 +102,10 @@ function SpecificTroubleshooting() {
             details={specificIssue?.lastMeterDate}
           />
           <InfoLabel title="Issue" details={specificIssue?.issue} />
-          <InfoLabel title="Suggestion" details={specificIssue?.suggestion} />
+          <InfoLabel
+            title="Explanation of its solved"
+            details={specificIssue?.explanation}
+          />
           <Box className="w-full flex flex-row gap-2 items-end justify-center my-3">
             <Button
               onClick={() => navigate(-1)}

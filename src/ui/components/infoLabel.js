@@ -1,10 +1,10 @@
 import { Box, Grid, Paper, Typography } from "@mui/material";
 import React from "react";
 import { styled } from "@mui/material/styles";
-import GreenLabel from "./type-labels/greenLabel";
-import YellowLabel from "./type-labels/yellowLabel";
-import RedLabel from "./type-labels/redLabel";
-import BlueLabel from "./type-labels/blueLabel";
+import GreenLabel from "../type-labels/greenLabel";
+import YellowLabel from "../type-labels/yellowLabel";
+import RedLabel from "../type-labels/redLabel";
+import BlueLabel from "../type-labels/blueLabel";
 
 function InfoLabel({ title, details, icon, xs = 4, size }) {
   const Item = styled(Paper)(({ theme }) => ({

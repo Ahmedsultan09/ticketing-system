@@ -19,7 +19,8 @@ import nbeLogo from "../../../assets/clients/nbe-logo.png";
 import nbkLogo from "../../../assets/clients/nbk-logo.png";
 import bmLogo from "../../../assets/clients/bm-logo.png";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import contract from "../../../assets/contracts/qnb.pdf";
+import contract from "../../../assets/contracts/contract.pdf";
+import axiosInstance from "../../../api/axiosInstance";
 import React, {
   lazy,
   Suspense,
@@ -44,15 +45,15 @@ import RedLabel from "../../../ui/type-labels/redLabel";
 import BlueLabel from "../../../ui/type-labels/blueLabel";
 import GreyLabel from "../../../ui/type-labels/greyLabel";
 import PurpleLabel from "../../../ui/type-labels/purpleLabel";
-import axios from "axios";
 import { DataGrid } from "@mui/x-data-grid";
 import { TailSpin } from "react-loader-spinner";
 import AddCllientModal from "./addClientModal";
 import EditIcon from "@mui/icons-material/Edit";
 import SaveIcon from "@mui/icons-material/Save";
+import MultipleSelect from "../../../ui/components/multipleSelect";
 
 function AllClients() {
-  const [clients, setClients] = useState([
+  const [clients] = useState([
     {
       id: 1,
       name: "QNB",
@@ -106,7 +107,8 @@ function AllClients() {
   const [clientTroubleshooting, setClientTroubleshooting] = useState([]);
   const [currentClient, setCurrentClient] = useState(clients[0]);
   const [machines, setMachines] = useState([]);
-  const [isManager, setIsManager] = useState(true);
+  const [operators, setOperators] = useState([]);
+  const [isManager] = useState(true);
   const [search, setSearch] = useState("");
   const [matchedMachines, setMatchedMachines] = useState([]);
   const [isEmpty, setIsEmpty] = useState(false);
@@ -119,6 +121,9 @@ function AllClients() {
   const [currentClientName, setCurrentClientName] = useState(
     currentClient.name
   );
+  const [currentOperators, setCurrentOperators] = useState([
+    currentClient.operator,
+  ]);
   const ruleTextInputRef = useRef("");
   const ruleTypeInputRef = useRef("");
   const [rule, setRule] = useState({ id: 0, type: "", text: "" });
@@ -541,7 +546,7 @@ function AllClients() {
 
   useEffect(() => {
     async function fetchMachines() {
-      const response = await axios.get("http://localhost:3000/machines");
+      const response = await axiosInstance.get("/machines");
       const allMachines = await response.data;
       const filteredMachines = allMachines.filter((machine) => {
         return (
@@ -571,7 +576,7 @@ function AllClients() {
 
   useEffect(() => {
     async function fetchTickets() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("/tickets");
       const allTickets = response.data;
       const filteredTickets = allTickets.filter((ticket) => {
         return ticket.client.toUpperCase() === currentClient.name.toUpperCase();
@@ -582,7 +587,7 @@ function AllClients() {
   }, [currentClient.name]);
   useEffect(() => {
     async function fetchTroubleshooting() {
-      const response = await axios.get("http://localhost:3000/troubleshooting");
+      const response = await axiosInstance.get("/troubleshooting");
       const allIssues = response.data;
       const filteredIssues = allIssues.filter((issue) => {
         return issue.client.toUpperCase() === currentClient.name.toUpperCase();
@@ -595,7 +600,8 @@ function AllClients() {
   useEffect(() => {
     setCurrentClientRules(currentClient.rules);
     setCurrentClientName(currentClient.name);
-  }, [currentClient.rules, currentClient.name]);
+    setCurrentOperators([currentClient.operator]);
+  }, [currentClient.rules, currentClient.name, currentClient.operator]);
 
   function handleSeeMore() {
     setEnd((prev) => prev + 5);
@@ -621,6 +627,18 @@ function AllClients() {
     setCurrentClientRules((prev) => prev.filter((rule) => rule.id !== id));
   }
 
+  useEffect(() => {
+    async function fetchOperators() {
+      const response = await axiosInstance.get("/operators");
+      const allOperators = await response.data;
+      setOperators(allOperators);
+    }
+    fetchOperators();
+  }, []);
+
+  function handleChangeOperator(data) {
+    setCurrentOperators(data);
+  }
   return (
     <div className="w-full h-full ">
       {" "}
@@ -712,14 +730,29 @@ function AllClients() {
               )}
             </Typography>
           </div>
-          <div className="w-full h-1/5 border-b rounded-xl border-gray-400 p-3 font-normal flex items-center justify-start">
-            <Typography className="w-auto h-full opacity-60 font-normal mr-1">
-              Operator:{" "}
-              <span className="font-bold opacity-100">
-                {currentClient.operator}
-              </span>
-            </Typography>
-          </div>
+          {isEdit ? (
+            <MultipleSelect
+              data={operators}
+              required={false}
+              handleChangeOperator={handleChangeOperator}
+            />
+          ) : (
+            <div className="w-full h-1/5 border-b rounded-xl border-gray-400 p-3 font-normal flex items-center justify-start">
+              <Typography className="w-auto h-full opacity-60 font-normal mr-1">
+                Operator:{" "}
+                <span className="font-bold opacity-100">
+                  {currentOperators.length > 0 &&
+                    currentOperators.map((operator, index) => {
+                      if (index === currentOperators.length - 1) {
+                        return <span key={index}>{operator}</span>;
+                      } else {
+                        return <span>{operator}, </span>;
+                      }
+                    })}
+                </span>
+              </Typography>
+            </div>
+          )}
 
           {isEdit && currentClient ? (
             <div className="w-full flex flex-row flex-wrap gap-3 items-end justify-end">

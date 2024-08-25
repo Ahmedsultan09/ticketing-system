@@ -13,15 +13,15 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import InfoLabel from "../../../ui/infoLabel";
+import InfoLabel from "../../../ui/components/infoLabel";
 import GreenLabel from "../../../ui/type-labels/greenLabel";
 import RedLabel from "../../../ui/type-labels/redLabel";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 import { useParams } from "react-router-dom";
 import ContractRules from "../../../ui/contractRules";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "../../../index.css";
-import contract from "../../../assets/contracts/qnb.pdf";
+import contract from "../../../assets/contracts/contract.pdf";
 import { DataGrid } from "@mui/x-data-grid";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 import SubtitlesOutlinedIcon from "@mui/icons-material/SubtitlesOutlined";
@@ -165,7 +165,7 @@ function SpecificMachine() {
 
   useEffect(() => {
     async function fetchSpecificMachine() {
-      const response = await axios.get("http://localhost:3000/machines");
+      const response = await axiosInstance.get("/machines");
       const allMachines = response.data;
       const specificMachine = allMachines.find((machine) => {
         return (
@@ -181,7 +181,7 @@ function SpecificMachine() {
   // edit this to show tickets opened on the same machine serial number not all tickets
   useEffect(() => {
     async function fetchAllTickets() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("http://localhost:3000/tickets");
       const allTickets = response.data;
       setTickets(allTickets.splice(0, 4));
     }

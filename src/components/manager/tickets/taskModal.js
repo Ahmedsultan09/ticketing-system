@@ -7,7 +7,7 @@ import { Paper } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -39,7 +39,7 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
 
   useEffect(() => {
     async function fetchAllTickets() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("/tickets");
       const allTickets = response.data;
       const filteredTickets = tasksId.map((id) =>
         allTickets.find((ticket) => parseInt(ticket.id) === parseInt(id))
@@ -66,8 +66,14 @@ export default function TasksModal({ open, handleClose, engName, tasksId }) {
         className="overflow-auto"
       >
         <Box
-          sx={{ ...style, width: "80%", maxWidth: 800, height: 600 }}
-          className="flex flex-col items-center justify-center rounded-2xl"
+          sx={{
+            ...style,
+            width: "80%",
+            maxWidth: 800,
+            maxHeight: "90vh",
+            overflow: "auto",
+          }}
+          className="flex flex-col items-center  rounded-2xl"
         >
           <Box className="w-full flex flex-col gap-2 items-center justify-center">
             <Typography variant="h6" className="font-bold">

@@ -69,8 +69,7 @@ export default function UsersNavigationBtn() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         variant="text"
-        className="text-gray-300 hover:text-white cursor-pointer font-medium"
-        disableElevation
+        className="text-gray-300 flex flex-row hover:text-white cursor-pointer font-medium"
         onClick={handleClick}
         size="small"
       >

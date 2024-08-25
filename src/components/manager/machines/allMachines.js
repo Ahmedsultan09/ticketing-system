@@ -6,7 +6,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 import { TailSpin } from "react-loader-spinner";
 
 function AllMachines() {
@@ -42,7 +42,7 @@ function AllMachines() {
   useEffect(() => {
     async function fetchAllMachines() {
       try {
-        const response = await axios.get("http://localhost:3000/machines");
+        const response = await axiosInstance.get("/machines");
         const allMachines = response.data;
         if (client === 0) {
           setMachines(allMachines);

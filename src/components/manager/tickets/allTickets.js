@@ -1,7 +1,6 @@
 import { DataGrid } from "@mui/x-data-grid";
 import { Link as Direct } from "react-router-dom";
 import CreateTicketModal from "./createIssueModal";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { SupervisedUserCircleOutlined } from "@mui/icons-material";
 import BusinessIcon from "@mui/icons-material/Business";
@@ -16,11 +15,11 @@ import RedLabel from "../../../ui/type-labels/redLabel";
 import BlueLabel from "../../../ui/type-labels/blueLabel";
 import GreyLabel from "../../../ui/type-labels/greyLabel";
 import PurpleLabel from "../../../ui/type-labels/purpleLabel";
+import axiosInstance from "../../../api/axiosInstance";
 
 export default function Tickets({ type }) {
-  const isSmallScreen = window.innerWidth <= 768;
   const [rows, setRows] = useState([]);
-  const [isManager, setIsManager] = useState(true);
+  const [isManager] = useState(true);
   const columns = [
     {
       field: "id",
@@ -244,58 +243,10 @@ export default function Tickets({ type }) {
       : []),
   ];
 
-  const smallScreenColumns = [
-    {
-      field: "id",
-      headerName: "T/N",
-      flex: 1,
-      minWidth: 140,
-      renderCell: (params) => (
-        <Direct
-          to={`/tickets/${params.value}`}
-          className="w-full text-blue-500 flex items-center justify-center"
-        >
-          {params.value}
-        </Direct>
-      ),
-      headerAlign: "center",
-    },
-    {
-      field: "serialNumber",
-      headerName: "Serial Number",
-      flex: 1,
-      width: 130,
-      minWidth: 100,
-      type: "number",
-      align: "center",
-      headerAlign: "center",
-    },
-    {
-      field: "ticketDate",
-      headerName: "Ticket Date",
-      flex: 1,
-      width: 130,
-      minWidth: 100,
-      align: "center",
-      headerAlign: "center",
-    },
-    {
-      field: "client",
-      headerName: "Client",
-      description: "This column has a value getter and is not sortable.",
-      sortable: false,
-      flex: 1,
-      width: 130,
-      minWidth: 100,
-      align: "center",
-      headerAlign: "center",
-    },
-  ];
-
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/tickets");
+        const response = await axiosInstance.get("/tickets");
         const allTickets = await response.data;
         if (type === "opened") {
           const openedTickets = allTickets.filter(
@@ -322,6 +273,7 @@ export default function Tickets({ type }) {
 
     fetchData();
   }, [type]);
+
   return (
     <div style={{ height: "90vh", width: "100%" }}>
       <CreateTicketModal type={type} />
@@ -330,7 +282,7 @@ export default function Tickets({ type }) {
           boxShadow: 2,
         }}
         rows={rows}
-        columns={isSmallScreen ? smallScreenColumns : columns}
+        columns={columns}
         initialState={{
           pagination: {
             paginationModel: { page: 0, pageSize: 10 },

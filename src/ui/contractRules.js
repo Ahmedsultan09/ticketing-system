@@ -4,7 +4,6 @@ import Alert from "@mui/material/Alert";
 import AlertTitle from "@mui/material/AlertTitle";
 import Stack from "@mui/material/Stack";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
-import { useEffect, useState } from "react";
 
 // Create a theme with RTL direction
 const theme = createTheme({

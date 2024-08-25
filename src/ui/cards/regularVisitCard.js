@@ -4,7 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../api/axiosInstance";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { Button } from "@mui/material";
@@ -60,7 +60,7 @@ export default function RegularVisitCard({
 
   useEffect(() => {
     async function getAllMachines() {
-      const response = await axios.get("http://localhost:3000/machines");
+      const response = await axiosInstance.get("/machines");
       const allMachines = await response.data;
       setAllMachines(allMachines.slice(0, 7));
       setStableMachines(allMachines.slice(7, 12));

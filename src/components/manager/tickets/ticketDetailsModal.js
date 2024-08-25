@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import MachinePartsOptions from "../machines/machinePartsOptions";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
@@ -58,7 +58,7 @@ export default function TicketDetailsModal({ serialNumber }) {
   //fetch machines here not tickets
   useEffect(() => {
     async function fetchTicketBySerial() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("/tickets");
       const allTickets = await response.data;
       const filteredTickets = allTickets.find(
         (ticket) =>

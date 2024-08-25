@@ -64,7 +64,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 4,
@@ -86,7 +86,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 5,
@@ -108,7 +108,8 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal",
+      "ownership": "property"
     },
     {
       "id": 6,
@@ -130,7 +131,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 7,
@@ -152,7 +153,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 8,
@@ -174,7 +175,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 9,
@@ -196,7 +197,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 10,
@@ -218,7 +219,8 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "high"
+      "priority": "high",
+      "ownership": "property"
     },
     {
       "id": 11,
@@ -240,7 +242,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 12,
@@ -306,7 +308,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 15,
@@ -328,7 +330,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 16,
@@ -350,7 +352,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 17,
@@ -372,7 +374,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 18,
@@ -394,13 +396,13 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 19,
       "client": "NBK",
       "operator": "Amira Ahmed",
-      "branch": "ابو داود الظواهرى",
+      "branch": "ابو داود الظاهري",
       "machineBrand": "Xerox",
       "machineModel": 405,
       "serialNumber": 3718896184,
@@ -416,7 +418,8 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal",
+      "ownership": "property"
     },
     {
       "id": 20,
@@ -438,7 +441,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 21,
@@ -482,7 +485,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 23,
@@ -548,7 +551,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 26,
@@ -570,13 +573,13 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 27,
       "client": "NBK",
       "operator": "Tarek Loly",
-      "branch": "ابوداود الظواهرى",
+      "branch": "ابوداود الظاهري",
       "machineBrand": "Xerox",
       "machineModel": 405,
       "serialNumber": 3718896184,
@@ -592,7 +595,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 28,
@@ -614,7 +617,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 29,
@@ -636,7 +639,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 30,
@@ -658,7 +661,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 31,
@@ -680,7 +683,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 32,
@@ -724,7 +727,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 34,
@@ -790,7 +793,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 37,
@@ -812,7 +815,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 38,
@@ -834,7 +837,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 39,
@@ -856,7 +859,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 40,
@@ -878,7 +881,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 41,
@@ -900,7 +903,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 42,
@@ -922,7 +925,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 43,
@@ -966,7 +969,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 45,
@@ -1032,7 +1035,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 48,
@@ -1054,7 +1057,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 49,
@@ -1076,7 +1079,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 50,
@@ -1098,7 +1101,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 51,
@@ -1120,7 +1123,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 52,
@@ -1142,7 +1145,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 53,
@@ -1164,7 +1167,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 54,
@@ -1186,7 +1189,8 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "high"
+      "priority": "high",
+      "ownership": "property"
     },
     {
       "id": 55,
@@ -1208,7 +1212,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 56,
@@ -1274,7 +1278,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 59,
@@ -1296,7 +1300,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 60,
@@ -1318,7 +1322,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 61,
@@ -1340,7 +1344,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 62,
@@ -1362,7 +1366,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 63,
@@ -1384,7 +1388,8 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal",
+      "ownership": "non-ownership"
     },
     {
       "id": 64,
@@ -1406,7 +1411,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 65,
@@ -1450,7 +1455,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 67,
@@ -1516,7 +1521,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 70,
@@ -1538,7 +1543,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 71,
@@ -1560,7 +1565,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 72,
@@ -1582,7 +1587,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 73,
@@ -1604,7 +1609,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 74,
@@ -1626,7 +1631,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 75,
@@ -1648,7 +1653,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 76,
@@ -1692,7 +1697,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 78,
@@ -1758,7 +1763,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 81,
@@ -1780,7 +1785,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 82,
@@ -1802,7 +1807,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 83,
@@ -1824,7 +1829,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 84,
@@ -1846,7 +1851,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 85,
@@ -1868,7 +1873,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 86,
@@ -1890,7 +1895,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 87,
@@ -1934,7 +1939,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 89,
@@ -1956,7 +1961,8 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "high"
+      "priority": "high",
+      "ownership": "property"
     },
     {
       "id": 90,
@@ -2000,7 +2006,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 92,
@@ -2022,7 +2028,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 93,
@@ -2044,7 +2050,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 94,
@@ -2066,7 +2072,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 95,
@@ -2088,7 +2094,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 96,
@@ -2110,7 +2116,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 97,
@@ -2132,7 +2138,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 98,
@@ -2176,7 +2182,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 100,
@@ -2242,7 +2248,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 103,
@@ -2264,7 +2270,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 104,
@@ -2286,7 +2292,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 105,
@@ -2308,7 +2314,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 106,
@@ -2330,7 +2336,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 107,
@@ -2352,7 +2358,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 108,
@@ -2374,7 +2380,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 109,
@@ -2418,7 +2424,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 111,
@@ -2484,7 +2490,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 114,
@@ -2506,7 +2512,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 115,
@@ -2528,7 +2534,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 116,
@@ -2550,7 +2556,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 117,
@@ -2572,7 +2578,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 118,
@@ -2594,7 +2600,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 119,
@@ -2616,7 +2622,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 120,
@@ -2660,7 +2666,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 122,
@@ -2726,7 +2732,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 125,
@@ -2748,7 +2754,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 126,
@@ -2770,7 +2776,8 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal",
+      "ownership": "non-ownership"
     },
     {
       "id": 127,
@@ -2792,7 +2799,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 128,
@@ -2814,7 +2821,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 129,
@@ -2836,7 +2843,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 130,
@@ -2858,7 +2865,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 131,
@@ -2902,7 +2909,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 133,
@@ -2968,7 +2975,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 136,
@@ -2990,7 +2997,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 137,
@@ -3012,7 +3019,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 138,
@@ -3034,7 +3041,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 139,
@@ -3056,7 +3063,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 140,
@@ -3078,7 +3085,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 141,
@@ -3100,7 +3107,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 142,
@@ -3144,7 +3151,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 144,
@@ -3210,7 +3217,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 147,
@@ -3232,7 +3239,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 148,
@@ -3254,7 +3261,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 149,
@@ -3276,7 +3283,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 150,
@@ -3298,7 +3305,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 151,
@@ -3320,7 +3327,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 152,
@@ -3342,7 +3349,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 153,
@@ -3386,7 +3393,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 155,
@@ -3452,7 +3459,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 158,
@@ -3474,7 +3481,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 159,
@@ -3496,7 +3503,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 160,
@@ -3518,7 +3525,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 161,
@@ -3540,7 +3547,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 162,
@@ -3562,7 +3569,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 163,
@@ -3584,7 +3591,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 164,
@@ -3628,7 +3635,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 166,
@@ -3694,7 +3701,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 169,
@@ -3716,7 +3723,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 170,
@@ -3738,7 +3745,8 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal",
+      "ownership": "non-ownership"
     },
     {
       "id": 171,
@@ -3760,7 +3768,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 172,
@@ -3782,7 +3790,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 173,
@@ -3804,7 +3812,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 174,
@@ -3826,7 +3834,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 175,
@@ -3870,7 +3878,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 177,
@@ -3936,7 +3944,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 180,
@@ -3958,7 +3966,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 181,
@@ -3980,7 +3988,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 182,
@@ -4002,7 +4010,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 183,
@@ -4024,7 +4032,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 184,
@@ -4046,7 +4054,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 185,
@@ -4068,7 +4076,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 186,
@@ -4090,7 +4098,8 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "high"
+      "priority": "high",
+      "ownership": "non-ownership"
     },
     {
       "id": 187,
@@ -4112,7 +4121,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 188,
@@ -4178,7 +4187,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 191,
@@ -4200,7 +4209,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 192,
@@ -4222,7 +4231,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 193,
@@ -4244,7 +4253,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 194,
@@ -4266,7 +4275,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 195,
@@ -4288,7 +4297,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 196,
@@ -4310,7 +4319,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 197,
@@ -4354,7 +4363,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 199,
@@ -4420,7 +4429,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 202,
@@ -4442,7 +4451,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 203,
@@ -4464,7 +4473,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 204,
@@ -4486,7 +4495,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 205,
@@ -4508,7 +4517,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 206,
@@ -4530,7 +4539,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 207,
@@ -4552,7 +4561,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 208,
@@ -4596,7 +4605,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 210,
@@ -4662,7 +4671,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 213,
@@ -4684,7 +4693,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 214,
@@ -4706,7 +4715,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 215,
@@ -4728,7 +4737,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 216,
@@ -4750,7 +4759,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 217,
@@ -4772,7 +4781,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 218,
@@ -4794,7 +4803,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 219,
@@ -4838,7 +4847,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 221,
@@ -4904,7 +4913,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 224,
@@ -4926,7 +4935,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 225,
@@ -4948,7 +4957,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 226,
@@ -4970,7 +4979,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 227,
@@ -4992,7 +5001,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 228,
@@ -5014,7 +5023,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 229,
@@ -5036,7 +5045,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 230,
@@ -5080,7 +5089,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 232,
@@ -5146,7 +5155,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 235,
@@ -5168,7 +5177,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 236,
@@ -5190,7 +5199,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 237,
@@ -5212,7 +5221,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 238,
@@ -5234,7 +5243,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 239,
@@ -5256,7 +5265,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 240,
@@ -5278,7 +5287,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 241,
@@ -5322,7 +5331,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 243,
@@ -5388,7 +5397,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 246,
@@ -5410,7 +5419,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 247,
@@ -5432,7 +5441,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 248,
@@ -5454,7 +5463,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 249,
@@ -5476,7 +5485,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 250,
@@ -5498,7 +5507,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 251,
@@ -5520,7 +5529,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 252,
@@ -5564,7 +5573,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 254,
@@ -5630,7 +5639,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 257,
@@ -5652,7 +5661,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "on-going",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 258,
@@ -5674,7 +5683,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 259,
@@ -5696,7 +5705,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 260,
@@ -5718,7 +5727,7 @@
       "issue": "السخان معطل",
       "suggestion": "تغير السخان",
       "status": "spare-parts",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 261,
@@ -5740,7 +5749,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "scrabed",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 262,
@@ -5762,7 +5771,7 @@
       "issue": "حشر",
       "suggestion": "فك الماكينة",
       "status": "not-assigned-yet",
-      "priority": "low"
+      "priority": "normal"
     },
     {
       "id": 263,
@@ -5806,7 +5815,7 @@
       "issue": "الدرام مكسور",
       "suggestion": "تغيير الدرام",
       "status": "solved",
-      "priority": "medium"
+      "priority": "normal"
     },
     {
       "id": 265,
@@ -5867,14 +5876,887 @@
     },
     {
       "id": 4,
-      "name": "سيد احمد سيد",
+      "name": "احمد عبدالله",
       "tasks": [89, 170, 10, 63, 19, 126, 54, 186, 5],
       "solvedTasks": 12,
       "currentTasks": 5,
       "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
-      "address": "987 Nasr City Rd, Cairo"
+      "address": "987 Nasr City Rd, Cairo",
+      "regularVisits": [
+        {
+          "id": 1,
+          "client": "Alex bank",
+          "branch": "Cloud 9",
+          "operator": [{ "name": "Mohamed Abdellah", "phone": "01012345678" }],
+          "deadline": "31/8/2024",
+          "machines": [
+            {
+              "id": 1,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "طارق احمد لولي",
+              "serialNumber": 3364943066,
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 120,
+              "ownership": "non-ownership",
+              "contractNumber": 1,
+              "meterReading": 12586,
+              "machineType": "MFP",
+              "lastVisitDate": "1/5/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 2,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "وليد عمر عبد القادر",
+              "serialNumber": 3364947471,
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 121,
+              "ownership": "non-ownership",
+              "contractNumber": 2,
+              "meterReading": 12587,
+              "machineType": "MFP",
+              "lastVisitDate": "1/6/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 3,
+              "machineBrand": "HP",
+              "machineModel": 3225,
+              "lastVisitEng": "أحمد عاطف عمر",
+              "serialNumber": 3364973996,
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 122,
+              "ownership": "property",
+              "contractNumber": 3,
+              "meterReading": 12588,
+              "machineType": "Printer",
+              "lastVisitDate": "1/7/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 4,
+              "machineBrand": "Samsung",
+              "machineModel": "B405",
+              "lastVisitEng": "سيد أحمد سيد",
+              "serialNumber": 3719015327,
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 123,
+              "ownership": "property",
+              "contractNumber": 1,
+              "meterReading": 12589,
+              "machineType": "Printer",
+              "lastVisitDate": "1/8/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 5,
+              "machineBrand": "Xerox",
+              "machineModel": 4200,
+              "lastVisitEng": "عمرو جمال",
+              "serialNumber": "V1S5272753",
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 124,
+              "ownership": "property",
+              "contractNumber": 2,
+              "meterReading": 12590,
+              "machineType": "Printer",
+              "lastVisitDate": "1/9/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 6,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "هاني إبراهيم جلال",
+              "serialNumber": 3364942159,
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 125,
+              "ownership": "non-ownership",
+              "contractNumber": 3,
+              "meterReading": 12591,
+              "machineType": "Scanner",
+              "lastVisitDate": "1/10/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 7,
+              "machineBrand": "Xerox",
+              "machineModel": 4200,
+              "lastVisitEng": "محمد جمال موسى",
+              "serialNumber": "v1s5272519",
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 126,
+              "ownership": "property",
+              "contractNumber": 1,
+              "meterReading": 12592,
+              "machineType": "Scanner",
+              "lastVisitDate": "1/11/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 8,
+              "machineBrand": "HP",
+              "machineModel": 4200,
+              "lastVisitEng": "حسين فتحي محمد",
+              "serialNumber": "v1s5272521",
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 127,
+              "ownership": "non-ownership",
+              "contractNumber": 2,
+              "meterReading": 12593,
+              "machineType": "MFP",
+              "lastVisitDate": "1/12/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 9,
+              "machineBrand": "Samsung",
+              "machineModel": 4070,
+              "lastVisitEng": "احمد شوقي احمد",
+              "serialNumber": "30005tw",
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 128,
+              "ownership": "non-ownership",
+              "contractNumber": 3,
+              "meterReading": 12594,
+              "machineType": "Printer",
+              "lastVisitDate": "1/13/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 10,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "عمرو محمود زينهم",
+              "serialNumber": 3364945778,
+              "client": "Alex bank",
+              "branch": "Cloud 9",
+              "area": "القاهرة",
+              "qrCode": 129,
+              "ownership": "non-ownership",
+              "contractNumber": 1,
+              "meterReading": 12595,
+              "machineType": "MFP",
+              "lastVisitDate": "1/14/2023",
+              "status": "",
+              "report": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "client": "QNB",
+          "branch": "Downtown",
+          "operator": [{ "name": "Mohamed loly", "phone": "01012345678" }],
+          "deadline": "30/9/2024",
+          "machines": [
+            {
+              "id": 1,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "طارق احمد لولي",
+              "serialNumber": 3364943066,
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 120,
+              "ownership": "non-ownership",
+              "contractNumber": 1,
+              "meterReading": 12586,
+              "machineType": "MFP",
+              "lastVisitDate": "1/5/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 2,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "وليد عمر عبد القادر",
+              "serialNumber": 3364947471,
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 121,
+              "ownership": "non-ownership",
+              "contractNumber": 2,
+              "meterReading": 12587,
+              "machineType": "MFP",
+              "lastVisitDate": "1/6/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 3,
+              "machineBrand": "HP",
+              "machineModel": 3225,
+              "lastVisitEng": "أحمد عاطف عمر",
+              "serialNumber": 3364973996,
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 122,
+              "ownership": "property",
+              "contractNumber": 3,
+              "meterReading": 12588,
+              "machineType": "Printer",
+              "lastVisitDate": "1/7/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 4,
+              "machineBrand": "Samsung",
+              "machineModel": "B405",
+              "lastVisitEng": "سيد أحمد سيد",
+              "serialNumber": 3719015327,
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 123,
+              "ownership": "property",
+              "contractNumber": 1,
+              "meterReading": 12589,
+              "machineType": "Printer",
+              "lastVisitDate": "1/8/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 5,
+              "machineBrand": "Xerox",
+              "machineModel": 4200,
+              "lastVisitEng": "عمرو جمال",
+              "serialNumber": "V1S5272753",
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 124,
+              "ownership": "property",
+              "contractNumber": 2,
+              "meterReading": 12590,
+              "machineType": "Printer",
+              "lastVisitDate": "1/9/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 6,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "هاني إبراهيم جلال",
+              "serialNumber": 3364942159,
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 125,
+              "ownership": "non-ownership",
+              "contractNumber": 3,
+              "meterReading": 12591,
+              "machineType": "Scanner",
+              "lastVisitDate": "1/10/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 7,
+              "machineBrand": "Xerox",
+              "machineModel": 4200,
+              "lastVisitEng": "محمد جمال موسى",
+              "serialNumber": "v1s5272519",
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 126,
+              "ownership": "property",
+              "contractNumber": 1,
+              "meterReading": 12592,
+              "machineType": "Scanner",
+              "lastVisitDate": "1/11/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 8,
+              "machineBrand": "HP",
+              "machineModel": 4200,
+              "lastVisitEng": "حسين فتحي محمد",
+              "serialNumber": "v1s5272521",
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 127,
+              "ownership": "non-ownership",
+              "contractNumber": 2,
+              "meterReading": 12593,
+              "machineType": "MFP",
+              "lastVisitDate": "1/12/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 9,
+              "machineBrand": "Samsung",
+              "machineModel": 4070,
+              "lastVisitEng": "احمد شوقي احمد",
+              "serialNumber": "30005tw",
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 128,
+              "ownership": "non-ownership",
+              "contractNumber": 3,
+              "meterReading": 12594,
+              "machineType": "Printer",
+              "lastVisitDate": "1/13/2023",
+              "status": "",
+              "report": ""
+            },
+            {
+              "id": 10,
+              "machineBrand": "Xerox",
+              "machineModel": 3225,
+              "lastVisitEng": "عمرو محمود زينهم",
+              "serialNumber": 3364945778,
+              "client": "QNB",
+              "branch": "Downtown",
+              "area": "القاهرة",
+              "qrCode": 129,
+              "ownership": "non-ownership",
+              "contractNumber": 1,
+              "meterReading": 12595,
+              "machineType": "MFP",
+              "lastVisitDate": "1/14/2023",
+              "status": "",
+              "report": ""
+            }
+          ]
+        }
+      ],
+      "history": {
+        "doneCalls": [
+          {
+            "callId": "1",
+            "client": "Abu Dhabi Commercial Bank",
+            "branch": "Cairo Festival Mall",
+            "operator": "Mohamed Tarek",
+            "callDate": "18/8/2024",
+            "responseDate": "19/8/2024",
+            "priority": "high",
+            "issue": "مشكلة في السخان والحبر غير ثابت",
+            "suggestion": "تغيير السخان",
+            "machine": {
+              "id": 370,
+              "machineBrand": "Xerox",
+              "machineModel": "B405",
+              "lastVisitEng": "محمد إسكندر محمد",
+              "serialNumber": 3718876833,
+              "client": "Abu Dhabi Commercial Bank",
+              "branch": "فرع الطيران",
+              "area": "القاهرة",
+              "qrCode": 491,
+              "ownership": "property",
+              "contractNumber": 3,
+              "meterReading": 12957,
+              "machineType": "Printer",
+              "lastVisitDate": "1/11/2024"
+            },
+            "result": {
+              "report": "",
+              "meterReading": "13400",
+              "status": "solved",
+              "solutionDetails": "تم تغيير السخان وتركيب سخان جديد"
+            }
+          },
+          {
+            "callId": "2",
+            "client": "Banque Misr",
+            "branch": "City Stars Mall",
+            "operator": "Amira Ahmed",
+            "callDate": "20/8/2024",
+            "responseDate": "21/8/2024",
+            "priority": "high",
+            "issue": "مشكلة في وحدة الليزر والورق غير ثابت",
+            "suggestion": "تغيير وحدة الليزر",
+            "machine": {
+              "id": 371,
+              "machineBrand": "HP",
+              "machineModel": "M402",
+              "lastVisitEng": "أحمد عبد الله محمود",
+              "serialNumber": 3723456790,
+              "client": "Banque Misr",
+              "branch": "City Stars Mall",
+              "area": "القاهرة",
+              "qrCode": 492,
+              "ownership": "property",
+              "contractNumber": 4,
+              "meterReading": 13000,
+              "machineType": "Printer",
+              "lastVisitDate": "5/11/2024"
+            },
+            "result": {
+              "report": "",
+              "meterReading": 13550,
+              "status": "solved",
+              "solutionDetails": "تم تغيير وحدة الليزر وتركيب وحدة جديدة"
+            }
+          }
+        ],
+        "doneRvs": [
+          {
+            "visitId": 3,
+            "client": "NBK",
+            "branch": "Maadi Zahraa",
+            "operator": [{ "name": "Dalia Mohamed", "phone": "01012345678" }],
+            "visitDate": "17/8/2024",
+            "deadline": "30/9/2024",
+            "combinedReport": "visit-3.pdf",
+            "machines": [
+              {
+                "id": 1,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "serialNumber": 3364945778,
+                "client": "NBK",
+                "branch": "Maadi Zahraa",
+                "area": "القاهرة",
+                "qrCode": 129,
+                "ownership": "non-ownership",
+                "contractNumber": 1,
+                "meterReading": 12595,
+                "machineType": "MFP",
+                "lastVisitDate": "1/14/2023",
+                "status": "solved",
+                "report": "336495578.pdf"
+              },
+              {
+                "id": 2,
+                "machineBrand": "Samsung",
+                "machineModel": 4070,
+                "serialNumber": "30005tw",
+                "client": "NBK",
+                "branch": "Maadi Zahraa",
+                "area": "القاهرة",
+                "qrCode": 128,
+                "ownership": "non-ownership",
+                "contractNumber": 3,
+                "meterReading": 12594,
+                "machineType": "Printer",
+                "status": "solved",
+                "report": "30005tw.pdf"
+              },
+              {
+                "id": 4,
+                "machineBrand": "Samsung",
+                "machineModel": "B405",
+                "lastVisitEng": "سيد أحمد سيد",
+                "serialNumber": 3719015327,
+                "client": "NBK",
+                "branch": "Maadi Zahraa",
+                "area": "القاهرة",
+                "qrCode": 123,
+                "ownership": "property",
+                "contractNumber": 1,
+                "meterReading": 12589,
+                "machineType": "Printer",
+                "status": "solved",
+                "report": "3719015327.pdf"
+              },
+              {
+                "id": 4,
+                "machineBrand": "HP",
+                "machineModel": 4200,
+                "lastVisitEng": "حسين فتحي محمد",
+                "serialNumber": "v1s5272521",
+                "client": "NBK",
+                "branch": "Maadi Zahraa",
+                "area": "القاهرة",
+                "qrCode": 127,
+                "ownership": "non-ownership",
+                "contractNumber": 2,
+                "meterReading": 12593,
+                "machineType": "MFP",
+                "status": "spare-parts",
+                "report": "v1s5272521.pdf"
+              }
+            ]
+          },
+          {
+            "visitId": 4,
+            "client": "QNB",
+            "branch": "Abbasya",
+            "operator": [{ "name": "Mohamed loly", "phone": "01198765432" }],
+            "visitDate": "18/8/2024",
+            "deadline": "1/10/2024",
+            "combinedReport": "visit-4.pdf",
+            "machines": [
+              {
+                "id": 154,
+                "machineBrand": "Samsung",
+                "machineModel": 4200,
+                "serialNumber": "V1S5272124",
+                "client": "QNB",
+                "branch": "Abbasya",
+                "area": "القاهرة",
+                "qrCode": 273,
+                "ownership": "non-ownership",
+                "contractNumber": 1,
+                "meterReading": 12739,
+                "machineType": "MFP",
+                "status": "spare-parts",
+                "report": "V1S5272124.pdf"
+              },
+              {
+                "id": 155,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "serialNumber": 3364902114,
+                "client": "QNB",
+                "branch": "Abbasya",
+                "area": "القاهرة",
+                "qrCode": 274,
+                "ownership": "property",
+                "contractNumber": 2,
+                "meterReading": 12740,
+                "machineType": "MFP",
+                "status": "solved",
+                "report": "3364902114.pdf"
+              },
+              {
+                "id": 156,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "serialNumber": 3364904370,
+                "client": "QNB",
+                "branch": "Abbasya",
+                "area": "القاهرة",
+                "qrCode": 275,
+                "ownership": "property",
+                "contractNumber": 3,
+                "meterReading": 12741,
+                "machineType": "Printer",
+                "status": "scrapped",
+                "report": "3364904370.pdf"
+              },
+              {
+                "id": 157,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "serialNumber": 3364908341,
+                "client": "QNB",
+                "branch": "Abbasya",
+                "area": "القاهرة",
+                "qrCode": 276,
+                "ownership": "property",
+                "contractNumber": 1,
+                "meterReading": 12742,
+                "machineType": "Printer",
+                "status": "solved",
+                "report": "3364908341.pdf"
+              },
+              {
+                "id": 158,
+                "machineBrand": "HP",
+                "machineModel": 3225,
+                "serialNumber": 3364896670,
+                "client": "QNB",
+                "branch": "Abbasya",
+                "area": "القاهرة",
+                "qrCode": 277,
+                "ownership": "non-ownership",
+                "contractNumber": 2,
+                "meterReading": 12743,
+                "machineType": "Printer",
+                "status": "spare-parts",
+                "report": "3364896670.pdf"
+              }
+            ]
+          },
+          {
+            "visitId": 5,
+            "dateOfVisit": "2023-08-18",
+            "client": "Alex Bank",
+            "branch": "City Stars Mall",
+            "operator": [
+              { "name": "Mohamed Abdellah", "phone": "01198765432" }
+            ],
+            "combinedReport": "visit-5.pdf",
+            "deadline": "1/10/2024",
+            "visitDate": "19/8/2024",
+            "machines": [
+              {
+                "id": 266,
+                "machineBrand": "Xerox",
+                "machineModel": "B405",
+                "lastVisitEng": "زكي عبد العزيز محمد",
+                "serialNumber": 3718920611,
+                "branch": "العاشر من رمضان",
+                "area": "الشرقية",
+                "qrCode": 386,
+                "ownership": "property",
+                "contractNumber": 3,
+                "meterReading": 12852,
+                "machineType": "Scanner",
+                "lastVisitDate": "9/28/2023",
+                "status": "solved",
+                "report": "3718920611.pdf"
+              },
+              {
+                "id": 267,
+                "machineBrand": "HP",
+                "machineModel": "B405",
+                "lastVisitEng": "وليد عبد الرحيم على",
+                "serialNumber": 3718924285,
+                "branch": "العاشر من رمضان",
+                "area": "الشرقية",
+                "qrCode": 387,
+                "ownership": "property",
+                "contractNumber": 1,
+                "meterReading": 12853,
+                "machineType": "Scanner",
+                "lastVisitDate": "9/29/2023",
+                "status": "solved",
+                "report": "3718924285.pdf"
+              },
+              {
+                "id": 268,
+                "machineBrand": "Samsung",
+                "machineModel": "B405",
+                "lastVisitEng": "محمد رجب",
+                "serialNumber": 3718923610,
+                "branch": "العاشر من رمضان",
+                "area": "الشرقية",
+                "qrCode": 388,
+                "ownership": "property",
+                "contractNumber": 2,
+                "meterReading": 12854,
+                "machineType": "MFP",
+                "lastVisitDate": "9/30/2023",
+                "status": "solved",
+                "report": "3718923610.pdf"
+              },
+              {
+                "id": 269,
+                "machineBrand": "Xerox",
+                "machineModel": 3320,
+                "lastVisitEng": "احمد عبد الله",
+                "serialNumber": 3384034038,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 389,
+                "ownership": "non-ownership",
+                "contractNumber": 3,
+                "meterReading": 12855,
+                "machineType": "Printer",
+                "lastVisitDate": "10/1/2023",
+                "status": "solved",
+                "report": "3384034038.pdf"
+              },
+              {
+                "id": 270,
+                "machineBrand": "Xerox",
+                "machineModel": 3320,
+                "lastVisitEng": "طارق احمد لولي",
+                "serialNumber": 3384041875,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 390,
+                "ownership": "property",
+                "contractNumber": 1,
+                "meterReading": 12856,
+                "machineType": "MFP",
+                "lastVisitDate": "10/2/2023",
+                "status": "solved",
+                "report": "3384041875.pdf"
+              },
+              {
+                "id": 271,
+                "machineBrand": "Xerox",
+                "machineModel": 3335,
+                "lastVisitEng": "وليد عمر عبد القادر",
+                "serialNumber": 5292139898,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 391,
+                "ownership": "non-ownership",
+                "contractNumber": 2,
+                "meterReading": 12857,
+                "machineType": "MFP",
+                "lastVisitDate": "10/3/2023",
+                "status": "solved",
+                "report": "5292139898.pdf"
+              },
+              {
+                "id": 272,
+                "machineBrand": "HP",
+                "machineModel": 3320,
+                "lastVisitEng": "أحمد عاطف عمر",
+                "serialNumber": 3972030790,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 392,
+                "ownership": "non-ownership",
+                "contractNumber": 3,
+                "meterReading": 12858,
+                "machineType": "Printer",
+                "lastVisitDate": "10/4/2023",
+                "status": "spare-parts",
+                "report": "3972030790.pdf"
+              },
+              {
+                "id": 273,
+                "machineBrand": "Samsung",
+                "machineModel": 3320,
+                "lastVisitEng": "سيد أحمد سيد",
+                "serialNumber": 3384094235,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 393,
+                "ownership": "non-ownership",
+                "contractNumber": 1,
+                "meterReading": 12859,
+                "machineType": "Printer",
+                "lastVisitDate": "10/5/2023",
+                "status": "spare-parts",
+                "report": "3384094235.pdf"
+              },
+              {
+                "id": 274,
+                "machineBrand": "Xerox",
+                "machineModel": "B405",
+                "lastVisitEng": "عمرو جمال",
+                "serialNumber": 3718924021,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 394,
+                "ownership": "property",
+                "contractNumber": 2,
+                "meterReading": 12860,
+                "machineType": "Printer",
+                "lastVisitDate": "10/6/2023",
+                "status": "solved",
+                "report": "3718924021.pdf"
+              },
+              {
+                "id": 275,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "lastVisitEng": "هاني إبراهيم جلال",
+                "serialNumber": 3364941896,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 395,
+                "ownership": "property",
+                "contractNumber": 3,
+                "meterReading": 12861,
+                "machineType": "Scanner",
+                "lastVisitDate": "10/7/2023",
+                "status": "solved",
+                "report": "3364941896.pdf"
+              },
+              {
+                "id": 276,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "lastVisitEng": "محمد جمال موسى",
+                "serialNumber": 3364943120,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 396,
+                "ownership": "property",
+                "contractNumber": 1,
+                "meterReading": 12862,
+                "machineType": "Scanner",
+                "lastVisitDate": "10/8/2023",
+                "status": "solved",
+                "report": "3364943120.pdf"
+              },
+              {
+                "id": 277,
+                "machineBrand": "HP",
+                "machineModel": 3225,
+                "lastVisitEng": "حسين فتحي محمد",
+                "serialNumber": 3364942370,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 397,
+                "ownership": "non-ownership",
+                "contractNumber": 2,
+                "meterReading": 12863,
+                "machineType": "MFP",
+                "lastVisitDate": "10/9/2023",
+                "status": "solved",
+                "report": "3364942370.pdf"
+              },
+              {
+                "id": 278,
+                "machineBrand": "Samsung",
+                "machineModel": 3225,
+                "lastVisitEng": "احمد شوقي احمد",
+                "serialNumber": 3364945727,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 398,
+                "ownership": "property",
+                "contractNumber": 3,
+                "meterReading": 12864,
+                "machineType": "Printer",
+                "lastVisitDate": "10/10/2023",
+                "status": "solved",
+                "report": "3364945727.pdf"
+              },
+              {
+                "id": 279,
+                "machineBrand": "Xerox",
+                "machineModel": 3225,
+                "lastVisitEng": "عمرو محمود زينهم",
+                "serialNumber": 3365112176,
+                "branch": "هيئة الاستثمار",
+                "area": "القاهرة",
+                "qrCode": 399,
+                "ownership": "non-ownership",
+                "contractNumber": 1,
+                "meterReading": 12865,
+                "machineType": "MFP",
+                "lastVisitDate": "10/11/2023",
+                "status": "solved",
+                "report": "3365112176.pdf"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": 5,

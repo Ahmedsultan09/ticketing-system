@@ -33,7 +33,7 @@ const IconButton = styled(Button)(({ theme }) => ({
 }));
 
 function AllUsers() {
-  const [allUsers, setAllUsers] = useState([
+  const [allUsers] = useState([
     {
       name: "Ahmed Alaa",
       userName: "ahmed.alaa",

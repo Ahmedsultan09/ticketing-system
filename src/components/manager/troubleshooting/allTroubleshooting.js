@@ -8,11 +8,11 @@ import SubtitlesOutlinedIcon from "@mui/icons-material/SubtitlesOutlined";
 import PrintOutlinedIcon from "@mui/icons-material/PrintOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 
 export default function Tickets({ type }) {
   const [rows, setRows] = useState([]);
-  const [isManager, setIsManager] = useState(false);
+  const [isManager] = useState(false);
   const columns = [
     {
       field: "id",
@@ -141,7 +141,7 @@ export default function Tickets({ type }) {
 
   useEffect(() => {
     async function fetchTroubleshooting() {
-      const response = await axios.get("http://localhost:3000/troubleshooting");
+      const response = await axiosInstance.get("/troubleshooting");
       const issues = await response.data;
 
       setRows(issues);

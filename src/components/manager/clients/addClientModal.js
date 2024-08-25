@@ -12,12 +12,12 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import MultipleSelect from "../../../ui/multipleSelect";
-import axios from "axios";
+import MultipleSelect from "../../../ui/components/multipleSelect";
 import AddCircleSharpIcon from "@mui/icons-material/AddCircleSharp";
 import ContractRules from "../../../ui/contractRules";
 import { styled } from "@mui/material/styles";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import axiosInstance from "../../../api/axiosInstance";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -49,6 +49,7 @@ const style = {
 export default function AddClientModal({ handleClose, open }) {
   const [operators, setOperators] = useState([]);
   const [rules, setRules] = useState([]);
+  const [, setSelectedOperators] = useState([]);
   const ruleTextInputRef = useRef("");
   const ruleTypeInputRef = useRef("");
   const [rule, setRule] = useState({ id: 0, type: "", text: "" });
@@ -62,6 +63,10 @@ export default function AddClientModal({ handleClose, open }) {
 
   function handleRuleText(e) {
     setRule({ ...rule, text: e.target.value });
+  }
+
+  function handleChangeOperator(data) {
+    setSelectedOperators(data);
   }
 
   function handleAddRule() {
@@ -86,7 +91,7 @@ export default function AddClientModal({ handleClose, open }) {
 
   useEffect(() => {
     async function fetchOperators() {
-      const response = await axios.get("http://localhost:3000/operators");
+      const response = await axiosInstance.get("/operators");
       const allOperators = response.data;
       setOperators(allOperators);
     }
@@ -128,7 +133,11 @@ export default function AddClientModal({ handleClose, open }) {
               fullWidth
               required
             />
-            <MultipleSelect data={operators} required={true} />
+            <MultipleSelect
+              data={operators}
+              required={true}
+              handleChangeOperator={handleChangeOperator}
+            />
             <FormControl
               fullWidth
               sx={{

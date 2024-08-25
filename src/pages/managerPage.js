@@ -15,7 +15,6 @@ import SpecificMachine from "../components/manager/machines/specificMachine";
 import AllTroubleshooting from "../components/manager/troubleshooting/allTroubleshooting";
 import SpecificTroubleshooting from "../components/manager/troubleshooting/specificTroubleshooting";
 import AllClients from "../components/manager/clients/allClients";
-import SpecificClient from "../components/manager/clients/specificClient";
 function ManagerPage() {
   return (
     <>
@@ -23,33 +22,27 @@ function ManagerPage() {
       <Nav />
       <Routes>
         <Route element={<Dashboard />} path="/" />
-        <Route exact element={<Tickets />} path="/tickets" />
-        <Route exact element={<SpecificTicket />} path="/tickets/:ticketID" />
+        <Route element={<Tickets />} path="/tickets" />
+        <Route element={<SpecificTicket />} path="/tickets/:ticketID" />
+        <Route element={<TicketType />} path="/tickets/type/:ticketType" />
+        <Route element={<AllTroubleshooting />} path="/troubleshooting" />
         <Route
-          exact
-          element={<TicketType />}
-          path="/tickets/type/:ticketType"
-        />
-        <Route exact element={<AllTroubleshooting />} path="/troubleshooting" />
-        <Route
-          exact
           element={<SpecificTroubleshooting />}
           path="/troubleshooting/:issueID"
         />
         <Route element={<Users />} path="/users/accounts" />
-        <Route exact element={<AllOperators />} path="/users/operators" />
+        <Route element={<AllOperators />} path="/users/operators" />
         <Route
           element={<SpecificOperator />}
           path="/users/operators/:operatorsID"
         />
-        <Route exact element={<AllEngineers />} path="/users/engineers" />
+        <Route element={<AllEngineers />} path="/users/engineers" />
         <Route element={<SpecificEngineer />} path="/users/engineers/:engID" />
 
-        <Route exact element={<AllMachines />} path="/machines" />
+        <Route element={<AllMachines />} path="/machines" />
         <Route element={<SpecificMachine />} path="/machines/:serialNumber" />
 
-        <Route exact element={<AllClients />} path="/clients" />
-        <Route element={<SpecificClient />} path="/clients/:clientID" />
+        <Route element={<AllClients />} path="/clients" />
       </Routes>
     </>
   );

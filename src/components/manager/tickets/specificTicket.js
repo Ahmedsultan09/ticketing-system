@@ -10,9 +10,9 @@ import {
 import Box from "@mui/material/Box";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import InfoLabel from "../../../ui/infoLabel";
+import InfoLabel from "../../../ui/components/infoLabel";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";
-import axios from "axios";
+import axiosInstance from "../../../api/axiosInstance";
 import { styled } from "@mui/material/styles";
 import TasksModal from "./taskModal";
 import ConfirmCloseTicketModal from "./confirmCloseTicket";
@@ -32,9 +32,11 @@ function SpecificTicket() {
   const [specificTicket, setSpecificTicket] = useState({});
   const [assignedEng, setAssignedEng] = useState("");
   const [engineers, setEngineers] = useState([]);
+  const [modifiedEngineers, setModifiedEngineers] = useState([...engineers]);
   const [specificEngTasks, setSpecificEngTasks] = useState([]);
   const [specificEngName, setSpecificEngName] = useState("");
   const [showCloseTicketModal, setShowCloseTicketModal] = useState(false);
+  const [allTickets, setAllTickets] = useState([]);
 
   const [open, setOpen] = useState(false);
 
@@ -63,7 +65,7 @@ function SpecificTicket() {
   useEffect(() => {
     async function fetchSpecificTicket() {
       try {
-        const response = await axios.get("http://localhost:3000/tickets");
+        const response = await axiosInstance.get("/tickets");
         const specificTicket = await response.data[params.ticketID - 1];
         setSpecificTicket(specificTicket);
       } catch (error) {
@@ -75,7 +77,7 @@ function SpecificTicket() {
   useEffect(() => {
     async function fetchEngineers() {
       try {
-        const response = await axios.get("http://localhost:3000/engineers");
+        const response = await axiosInstance.get("/engineers");
         setEngineers(response.data);
       } catch (error) {
         console.error(error);
@@ -96,6 +98,59 @@ function SpecificTicket() {
     }
     fetchSpecificEng();
   }, [assignedEng, engineers]);
+
+  useEffect(() => {
+    async function fetchAllTickets() {
+      const response = await axiosInstance.get("/tickets");
+      const allTickets = await response.data;
+      setAllTickets(allTickets);
+    }
+    fetchAllTickets();
+  }, []);
+
+  useEffect(() => {
+    if (engineers.length && allTickets.length) {
+      // Create a map of tickets for quick lookup
+      const ticketsMap = allTickets.reduce((map, ticket) => {
+        map[ticket.id] = ticket;
+        return map;
+      }, {});
+
+      // Replace task IDs with ticket objects
+      const updatedEngineers = engineers.map((engineer) => ({
+        ...engineer,
+        tasks: engineer.tasks.map((taskId) => ticketsMap[taskId]),
+      }));
+
+      setModifiedEngineers(updatedEngineers);
+    }
+  }, [engineers, allTickets]);
+
+  useEffect(() => {
+    const updatedEngineers = modifiedEngineers.map((engineer) => {
+      const highPriorityTasks = engineer.tasks.filter(
+        (task) => task.priority === "high"
+      ).length;
+      return {
+        ...engineer,
+        isBusy: highPriorityTasks > 3,
+      };
+    });
+
+    // Check if there are any differences between the current and updated state
+    const isDifferent = updatedEngineers.some((updatedEngineer, index) => {
+      return updatedEngineer.isBusy !== modifiedEngineers[index].isBusy;
+    });
+
+    // Only update the state if there are changes
+    if (isDifferent) {
+      setModifiedEngineers(updatedEngineers);
+    }
+  }, [modifiedEngineers]);
+
+  useEffect(() => {
+    console.log(modifiedEngineers);
+  }, [modifiedEngineers]);
 
   return (
     <main className="w-full h-full">
@@ -205,11 +260,29 @@ function SpecificTicket() {
                     value={assignedEng}
                     label="Assign To"
                     onChange={handleSelectingEng}
-                    className="h-20"
+                    className="h-20 w-full"
                   >
-                    {engineers.map((item) => {
-                      return (
-                        <MenuItem value={item.id} key={item.id}>
+                    {modifiedEngineers.map((item) => {
+                      return item?.isBusy ? (
+                        <MenuItem
+                          value={item.id}
+                          disabled={item.isBusy}
+                          className="!w-full flex flex-row justify-between items-center"
+                        >
+                          <span className="w-full">{item.name}</span>
+                          <span className="w-fit px-2 h-5 text-sm bg-red-800 text-white rounded-2xl">
+                            Busy
+                          </span>
+                          <span className="w-fit mx-2 px-2 h-5 text-sm bg-red-600 text-white rounded-2xl">
+                            +3 High
+                          </span>
+                        </MenuItem>
+                      ) : (
+                        <MenuItem
+                          value={item.id}
+                          key={item.id}
+                          disabled={false}
+                        >
                           {item.name}
                         </MenuItem>
                       );

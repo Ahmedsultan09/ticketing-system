@@ -15,7 +15,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Nav() {
   const [navigation, setNavigation] = useState(initialNavigation);
   const [isCurrentDashBoard, setIsCurrentDashboard] = useState(false);
   const location = useLocation();
@@ -168,8 +168,11 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <Disclosure.Panel className="sm:hidden pl-3">
+            <div className="flex items-center justify-start h-full">
+              <IssuesNavigationBtn />
+            </div>
+            <div className="space-y-1  pb-3 pt-2">
               {navigation.map((item, index) => (
                 <Disclosure.Button
                   key={item.name}
@@ -179,14 +182,14 @@ export default function Example() {
                     item.current
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
+                    "block rounded-md py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
               ))}
-              <div className="space-y-1 px-2 pb-3 pt-2 ">
+              <div className="flex items-center justify-start h-full">
                 <UsersNavigationBtn />
               </div>
             </div>

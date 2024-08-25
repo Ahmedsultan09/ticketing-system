@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../../../api/axiosInstance";
 import { useParams } from "react-router-dom";
 import OperatorInfo from "./operatorInfo";
 
@@ -10,8 +10,7 @@ function SpecificOperator() {
   const [SpecificOperator, setSpecificOperator] = useState(null);
   useEffect(() => {
     async function fetchSepecificOperator() {
-      const allOperators = (await axios.get("http://localhost:3000/operators"))
-        .data;
+      const allOperators = (await axiosInstance.get("/operators")).data;
       if (allOperators) {
         const SpecificOperator = allOperators?.find(
           (operator) => parseInt(operator?.id) === parseInt(id)

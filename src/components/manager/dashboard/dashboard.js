@@ -1,9 +1,10 @@
 import { EngineeringOutlined, SupportAgentOutlined } from "@mui/icons-material";
 import { Box, Typography } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link as Direct } from "react-router-dom";
+import axiosInstance from "../../../api/axiosInstance";
+
 function Dashboard() {
   const [engRows, setEngRows] = useState([]);
   const [operatorRows, setOperatorRows] = useState([]);
@@ -14,7 +15,7 @@ function Dashboard() {
 
   useEffect(() => {
     async function fetchAllTickets() {
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axiosInstance.get("/tickets");
       const allTicketsData = await response.data;
       setAllTickets(allTicketsData);
       const openedTickets = allTickets.filter(
@@ -34,7 +35,7 @@ function Dashboard() {
   }, [allTickets]);
   useEffect(() => {
     async function fetchTopEngineers() {
-      const response = await axios.get("http://localhost:3000/engineers");
+      const response = await axiosInstance.get("/engineers");
       const engineers = response.data;
       const sortedEngineers = engineers.sort(
         (a, b) => b.tasks.length - a.tasks.length
@@ -46,7 +47,7 @@ function Dashboard() {
   }, []);
   useEffect(() => {
     async function fetchTopOperators() {
-      const response = await axios.get("http://localhost:3000/operators");
+      const response = await axiosInstance.get("/operators");
       const operators = await response.data;
       const sortedOperators = operators.sort(
         (a, b) => b.ticketsCreated.length - a.ticketsCreated.length

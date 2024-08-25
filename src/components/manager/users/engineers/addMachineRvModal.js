@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { TextField } from "@mui/material";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axiosInstance from "../../../../api/axiosInstance";
 
 const style = {
   position: "absolute",
@@ -27,7 +27,7 @@ export default function AddMachineRvModal({
 }) {
   const [serialNumber, setSerialNumber] = useState("");
   const [machine, setMachine] = useState(null);
-  const [isMachineExist, setIsMachineExist] = useState(false);
+  const [isMachineExist] = useState(false);
 
   const handleSerialNumber = (e) => {
     setSerialNumber(e.target.value);
@@ -35,7 +35,7 @@ export default function AddMachineRvModal({
 
   useEffect(() => {
     async function addMachine() {
-      const response = await axios.get("http://localhost:3000/machines");
+      const response = await axiosInstance.get("/machines");
       const allMachines = await response.data;
 
       if (!isMachineExist) {

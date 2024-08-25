@@ -6,7 +6,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Chip from "@mui/material/Chip";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function getStyles(name, personName, theme) {
   return {
@@ -17,17 +17,21 @@ function getStyles(name, personName, theme) {
   };
 }
 
-export default function MultipleSelect({ data, required }) {
+export default function MultipleSelect({
+  data,
+  required,
+  handleChangeOperator,
+}) {
   const theme = useTheme();
   const [personName, setPersonName] = useState([]);
   const ITEM_HEIGHT = 48;
-  const ITEM_PADDING_TOP = 0;
+  const ITEM_PADDING_TOP = 8; // Add some padding for better touch usability
   const MenuProps = {
     PaperProps: {
       style: {
         maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-        width: 250,
-        mx: 0,
+        width: "100%",
+        minWidth: 250, // Ensure a minimum width for tablet screens
       },
     },
   };
@@ -42,10 +46,14 @@ export default function MultipleSelect({ data, required }) {
     );
   };
 
+  useEffect(() => {
+    handleChangeOperator(personName);
+  }, [personName, handleChangeOperator]);
+
   return (
     <div className="w-full">
       <FormControl
-        sx={{ width: "100%" }}
+        sx={{ width: "100%", mt: 1 }}
         size="small"
         fullWidth
         required={required}

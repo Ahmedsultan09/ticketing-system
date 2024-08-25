@@ -6,7 +6,8 @@ import QrCode2Icon from "@mui/icons-material/QrCode2";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
 import PrintIcon from "@mui/icons-material/Print";
-
+import SpeedIcon from "@mui/icons-material/Speed";
+import ShowChartIcon from "@mui/icons-material/ShowChart";
 export default function MachineCard({
   serialNumber,
   qrCode,
@@ -16,6 +17,9 @@ export default function MachineCard({
   area,
   branch,
   property,
+  machineType,
+  meterReading,
+  status,
 }) {
   return (
     <div className="lg:w-[280px] sm:w-1/2 h-56 rounded-2xl shadow-xl shadow-slate-200 p-2">
@@ -29,38 +33,65 @@ export default function MachineCard({
           </Direct>
           <div className="leading-none lg:w-auto w-4/5">
             {property ? (
-              <GreenLabel text="property" />
+              <GreenLabel text="Big Data's" />
             ) : (
-              <RedLabel text="non-ownership" />
+              <RedLabel text={client} />
             )}
           </div>
         </div>
 
         <div className="w-full flex flex-row flex-wrap justify-center items-center h-4/5">
           {" "}
-          <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
-            {" "}
-            <span className="font-bold">Client: </span>
-            {client} <BusinessIcon className="!text-lg" />
-          </div>
-          <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
-            {" "}
-            <span className="font-bold">QR Code: </span>
-            {qrCode} <QrCode2Icon className="!text-lg" />
-          </div>
-          <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
-            <span className="font-bold">Area: </span>
-            {area} <LocationOnIcon className="!text-lg" />
-          </div>
-          <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
-            <span className="font-bold">Branch: </span>
-            {branch} <LocationCityIcon className="!text-lg" />
-          </div>
-          <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
-            {" "}
-            <span className="font-bold">Model: </span>
-            {model} <PrintIcon className="!text-lg" />
-          </div>
+          {client !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              {" "}
+              <span className="font-bold">Client: </span>
+              {client} <BusinessIcon className="!text-lg" />
+            </div>
+          )}
+          {qrCode !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              <span className="font-bold">Area: </span>
+              {area} <LocationOnIcon className="!text-lg" />
+            </div>
+          )}
+          {branch !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              <span className="font-bold">Branch: </span>
+              {branch} <LocationCityIcon className="!text-lg" />
+            </div>
+          )}
+          {model !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              {" "}
+              <span className="font-bold">Model: </span>
+              {model} <PrintIcon className="!text-lg" />
+            </div>
+          )}
+          {machineType !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              {" "}
+              <span className="font-bold">Type: </span>
+              {machineType} <PrintIcon className="!text-lg" />
+            </div>
+          )}
+          {status !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              {" "}
+              <span className="font-bold">Status: </span>
+              {status === "solved" && "Stable"}{" "}
+              {status === "spare-parts" && "Spare Parts"}{" "}
+              {status === "scrapped" && "Scrapped / Replacement"}{" "}
+              <ShowChartIcon className="!text-lg" />
+            </div>
+          )}
+          {meterReading !== undefined && (
+            <div className="w-11/12 rounded-2xl text-nowrap text-xs bg-slate-200 px-2">
+              {" "}
+              <span className="font-bold">Meter reading: </span>
+              {meterReading} <SpeedIcon className="!text-lg" />
+            </div>
+          )}
         </div>
       </div>
     </div>

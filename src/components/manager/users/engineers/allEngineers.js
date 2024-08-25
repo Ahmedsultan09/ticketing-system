@@ -1,18 +1,8 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
-import {
-  Grid,
-  Paper,
-  styled,
-  useMediaQuery,
-  useTheme,
-  Typography,
-} from "@mui/material";
-import { Button } from "@mui/material";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
-import { useNavigate } from "react-router-dom";
+import axiosInstance from "../../../../api/axiosInstance";
+import { Paper, styled, useMediaQuery, useTheme, Button } from "@mui/material";
 import { Link as Direct } from "react-router-dom";
+import SpecificTasksModal from "./specificTasksModal";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -30,151 +20,12 @@ const Item = styled(Paper)(({ theme }) => ({
   whiteSpace: "nowrap",
 }));
 
-function SpecificTasksModal({ open, handleClose, eng }) {
-  const [tasks, setTasks] = useState([]);
-  const navigate = useNavigate();
-  const theme = useTheme();
-  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
-
-  function handleNavigate(id) {
-    navigate(`/tickets/${id}`);
-  }
-
-  useEffect(() => {
-    async function fetchAllTickets() {
-      const response = await axios.get("http://localhost:3000/tickets");
-      const allTickets = response.data;
-      if (eng && eng.tasks) {
-        const filteredTickets = eng.tasks.map((id) =>
-          allTickets.find((ticket) => parseInt(ticket.id) === parseInt(id))
-        );
-        setTasks(filteredTickets);
-      }
-    }
-    fetchAllTickets();
-  }, [eng]);
-
-  const modalStyle = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: isSmallScreen ? "90%" : "80%",
-    maxWidth: 800,
-    height: "80%",
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    boxShadow: 24,
-    py: 4,
-    px: 1,
-  };
-
-  return (
-    <Modal
-      open={open}
-      onClose={handleClose}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description"
-    >
-      <Box
-        sx={modalStyle}
-        className="flex flex-col items-center justify-center rounded-2xl"
-      >
-        <Box className="w-full flex flex-col gap-2 items-center justify-center">
-          <Typography variant="h6" className="font-bold">
-            ENG/ {eng.name} tasks
-          </Typography>
-          <Box className="w-full h-full flex flex-col justify-around border border-gray-700 p-2 rounded-xl overflow-auto">
-            <Box className="w-full mt-2 border border-gray-400 p-3 rounded-b-xl">
-              <Grid container spacing={1}>
-                <Grid item xs={3}>
-                  <Item className="!bg-gray-300">
-                    <Typography variant="body2" noWrap>
-                      Client
-                    </Typography>
-                  </Item>
-                </Grid>
-                <Grid item xs={3}>
-                  <Item className="!bg-gray-300">
-                    <Typography variant="body2">Branch</Typography>
-                  </Item>
-                </Grid>
-                <Grid item xs={3}>
-                  <Item className="!bg-gray-300">
-                    <Typography variant="body2" noWrap>
-                      Issue
-                    </Typography>
-                  </Item>
-                </Grid>
-                <Grid item xs={3}>
-                  <Item className="!bg-gray-300">
-                    <Typography variant="body2" noWrap>
-                      Ticket Number
-                    </Typography>
-                  </Item>
-                </Grid>
-              </Grid>
-            </Box>
-            {tasks.length > 0 ? (
-              tasks.map((item) => (
-                <Box
-                  key={item && item.id}
-                  className="w-full mb-2 border flex border-gray-400 p-3 rounded-b-xl"
-                >
-                  <Grid container spacing={1}>
-                    <Grid item xs={3}>
-                      <Item>
-                        <Typography variant="body2" noWrap>
-                          {item && item.client}
-                        </Typography>
-                      </Item>
-                    </Grid>
-                    <Grid item xs={3}>
-                      <Item>
-                        <Typography variant="body2" noWrap>
-                          {item && item.branch}
-                        </Typography>
-                      </Item>
-                    </Grid>
-                    <Grid item xs={3}>
-                      <Item>
-                        <Typography variant="body2" noWrap>
-                          {item && item.issue}
-                        </Typography>
-                      </Item>
-                    </Grid>
-                    <Grid item xs={3}>
-                      <Item
-                        onClick={() => handleNavigate(item.id)}
-                        className="w-full h-full cursor-pointer !text-blue-500"
-                      >
-                        <Typography variant="body2" noWrap>
-                          {item && item.id}
-                        </Typography>
-                      </Item>
-                    </Grid>
-                  </Grid>
-                </Box>
-              ))
-            ) : (
-              <Typography variant="body1">No tasks found.</Typography>
-            )}
-          </Box>
-          <Box className="flex flex-row gap-2 items-center justify-center">
-            <Button onClick={handleClose} variant="contained" color="error">
-              Close
-            </Button>
-          </Box>
-        </Box>
-      </Box>
-    </Modal>
-  );
-}
-
 function AllEngineers() {
   const [engineers, setEngineers] = useState([]);
+  const [allTickets, setAllTickets] = useState([]);
   const [open, setOpen] = useState(false);
   const [specificEngDetails, setSpecificEngDetails] = useState({});
+  const [updatedEngineers, setUpdatedEngineers] = useState([]);
 
   function handleOpen(details) {
     setOpen(true);
@@ -185,15 +36,46 @@ function AllEngineers() {
 
   useEffect(() => {
     async function fetchEngineers() {
-      const response = await axios.get("http://localhost:3000/engineers");
+      const response = await axiosInstance.get("/engineers");
       const allEngineers = await response.data;
       setEngineers(allEngineers);
     }
     fetchEngineers();
   }, []);
 
+  useEffect(() => {
+    async function fetchAllTickets() {
+      const response = await axiosInstance.get("/tickets");
+      const allTickets = await response.data;
+      setAllTickets(allTickets);
+    }
+    fetchAllTickets();
+  }, []);
+
+  useEffect(() => {
+    if (engineers.length && allTickets.length) {
+      // Create a map of tickets for quick lookup
+      const ticketsMap = allTickets.reduce((map, ticket) => {
+        map[ticket.id] = ticket;
+        return map;
+      }, {});
+
+      // Replace task IDs with ticket objects
+      const updatedEngineers = engineers.map((engineer) => ({
+        ...engineer,
+        tasks: engineer.tasks.map((taskId) => ticketsMap[taskId]),
+      }));
+
+      setUpdatedEngineers(updatedEngineers);
+    }
+  }, [engineers, allTickets]);
+
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
+  useEffect(() => {
+    console.log(updatedEngineers);
+  }, [updatedEngineers]);
 
   return (
     <main className="w-full min-h-screen flex flex-row relative">
@@ -218,8 +100,8 @@ function AllEngineers() {
                 <Button
                   variant="contained"
                   size="small"
-                  className={`h-7 !text-[10px] lg:w-1/2 sm:w-3/4 ${
-                    isSmallScreen ? "text-xs" : ""
+                  className={`h-7 !text-[10px] lg:w-1/2 sm:w-3/4 !px-5 ${
+                    isSmallScreen ? "text-xs !px-3" : ""
                   }`}
                   color="secondary"
                   onClick={() => handleOpen(eng)}
@@ -234,20 +116,19 @@ function AllEngineers() {
                   </div>
                 ) : (
                   <div className="h-5 w-20 rounded-3xl text-white text-sm bg-green-600 flex items-center justify-center">
-                    clean
+                    No parts
                   </div>
                 )}
               </div>
             </div>
           </Item>
         ))}
+        <SpecificTasksModal
+          open={open}
+          handleClose={handleClose}
+          eng={specificEngDetails}
+        />
       </div>
-      <SpecificTasksModal
-        open={open}
-        handleClose={handleClose}
-        handleOpen={handleOpen}
-        eng={specificEngDetails}
-      />
     </main>
   );
 }
