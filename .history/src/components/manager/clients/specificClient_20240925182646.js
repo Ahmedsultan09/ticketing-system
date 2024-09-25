@@ -2,11 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useFetchClients from "src/hooks/useFetchClients";
 import ClientInfo from "./clientInfo";
-import { Typography } from "@mui/material";
-import { Button } from "src/ui/components/button";
+import { Button, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import NavigationCard from "src/ui/cards/navigationCard";
-import AddAreaModal from "./addAreaModal";
 
 function SpecificClient() {
   const [specificClient, setSpecificClient] = useState({});
@@ -19,23 +17,21 @@ function SpecificClient() {
   useEffect(() => {
     setSpecificClient(client);
   }, [client]);
-  const [open, setOpen] = useState(false);
 
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
+  useEffect(() => {
+    console.log(specificClient);
+  }, [specificClient]);
   return (
     <div className="container">
       {" "}
-      <div className="w-full my-4 flex flex-row justify-between items-center">
+      <div className="w-full my-4">
         <Button onClick={handleBack}>
           <ArrowBackIcon /> Back
         </Button>
-        <Button onClick={handleOpen}>أضف محافظة</Button>
       </div>
       <ClientInfo clients={specificClient} />
       <div className="w-full mt-4" dir="rtl">
-        <Typography>أختر المحافظة</Typography>
+        <Typography>أختر المنطقة</Typography>
         <div className="w-full flex justify-between flex-wrap flex-row gap-4">
           {" "}
           {specificClient?.governorates?.map((gov) => {
@@ -49,7 +45,6 @@ function SpecificClient() {
           })}
         </div>
       </div>
-      <AddAreaModal open={open} handleClose={handleClose} />
     </div>
   );
 }

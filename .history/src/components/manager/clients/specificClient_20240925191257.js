@@ -24,18 +24,21 @@ function SpecificClient() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  useEffect(() => {
+    console.log(specificClient);
+  }, [specificClient]);
   return (
     <div className="container">
       {" "}
-      <div className="w-full my-4 flex flex-row justify-between items-center">
+      <div className="w-full my-4">
         <Button onClick={handleBack}>
           <ArrowBackIcon /> Back
         </Button>
-        <Button onClick={handleOpen}>أضف محافظة</Button>
+        <Button onClick={handleOpen}>Add Area</Button>
       </div>
       <ClientInfo clients={specificClient} />
       <div className="w-full mt-4" dir="rtl">
-        <Typography>أختر المحافظة</Typography>
+        <Typography>أختر المنطقة</Typography>
         <div className="w-full flex justify-between flex-wrap flex-row gap-4">
           {" "}
           {specificClient?.governorates?.map((gov) => {

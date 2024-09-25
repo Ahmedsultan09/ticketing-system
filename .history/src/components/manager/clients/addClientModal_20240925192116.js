@@ -99,6 +99,10 @@ export default function AddClientModal({
     // Reset rule state
   }
 
+  useEffect(() => {
+    console.log(selectedOperators);
+  }, [selectedOperators]);
+
   function handleCreateClient() {
     axiosInstance
       .post("/clients", {

@@ -18119,6 +18119,51 @@
           "address": "987 Nasr City Rd, Cairo"
         }
       ]
+    },
+    {
+      "id": "858b",
+      "clientName": "SULTAN",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "5",
+          "client": "NBE",
+          "name": "Ahmed Adel",
+          "ticketsCreated": [
+            227,
+            66,
+            124,
+            110,
+            145,
+            14,
+            160,
+            25,
+            228,
+            89,
+            225,
+            191,
+            31,
+            99,
+            96,
+            151,
+            90,
+            71,
+            97,
+            116
+          ],
+          "numberOfTicketsCreated": 20,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "areas": []
     }
   ]
 }

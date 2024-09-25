@@ -24,10 +24,13 @@ function SpecificClient() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  useEffect(() => {
+    console.log(specificClient);
+  }, [specificClient]);
   return (
     <div className="container">
       {" "}
-      <div className="w-full my-4 flex flex-row justify-between items-center">
+      <div className="w-full my-4">
         <Button onClick={handleBack}>
           <ArrowBackIcon /> Back
         </Button>

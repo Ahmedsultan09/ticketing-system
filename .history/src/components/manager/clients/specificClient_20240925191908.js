@@ -24,6 +24,9 @@ function SpecificClient() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  useEffect(() => {
+    console.log(specificClient);
+  }, [specificClient]);
   return (
     <div className="container">
       {" "}
