@@ -54,10 +54,6 @@ export default function History({ id }) {
     }
   }, [matchedVisit, searchedId]);
 
-  useEffect(() => {
-    console.log(doneRegularVisits);
-  }, [doneRegularVisits]);
-
   return (
     <div className=" mx-auto ">
       <Header

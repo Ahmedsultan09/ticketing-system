@@ -73,7 +73,7 @@ export default function TicketDetailsModal({ serialNumber }) {
     { id: 2, type: "warning", text: "تركيب قطع غيار بدون مقايسة" },
     { id: 3, type: "warning", text: "بتغير السخان في حالة سوء الاستخدام" },
   ];
-  console.log(timeValue);
+
   return (
     <Box sx={{ flexGrow: 1, width: "100%" }}>
       <Grid container spacing={2}>
@@ -229,21 +229,7 @@ export default function TicketDetailsModal({ serialNumber }) {
             sx={{
               minWidth: 120,
             }}
-          >
-            <FormControl fullWidth className="!mb-1">
-              <InputLabel id="issue-type">Issue Type</InputLabel>
-              <Select
-                labelId="issue-type"
-                id="issueType"
-                value={issueType}
-                label="Issue Type"
-                onChange={handleIssueType}
-              >
-                <MenuItem value={"spare-parts"}>Spare Parts</MenuItem>
-                <MenuItem value={"other"}>Misuse</MenuItem>
-              </Select>
-            </FormControl>
-          </Box>
+          ></Box>
           {issueType === "spare-parts" && <MachinePartsOptions />}
           <TextField fullWidth label="Suggestion" id="issueSuggestion" />
           <div className="w-full flex justify-end !my-2">
@@ -266,8 +252,7 @@ export default function TicketDetailsModal({ serialNumber }) {
                 label="Priority"
                 onChange={handlePriority}
               >
-                <MenuItem value={"low"}>Low</MenuItem>
-                <MenuItem value={"medium"}>Medium</MenuItem>
+                <MenuItem value={"normal"}>Normal</MenuItem>
                 <MenuItem value={"high"}>High</MenuItem>
               </Select>
             </FormControl>

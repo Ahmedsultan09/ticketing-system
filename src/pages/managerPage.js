@@ -12,9 +12,13 @@ import SpecificEngineer from "../components/manager/users/engineers/specificEngi
 import SpecificOperator from "../components/manager/users/operators/specificOperator";
 import AllMachines from "../components/manager/machines/allMachines";
 import SpecificMachine from "../components/manager/machines/specificMachine";
-import AllTroubleshooting from "../components/manager/troubleshooting/allTroubleshooting";
-import SpecificTroubleshooting from "../components/manager/troubleshooting/specificTroubleshooting";
+import SpecificTroubleshooting from "../components/operator/troubleshooting/specificTroubleshooting";
 import AllClients from "../components/manager/clients/allClients";
+import TroubleShooting from "src/components/manager/troubleshooting/allTroubleshooting";
+import AllRvs from "src/components/manager/users/engineers/AllRvs";
+import SpecificClient from "src/components/manager/clients/specificClient";
+import SpecificGov from "src/components/manager/clients/specificGov";
+import SpecificBranch from "src/components/manager/clients/specificBranch";
 function ManagerPage() {
   return (
     <>
@@ -25,12 +29,13 @@ function ManagerPage() {
         <Route element={<Tickets />} path="/tickets" />
         <Route element={<SpecificTicket />} path="/tickets/:ticketID" />
         <Route element={<TicketType />} path="/tickets/type/:ticketType" />
-        <Route element={<AllTroubleshooting />} path="/troubleshooting" />
+        <Route element={<TroubleShooting />} path="/troubleshooting" />
         <Route
           element={<SpecificTroubleshooting />}
           path="/troubleshooting/:issueID"
         />
         <Route element={<Users />} path="/users/accounts" />
+        <Route element={<AllRvs />} path="/regular-visits" />
         <Route element={<AllOperators />} path="/users/operators" />
         <Route
           element={<SpecificOperator />}
@@ -43,6 +48,12 @@ function ManagerPage() {
         <Route element={<SpecificMachine />} path="/machines/:serialNumber" />
 
         <Route element={<AllClients />} path="/clients" />
+        <Route element={<SpecificClient />} path="/client/:clientID" />
+        <Route element={<SpecificGov />} path="/client/:clientID/gov/:govID" />
+        <Route
+          element={<SpecificBranch />}
+          path="/client/:clientID/gov/:govID/area/:areaID"
+        />
       </Routes>
     </>
   );

@@ -37,41 +37,49 @@ function AllUsers() {
     {
       name: "Ahmed Alaa",
       userName: "ahmed.alaa",
+      mobileNumber: "01111236361",
       role: "admin",
     },
     {
       name: "Osama Ahmed",
       userName: "osama.ahmed",
+      mobileNumber: "01111236361",
       role: "manager",
     },
     {
       name: "Rasha Ahmed",
       userName: "rasha.ahmed",
+      mobileNumber: "01111236361",
       role: "manager",
     },
     {
       name: "Mohammed Ragab",
       userName: "mohamed.ragab",
+      mobileNumber: "01111236361",
       role: "engineer",
     },
     {
       name: "Ahmed Abdullah",
       userName: "ahmed.abdullah",
+      mobileNumber: "01111236361",
       role: "engineer",
     },
     {
       name: "Mohammed Abdellah",
       userName: "mohammed.abdellah",
+      mobileNumber: "01111236361",
       role: "operator",
     },
     {
       name: "Mohammed Loly",
       userName: "mohammed.loly",
+      mobileNumber: "01111236361",
       role: "operator",
     },
     {
       name: "Mohammed Tarek",
       userName: "mohammed.tarek",
+      mobileNumber: "01111236361",
       role: "operator",
     },
   ]);

@@ -363,8 +363,6 @@ function SpecificMachine() {
     [meterReading, handleMeterReading]
   );
 
-  console.log(machineModel);
-
   const rules = [
     { id: 1, type: "success", text: "تركيب قطع غيار بدون مقايسة" },
     { id: 2, type: "warning", text: "تركيب قطع غيار بدون مقايسة" },

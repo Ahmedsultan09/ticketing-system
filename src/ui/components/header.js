@@ -1,7 +1,13 @@
 import React from "react";
 import { Link as Direct } from "react-router-dom";
 
-function Header({ title = "", description, btnText, direction = "/" }) {
+function Header({
+  title = "",
+  description,
+  btnText,
+  direction = "/",
+  btnComponent,
+}) {
   return (
     <header className="text-primary-foreground px-4 py-6 sm:px-6 md:px-8 bg-gray-800 text-white">
       <div className="container mx-auto">
@@ -15,11 +21,12 @@ function Header({ title = "", description, btnText, direction = "/" }) {
           {btnText && (
             <Direct
               to={direction}
-              className="w-fit  px-7 h-fit bg-white text-black rounded-lg text-sm py-1 font-bold"
+              className="w-fit px-7 h-fit bg-white text-black rounded-lg text-sm py-1 font-bold"
             >
               {btnText}
             </Direct>
           )}
+          {btnComponent && btnComponent}
         </div>
       </div>
     </header>

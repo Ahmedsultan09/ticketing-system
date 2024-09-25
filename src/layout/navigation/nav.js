@@ -9,6 +9,7 @@ import IssuesNavigationBtn from "./issuesNavigationBtn";
 const initialNavigation = [
   { name: "Machines", href: "/machines", current: false },
   { name: "Clients", href: "/clients", current: false },
+  { name: "Regular Visits", href: "/regular-visits", current: false },
 ];
 
 function classNames(...classes) {
@@ -30,7 +31,6 @@ export default function Nav() {
 
   useEffect(() => {
     const location = window.location.pathname;
-    console.log(location);
     if (location === "/") {
       setIsCurrentDashboard(true);
     } else {

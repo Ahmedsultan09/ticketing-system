@@ -32,7 +32,7 @@ export default function DeleteRvModal({ open, handleClose, user }) {
             variant="h6"
             className="w-full h-1/2 flex items-center justify-center"
           >
-            Are u sure do you want to delete this user?
+            Are u sure do you want to delete this visit?
           </Typography>
           <Box className="w-full flex flex-row gap-2 items-end justify-center">
             <Button onClick={handleClose} variant="contained" color="success">

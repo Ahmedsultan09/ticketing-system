@@ -1,6 +1,5 @@
 import { DataGrid } from "@mui/x-data-grid";
 import { Link as Direct } from "react-router-dom";
-import CreateTicketModal from "./createIssueModal";
 import { useEffect, useState } from "react";
 import { SupervisedUserCircleOutlined } from "@mui/icons-material";
 import BusinessIcon from "@mui/icons-material/Business";
@@ -16,6 +15,7 @@ import BlueLabel from "../../../ui/type-labels/blueLabel";
 import GreyLabel from "../../../ui/type-labels/greyLabel";
 import PurpleLabel from "../../../ui/type-labels/purpleLabel";
 import axiosInstance from "../../../api/axiosInstance";
+import CreateIssueModal from "./createIssueModal";
 
 export default function Tickets({ type }) {
   const [rows, setRows] = useState([]);
@@ -212,8 +212,7 @@ export default function Tickets({ type }) {
             height: "100%",
           }}
         >
-          {params.value === "low" ? <GreenLabel text="low" /> : null}
-          {params.value === "medium" ? <BlueLabel text="Medium" /> : null}
+          {params.value === "normal" ? <YellowLabel text="Normal" /> : null}
           {params.value === "high" ? <RedLabel text="High" /> : null}
         </div>
       ),
@@ -276,7 +275,7 @@ export default function Tickets({ type }) {
 
   return (
     <div style={{ height: "90vh", width: "100%" }}>
-      <CreateTicketModal type={type} />
+      <CreateIssueModal type={type} />
       <DataGrid
         sx={{
           boxShadow: 2,

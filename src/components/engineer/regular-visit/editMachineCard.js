@@ -34,6 +34,7 @@ function EditMachineCard({
   handleAddDoneMachines,
   handleRemoveDoneMachines,
   currentRv,
+  handleSpareParts,
 }) {
   const [status, setStatus] = useState(declaredStatus);
   const [scrabbedReason, setScrabbedReason] = useState("");
@@ -113,8 +114,11 @@ function EditMachineCard({
   return (
     <div>
       <Card className="bg-background shadow-sm rounded-lg w-full overflow-auto ">
-        <CardHeader className="flex flex-row justify-between items-center">
-          <CardTitle>Done machines</CardTitle>
+        <CardHeader
+          className="flex flex-row justify-between items-center"
+          dir="rtl"
+        >
+          <CardTitle>الماكينات اللتي تم الإنتهاء منها</CardTitle>
 
           <Typography
             className="text-muted-foreground"
@@ -139,7 +143,7 @@ function EditMachineCard({
                 </span>
                 <div className="flex flex-wrap items-center justify-between w-full">
                   <p className="text-muted-foreground">
-                    {machine.machineBrand} {machine.machineModel} -{" "}
+                    {machine.machineBrand} - {machine.machineModel} -{" "}
                     {machine.meterReading}
                   </p>
                   <Button
@@ -220,7 +224,10 @@ function EditMachineCard({
             {status === "spare-parts" && (
               <div className="grid gap-2">
                 <Label htmlFor="spare-parts-needed">Spare Parts Needed</Label>
-                <EngineerSpareParts saveBtn={false} />
+                <EngineerSpareParts
+                  saveBtn={false}
+                  handleSpareParts={handleSpareParts}
+                />
               </div>
             )}
 

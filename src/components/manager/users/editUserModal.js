@@ -96,12 +96,14 @@ export default function EditUserModal({ open, handleClose, user }) {
   const [radioValue, setRadioValue] = useState("");
   const [nameValue, setName] = useState("");
   const [userName, setUserName] = useState("");
+  const [mobileNumber, setMobileNumber] = useState("");
   const [isSaveDisabled, setIsSaveDisabled] = useState(true);
 
   useEffect(() => {
     if (user) {
       setRadioValue(user.role || "");
       setName(user.name || "");
+      setMobileNumber(user.mobileNumber || "");
       setUserName(user.userName || "");
     }
   }, [user]);
@@ -127,6 +129,9 @@ export default function EditUserModal({ open, handleClose, user }) {
 
   const handleUserName = (e) => {
     setUserName(e.target.value);
+  };
+  const handleMobileNumber = (e) => {
+    setMobileNumber(e.target.value);
   };
 
   const handleSave = () => {
@@ -167,10 +172,19 @@ export default function EditUserModal({ open, handleClose, user }) {
             />
             <TextField
               id="username"
-              label="username"
+              label="Username"
               size="small"
               value={userName}
               onChange={handleUserName}
+              fullWidth
+              required
+            />
+            <TextField
+              id="mobileNumber"
+              label="Mobile Number"
+              size="small"
+              value={mobileNumber}
+              onChange={handleMobileNumber}
               fullWidth
               required
             />

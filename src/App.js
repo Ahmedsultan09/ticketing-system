@@ -1,19 +1,37 @@
 import "./App.css";
 
 import { Route, Routes } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ManagerPage from "./pages/managerPage";
 import OperatorPage from "./pages/operatorPage";
 import EngineerPage from "./pages/engineerPage";
 import SignIn from "./pages/signIn";
 import SignUp from "./pages/signUp";
+import axiosInstance from "./api/axiosInstance";
+import useFetchDoneCalls from "./hooks/useFetchDoneCalls";
 
 function App() {
-  const [role] = useState("engineer");
+  const [role] = useState("manager");
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    async function fetchClients() {
+      const datas = await axiosInstance.get("/clients");
+      const clients = await datas.data;
+      setData(clients);
+    }
+    fetchClients();
+  }, []);
+
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
   return (
     <Routes>
       {role === "manager" && <Route path="/*" element={<ManagerPage />} />}
-      {role === "operator" && <Route path="/*" element={<OperatorPage />} />}
+      {role === "operator" && (
+        <Route path="/*" element={<OperatorPage id={1} />} />
+      )}
       {role === "engineer" && (
         <Route path="/*" element={<EngineerPage id={4} />} />
       )}

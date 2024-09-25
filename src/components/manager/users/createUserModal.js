@@ -111,7 +111,15 @@ export default function CreateUserModal({ open, handleOpen, handleClose }) {
             />
             <TextField
               id="username"
-              label="username"
+              label="Username"
+              size="small"
+              fullWidth
+              required
+            />
+            <TextField
+              id="mobileNumber"
+              label="Mobile Number"
+              type="number"
               size="small"
               fullWidth
               required

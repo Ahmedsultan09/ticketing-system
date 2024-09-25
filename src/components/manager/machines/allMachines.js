@@ -1,5 +1,11 @@
 import React, { Suspense, lazy, useEffect, useMemo, useState } from "react";
-import { Button, TextField, Typography } from "@mui/material";
+import {
+  Button,
+  Checkbox,
+  FormControlLabel,
+  TextField,
+  Typography,
+} from "@mui/material";
 import AddCircleSharpIcon from "@mui/icons-material/AddCircleSharp";
 import AddMachineModal from "./addMachineModal";
 import InputLabel from "@mui/material/InputLabel";
@@ -16,6 +22,7 @@ function AllMachines() {
   const [search, setSearch] = useState("");
   const [client, setClient] = useState(0);
   const [isEmpty, setIsEmpty] = useState(false);
+  const [searchByModel, setSearchByModel] = useState(false);
 
   const LazyMachineCard = lazy(() =>
     import("../../../ui/cards/machineCard.js")
@@ -64,19 +71,34 @@ function AllMachines() {
   }, [client]);
 
   useEffect(() => {
-    const filteredMachines = machines.filter((machine) => {
-      return machine.serialNumber
-        .toString()
-        .toLowerCase()
-        .includes(search.toLowerCase());
-    });
-    setMatchedMachines(filteredMachines);
-    if (filteredMachines.length === 0 && search !== "") {
-      setIsEmpty(true);
+    if (!searchByModel) {
+      const filteredMachines = machines.filter((machine) => {
+        return machine.serialNumber
+          .toString()
+          .toLowerCase()
+          .includes(search.toLowerCase());
+      });
+      setMatchedMachines(filteredMachines);
+      if (filteredMachines.length === 0 && search !== "") {
+        setIsEmpty(true);
+      } else {
+        setIsEmpty(false);
+      }
     } else {
-      setIsEmpty(false);
+      const filteredMachines = machines.filter((machine) => {
+        return machine.machineModel
+          .toString()
+          .toLowerCase()
+          .includes(search.toLocaleLowerCase());
+      });
+      setMatchedMachines(filteredMachines);
+      if (filteredMachines.length === 0 && search !== "") {
+        setIsEmpty(true);
+      } else {
+        setIsEmpty(false);
+      }
     }
-  }, [machines, search]);
+  }, [machines, search, searchByModel]);
 
   const handleOpenAddMachine = () => {
     setOpenCreateUser(true);
@@ -90,6 +112,10 @@ function AllMachines() {
 
   const handleClient = (event) => {
     setClient(event.target.value);
+  };
+
+  const handleSearchBy = (e) => {
+    setSearchByModel((prev) => !prev);
   };
 
   return (
@@ -113,7 +139,7 @@ function AllMachines() {
         </Button>
       </div>
 
-      <div className="w-full flex justify-between px-4 py-2 items-center !mt-0">
+      <div className="w-full flex flex-col lg:flex-row justify-between px-4 py-2 items-center !mt-0">
         <FormControl
           sx={{ minWidth: 120, fontSize: "10px" }}
           size="small"
@@ -144,13 +170,22 @@ function AllMachines() {
             </MenuItem>
           </Select>
         </FormControl>
-        <TextField
-          id="search"
-          label="Search"
-          variant="standard"
-          onChange={handleSearch}
-          className="flex items-center justify-center h-full !m-0 -translate-y-2"
-        />
+        <div className="w-fit flex flex-col justify-center lg:flex-row">
+          {" "}
+          <FormControlLabel
+            control={<Checkbox />}
+            label="Search by model"
+            onChange={handleSearchBy}
+            value={searchByModel}
+          />
+          <TextField
+            id="search"
+            label="Search"
+            variant="standard"
+            onChange={handleSearch}
+            className="flex items-center justify-center h-full !m-0 -translate-y-2"
+          />
+        </div>
       </div>
       {!isEmpty ? (
         <Suspense

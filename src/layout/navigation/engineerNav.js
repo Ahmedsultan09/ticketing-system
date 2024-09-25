@@ -7,7 +7,6 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import useFetchRegularVisits from "../../hooks/useFetchRegularVisits";
 import useFetchTasks from "../../hooks/useFetchTasks";
 const initialNavigation = [
-  { name: "Special Assignment", href: "/special-assignments", current: false },
   { name: "History", href: "/history", current: false },
 ];
 

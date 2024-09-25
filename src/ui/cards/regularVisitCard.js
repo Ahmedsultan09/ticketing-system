@@ -23,8 +23,7 @@ export default function RegularVisitCard({
   period,
 }) {
   const [allMachines, setAllMachines] = useState([]);
-  const [stableMachines, setStableMachines] = useState([]);
-  const [unStableMachines, setUnStableMachines] = useState([]);
+
   const [expanded, setExpanded] = useState(false);
   const [isEditMode, setIsEditMode] = useState(false);
   const [open, setOpen] = useState(false);
@@ -42,12 +41,6 @@ export default function RegularVisitCard({
     setAllMachines((prev) =>
       prev.filter((machine) => machine.id !== machineId)
     );
-    setStableMachines((prev) =>
-      prev.filter((machine) => machine.id !== machineId)
-    );
-    setUnStableMachines((prev) =>
-      prev.filter((machine) => machine.id !== machineId)
-    );
   };
 
   const handleAddMachine = (machine) => {
@@ -63,17 +56,12 @@ export default function RegularVisitCard({
       const response = await axiosInstance.get("/machines");
       const allMachines = await response.data;
       setAllMachines(allMachines.slice(0, 7));
-      setStableMachines(allMachines.slice(7, 12));
-      setUnStableMachines(allMachines.slice(12, 15));
     }
     getAllMachines();
   }, []);
-  useEffect(() => {
-    console.log(allMachines);
-  }, [allMachines]);
 
   return (
-    <div className="rounded-md h-1/4">
+    <div className="rounded-md h-1/4 container mx-auto">
       <div>
         <Accordion>
           <AccordionSummary
@@ -161,80 +149,6 @@ export default function RegularVisitCard({
             )}
           </AccordionDetails>
         </Accordion>
-        <Accordion
-          expanded={expanded === "panel3"}
-          onChange={handleChange("panel3")}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel3bh-content"
-            id="panel3bh-header"
-          >
-            <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              Stable machines
-            </Typography>
-            <Typography sx={{ color: "text.secondary" }}>
-              Here you can find all machines that he checked and marked as no
-              issue found
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails className="w-full flex flex-row flex-wrap gap-2 justify-center items-center">
-            {stableMachines.map((machine) => (
-              <div
-                className="w-fit h-auto bg-white rounded-2xl shadow-md p-3 border border-gray-300 flex flex-col gap-2 relative"
-                key={machine.id}
-              >
-                <span className="absolute -top-2 -right-2 text-green-600">
-                  <CheckCircleIcon />
-                </span>
-                <span>
-                  Serial Number: {machine.serialNumber.toString().toUpperCase()}
-                </span>
-                <span>QR Code: {machine.qrCode}</span>
-                <span>Machine Brand: {machine.brand}</span>
-                <span>Machine Model: {machine.model}</span>
-                <span>Machine Type: {machine.machineType}</span>
-              </div>
-            ))}
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          expanded={expanded === "panel4"}
-          onChange={handleChange("panel4")}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel4bh-content"
-            id="panel4bh-header"
-          >
-            <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              Unstable Machines
-            </Typography>
-            <Typography sx={{ color: "text.secondary" }}>
-              Here you can find all machines that he checked and found a problem
-              with it
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails className="w-full flex flex-row flex-wrap gap-2 justify-center items-center">
-            {unStableMachines.map((machine) => (
-              <div
-                className="w-fit h-auto bg-white rounded-2xl shadow-md p-3 border border-gray-300 flex flex-col gap-2 relative"
-                key={machine.id}
-              >
-                <span className="absolute -top-2 -right-2 text-red-600">
-                  <CancelIcon />
-                </span>
-                <span>
-                  Serial Number: {machine.serialNumber.toString().toUpperCase()}
-                </span>
-                <span>QR Code: {machine.qrCode}</span>
-                <span>Machine Brand: {machine.brand}</span>
-                <span>Machine Model: {machine.model}</span>
-                <span>Machine Type: {machine.machineType}</span>
-              </div>
-            ))}
-          </AccordionDetails>
-        </Accordion>
       </div>
       <div className="w-full h-12 border border-gray-300 rounded-b-2xl flex flex-row items-center justify-end gap-2 px-2 ">
         {isEditMode ? (
@@ -265,6 +179,9 @@ export default function RegularVisitCard({
           onClick={handleDelete}
         >
           Delete
+        </Button>
+        <Button variant="contained" color="warning" size="small">
+          Assign Engineer
         </Button>
       </div>
       <AddMachineRvModal

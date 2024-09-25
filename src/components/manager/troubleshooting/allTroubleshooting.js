@@ -1,6 +1,5 @@
 import { DataGrid } from "@mui/x-data-grid";
 import { Link as Direct } from "react-router-dom";
-import CreateTicketModal from "../tickets/createIssueModal";
 import { SupervisedUserCircleOutlined } from "@mui/icons-material";
 import BusinessIcon from "@mui/icons-material/Business";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
@@ -9,8 +8,9 @@ import PrintOutlinedIcon from "@mui/icons-material/PrintOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { useEffect, useState } from "react";
 import axiosInstance from "../../../api/axiosInstance";
+import CreateIssueModal from "../../manager/tickets/createIssueModal";
 
-export default function Tickets({ type }) {
+export default function TroubleShooting({ type }) {
   const [rows, setRows] = useState([]);
   const [isManager] = useState(false);
   const columns = [
@@ -151,7 +151,7 @@ export default function Tickets({ type }) {
 
   return (
     <div style={{ height: "90vh", width: "100%" }}>
-      <CreateTicketModal type={type} troubleshooting={true} />
+      <CreateIssueModal type={type} troubleshooting={true} />
       <DataGrid
         sx={{
           boxShadow: 2,

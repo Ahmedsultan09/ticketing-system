@@ -25,7 +25,6 @@ function AllRvs() {
     const differenceInDays = differencesArr.map((date) => {
       return Math.floor(date / (1000 * 60 * 60 * 24));
     });
-    console.log(differenceInDays);
     setTimeLeft(differenceInDays);
   }, [regularVisits]);
 

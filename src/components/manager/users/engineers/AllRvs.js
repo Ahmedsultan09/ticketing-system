@@ -3,9 +3,13 @@ import { Box, Button, Typography } from "@mui/material";
 import React, { useState } from "react";
 import AddCircleSharpIcon from "@mui/icons-material/AddCircleSharp";
 import CreateRegularVisitModal from "./createRegularVisitModal.js";
+import CreatedRegularVisits from "./createdRegularVisits";
+import DoneRegularVisits from "./doneRegularVisits";
 
-function EngineerRegularVisit({ name }) {
+function AllRvs({ name }) {
   const [open, setOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState("created-rvs");
+
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
@@ -36,17 +40,40 @@ function EngineerRegularVisit({ name }) {
       </Box>
 
       <Box sx={{ width: "100%" }}>
+        <div className="flex justify-center my-6">
+          <button
+            className={`px-4 py-2 rounded-l-lg ${
+              activeTab === "created-rvs"
+                ? "bg-primary text-primary-foreground"
+                : "bg-muted text-muted-foreground hover:bg-muted/50"
+            }`}
+            onClick={() => setActiveTab("created-rvs")}
+          >
+            Created Regular Visits
+          </button>
+          <button
+            className={`px-4 py-2 rounded-r-lg ${
+              activeTab === "done-rvs"
+                ? "bg-primary text-primary-foreground"
+                : "bg-muted text-muted-foreground hover:bg-muted/50"
+            }`}
+            onClick={() => {
+              setActiveTab("done-rvs");
+            }}
+          >
+            Done Regular Visits
+          </button>
+        </div>
         {/* edit this to be dynamic and fetch a data from data base , after creating the database :D */}
-        <RegularVisitCard
-          client="بنك مصر"
-          branch="اول مكرم عبيد"
-          startDate={new Date().toDateString()}
-          period="3 Months"
-        />
+        {activeTab === "done-rvs" ? (
+          <DoneRegularVisits />
+        ) : (
+          <CreatedRegularVisits />
+        )}
       </Box>
       <CreateRegularVisitModal open={open} handleClose={handleClose} />
     </Box>
   );
 }
 
-export default EngineerRegularVisit;
+export default AllRvs;

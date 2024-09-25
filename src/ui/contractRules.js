@@ -25,7 +25,7 @@ export default function ContractRules({ rules, isEdit, handleRemoveRule }) {
           }}
           dir="rtl"
         >
-          {rules.map((rule, index) => {
+          {rules?.map((rule, index) => {
             if (rule.type === "success") {
               return (
                 <Alert
@@ -70,7 +70,7 @@ export default function ContractRules({ rules, isEdit, handleRemoveRule }) {
           dir="rtl"
           className="!scrollbar-hide"
         >
-          {rules.map((rule, index) => {
+          {rules?.map((rule, index) => {
             if (rule.type === "success") {
               return (
                 <Alert

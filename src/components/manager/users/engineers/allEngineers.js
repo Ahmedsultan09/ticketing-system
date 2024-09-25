@@ -73,10 +73,6 @@ function AllEngineers() {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
-  useEffect(() => {
-    console.log(updatedEngineers);
-  }, [updatedEngineers]);
-
   return (
     <main className="w-full min-h-screen flex flex-row relative">
       <div className="flex flex-col w-full">
@@ -109,17 +105,6 @@ function AllEngineers() {
                   Show Tasks ({eng.tasks.length})
                 </Button>
               </span>
-              <div className="lg:w-1/2 sm:3/4 flex items-center justify-end">
-                {eng.spareParts && eng.spareParts.length !== 0 ? (
-                  <div className="h-5 w-20 rounded-3xl text-white text-sm bg-red-600 flex items-center justify-center">
-                    spare parts
-                  </div>
-                ) : (
-                  <div className="h-5 w-20 rounded-3xl text-white text-sm bg-green-600 flex items-center justify-center">
-                    No parts
-                  </div>
-                )}
-              </div>
             </div>
           </Item>
         ))}
