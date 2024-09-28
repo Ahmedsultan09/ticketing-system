@@ -3,7 +3,7 @@ import Modal from "@mui/material/Modal";
 import { useEffect, useState } from "react";
 import { TextField } from "@mui/material";
 import { Button as BlackButton } from "src/ui/components/button";
-import { v4 as uuidv4 } from "uuid";
+
 import axiosInstance from "../../../api/axiosInstance";
 import { useParams } from "react-router-dom";
 
@@ -22,7 +22,7 @@ const style = {
   pb: 3,
 };
 
-export default function AddAreaModal({ handleClose, open }) {
+export default function AddGovernorateModal({ handleClose, open }) {
   const [clientID, setCurrentClientID] = useState("");
   const [governorate, setGovernorate] = useState("");
   const params = useParams();
@@ -34,36 +34,27 @@ export default function AddAreaModal({ handleClose, open }) {
   function handleGovernorate(e) {
     setGovernorate(e.target.value);
   }
-
   function handleCreateGovernorate() {
     axiosInstance
       .get(`/clients/${clientID}`)
       .then((res) => {
         const specificClient = res.data;
-        const existingGovernorates = Array.isArray(specificClient.governorates)
-          ? specificClient.governorates
-          : [];
-
-        // Generate a UUID
-        const uniqueID = Date.now();
-
-        const updateGovernorates = {
-          id: uniqueID,
-          name: governorate,
-          areas: [],
-        };
-
+        const updateGovernorates = { name: governorate, areas: [] };
         return axiosInstance.put(`/clients/${clientID}`, {
           ...specificClient,
-          governorates: [...existingGovernorates, updateGovernorates],
+          governorates: {
+            ...specificClient.governorates,
+            name: updateGovernorates,
+            areas: [],
+          },
         });
       })
       .then((res) => {
-        console.log("Updated client with new governorate:", res.data);
-        handleClose();
+        console.log("Updated client with new area:", res.data);
+        handleClose(); // Close the modal
       })
       .catch((error) => {
-        console.error("Error updating governorates:", error);
+        console.error("Error updating areas:", error);
       });
   }
 

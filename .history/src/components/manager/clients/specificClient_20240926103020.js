@@ -6,6 +6,7 @@ import { Typography } from "@mui/material";
 import { Button } from "src/ui/components/button";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import NavigationCard from "src/ui/cards/navigationCard";
+import AddAreaModal from "./addGovernorateModal";
 import AddGovernorateModal from "./addGovernorateModal";
 
 function SpecificClient() {

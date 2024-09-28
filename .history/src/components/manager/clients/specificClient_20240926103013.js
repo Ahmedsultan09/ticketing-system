@@ -6,7 +6,7 @@ import { Typography } from "@mui/material";
 import { Button } from "src/ui/components/button";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import NavigationCard from "src/ui/cards/navigationCard";
-import AddGovernorateModal from "./addGovernorateModal";
+import AddAreaModal from "./addGovernorateModal";
 
 function SpecificClient() {
   const [specificClient, setSpecificClient] = useState({});
@@ -49,7 +49,7 @@ function SpecificClient() {
           })}
         </div>
       </div>
-      <AddGovernorateModal open={open} handleClose={handleClose} />
+      <AddAreaModal open={open} handleClose={handleClose} />
     </div>
   );
 }

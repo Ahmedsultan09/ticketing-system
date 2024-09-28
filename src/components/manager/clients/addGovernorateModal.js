@@ -22,7 +22,7 @@ const style = {
   pb: 3,
 };
 
-export default function AddAreaModal({ handleClose, open }) {
+export default function AddGovernorateModal({ handleClose, open }) {
   const [clientID, setCurrentClientID] = useState("");
   const [governorate, setGovernorate] = useState("");
   const params = useParams();

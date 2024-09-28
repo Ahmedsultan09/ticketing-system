@@ -22,7 +22,7 @@ const style = {
   pb: 3,
 };
 
-export default function AddAreaModal({ handleClose, open }) {
+export default function AddGovernorateModal({ handleClose, open }) {
   const [clientID, setCurrentClientID] = useState("");
   const [governorate, setGovernorate] = useState("");
   const params = useParams();
@@ -47,11 +47,7 @@ export default function AddAreaModal({ handleClose, open }) {
         // Generate a UUID
         const uniqueID = Date.now();
 
-        const updateGovernorates = {
-          id: uniqueID,
-          name: governorate,
-          areas: [],
-        };
+        const updateGovernorates = { id: uuid, name: governorate, areas: [] };
 
         return axiosInstance.put(`/clients/${clientID}`, {
           ...specificClient,

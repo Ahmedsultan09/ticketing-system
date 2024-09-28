@@ -3,7 +3,7 @@ import Modal from "@mui/material/Modal";
 import { useEffect, useState } from "react";
 import { TextField } from "@mui/material";
 import { Button as BlackButton } from "src/ui/components/button";
-import { v4 as uuidv4 } from "uuid";
+
 import axiosInstance from "../../../api/axiosInstance";
 import { useParams } from "react-router-dom";
 
@@ -24,47 +24,24 @@ const style = {
 
 export default function AddAreaModal({ handleClose, open }) {
   const [clientID, setCurrentClientID] = useState("");
-  const [governorate, setGovernorate] = useState("");
+  const [areaName, setAreaName] = useState("");
   const params = useParams();
   useEffect(() => {
     setCurrentClientID(params.clientID);
     console.log(clientID);
   }, [params.clientID, clientID]);
 
-  function handleGovernorate(e) {
-    setGovernorate(e.target.value);
+  function handleAreaName(e) {
+    setAreaName(e.target.value);
   }
 
-  function handleCreateGovernorate() {
+  function handleCreateArea() {
     axiosInstance
-      .get(`/clients/${clientID}`)
-      .then((res) => {
-        const specificClient = res.data;
-        const existingGovernorates = Array.isArray(specificClient.governorates)
-          ? specificClient.governorates
-          : [];
-
-        // Generate a UUID
-        const uniqueID = Date.now();
-
-        const updateGovernorates = {
-          id: uniqueID,
-          name: governorate,
-          areas: [],
-        };
-
-        return axiosInstance.put(`/clients/${clientID}`, {
-          ...specificClient,
-          governorates: [...existingGovernorates, updateGovernorates],
-        });
+      .post(`/client/${clientID}/areas`, {
+        area: areaName,
       })
-      .then((res) => {
-        console.log("Updated client with new governorate:", res.data);
-        handleClose();
-      })
-      .catch((error) => {
-        console.error("Error updating governorates:", error);
-      });
+      .then((res) => console.log(res.data));
+    handleClose();
   }
 
   return (
@@ -92,17 +69,14 @@ export default function AddAreaModal({ handleClose, open }) {
           className="scrollbar-hide"
         >
           <TextField
-            id="Governorate"
-            label="Governorate"
+            id="Area"
+            label="Area"
             size="small"
-            onChange={handleGovernorate}
+            onChange={handleAreaName}
             fullWidth
             required
           />{" "}
-          <BlackButton
-            className="w-full mt-4"
-            onClick={handleCreateGovernorate}
-          >
+          <BlackButton className="w-full mt-4" onClick={handleCreateArea}>
             Create
           </BlackButton>
         </Box>

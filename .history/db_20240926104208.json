@@ -5844,11 +5844,7 @@
     {
       "id": "1",
       "name": "طارق احمد لولي",
-      "tasks": [
-        214,
-        63,
-        213
-      ],
+      "tasks": [214, 63, 213],
       "solvedTasks": 10,
       "currentTasks": 5,
       "spareParts": [],
@@ -5860,20 +5856,10 @@
     {
       "id": "2",
       "name": "وليد عمر عبد القادر",
-      "tasks": [
-        187,
-        212,
-        64,
-        145,
-        45,
-        153,
-        76
-      ],
+      "tasks": [187, 212, 64, 145, 45, 153, 76],
       "solvedTasks": 8,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -5882,9 +5868,7 @@
     {
       "id": "3",
       "name": "أحمد عاطف عمر",
-      "tasks": [
-        29
-      ],
+      "tasks": [29],
       "solvedTasks": 15,
       "currentTasks": 5,
       "spareParts": [],
@@ -5896,22 +5880,10 @@
     {
       "id": "4",
       "name": "احمد عبدالله",
-      "tasks": [
-        89,
-        170,
-        10,
-        63,
-        19,
-        126,
-        54,
-        186,
-        5
-      ],
+      "tasks": [89, 170, 10, 63, 19, 126, 54, 186, 5],
       "solvedTasks": 12,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -6816,12 +6788,7 @@
     {
       "id": "5",
       "name": "عمرو جمال الصغير",
-      "tasks": [
-        46,
-        149,
-        43,
-        124
-      ],
+      "tasks": [46, 149, 43, 124],
       "solvedTasks": 14,
       "currentTasks": 5,
       "spareParts": [],
@@ -6833,14 +6800,7 @@
     {
       "id": "6",
       "name": "هاني إبراهيم جلال",
-      "tasks": [
-        230,
-        147,
-        94,
-        180,
-        118,
-        212
-      ],
+      "tasks": [230, 147, 94, 180, 118, 212],
       "solvedTasks": 11,
       "currentTasks": 5,
       "spareParts": [],
@@ -6852,16 +6812,10 @@
     {
       "id": "7",
       "name": "محمد جمال موسي",
-      "tasks": [
-        156,
-        92,
-        146
-      ],
+      "tasks": [156, 92, 146],
       "solvedTasks": 9,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -6870,20 +6824,10 @@
     {
       "id": "8",
       "name": "حسين فتحي محمد",
-      "tasks": [
-        96,
-        124,
-        179,
-        58,
-        126,
-        190,
-        204
-      ],
+      "tasks": [96, 124, 179, 58, 126, 190, 204],
       "solvedTasks": 13,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -6892,12 +6836,7 @@
     {
       "id": "9",
       "name": "أحمد شوقي احمد",
-      "tasks": [
-        238,
-        15,
-        34,
-        125
-      ],
+      "tasks": [238, 15, 34, 125],
       "solvedTasks": 16,
       "currentTasks": 5,
       "spareParts": [],
@@ -6909,21 +6848,10 @@
     {
       "id": "10",
       "name": "عمرو محمود زينهم",
-      "tasks": [
-        194,
-        19,
-        32,
-        66,
-        41,
-        199,
-        58,
-        158
-      ],
+      "tasks": [194, 19, 32, 66, 41, 199, 58, 158],
       "solvedTasks": 7,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -6932,11 +6860,7 @@
     {
       "id": "11",
       "name": "محسن محمد احمد",
-      "tasks": [
-        48,
-        168,
-        23
-      ],
+      "tasks": [48, 168, 23],
       "solvedTasks": 10,
       "currentTasks": 5,
       "spareParts": [],
@@ -6948,15 +6872,10 @@
     {
       "id": "12",
       "name": "محمد إسكندر محمد",
-      "tasks": [
-        23,
-        85
-      ],
+      "tasks": [23, 85],
       "solvedTasks": 14,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -6965,21 +6884,10 @@
     {
       "id": "13",
       "name": "عبد الرحمن يسري علي",
-      "tasks": [
-        35,
-        83,
-        87,
-        219,
-        79,
-        236,
-        202,
-        118
-      ],
+      "tasks": [35, 83, 87, 219, 79, 236, 202, 118],
       "solvedTasks": 11,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -6988,13 +6896,7 @@
     {
       "id": "14",
       "name": "قاضي سيد عبد العاطي",
-      "tasks": [
-        106,
-        135,
-        54,
-        246,
-        179
-      ],
+      "tasks": [106, 135, 54, 246, 179],
       "solvedTasks": 8,
       "currentTasks": 5,
       "spareParts": [],
@@ -7006,18 +6908,10 @@
     {
       "id": "15",
       "name": "محمد رجب محمد",
-      "tasks": [
-        128,
-        61,
-        160,
-        63,
-        169
-      ],
+      "tasks": [128, 61, 160, 63, 169],
       "solvedTasks": 15,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -7026,13 +6920,7 @@
     {
       "id": "16",
       "name": "أحمد عبدالله محمود",
-      "tasks": [
-        142,
-        63,
-        165,
-        101,
-        208
-      ],
+      "tasks": [142, 63, 165, 101, 208],
       "solvedTasks": 12,
       "currentTasks": 5,
       "spareParts": [],
@@ -7044,18 +6932,10 @@
     {
       "id": "17",
       "name": "زكى عبد العزيز محمد زكى",
-      "tasks": [
-        55,
-        93,
-        68,
-        102,
-        91
-      ],
+      "tasks": [55, 93, 68, 102, 91],
       "solvedTasks": 9,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -7064,13 +6944,7 @@
     {
       "id": "18",
       "name": "وليد عبد الرحيم علي",
-      "tasks": [
-        124,
-        157,
-        132,
-        59,
-        214
-      ],
+      "tasks": [124, 157, 132, 59, 214],
       "solvedTasks": 13,
       "currentTasks": 5,
       "spareParts": [],
@@ -7082,13 +6956,7 @@
     {
       "id": "19",
       "name": "إسلام محمد عبد الفتاح محمد",
-      "tasks": [
-        184,
-        99,
-        19,
-        30,
-        61
-      ],
+      "tasks": [184, 99, 19, 30, 61],
       "solvedTasks": 11,
       "currentTasks": 5,
       "spareParts": [],
@@ -7100,18 +6968,10 @@
     {
       "id": "20",
       "name": "محمد أحمد لولى",
-      "tasks": [
-        84,
-        14,
-        109,
-        196,
-        55
-      ],
+      "tasks": [84, 14, 109, 196, 55],
       "solvedTasks": 14,
       "currentTasks": 5,
-      "spareParts": [
-        "Drum"
-      ],
+      "spareParts": ["Drum"],
       "phone": "01012345678",
       "email": "engineer@bigdataeg.com",
       "address": "987 Nasr City Rd, Cairo",
@@ -7120,13 +6980,7 @@
     {
       "id": "21",
       "name": "عربي وهدان سلامه",
-      "tasks": [
-        100,
-        206,
-        249,
-        34,
-        204
-      ],
+      "tasks": [100, 206, 249, 34, 204],
       "solvedTasks": 15,
       "currentTasks": 5,
       "spareParts": [],
@@ -7138,13 +6992,7 @@
     {
       "id": "22",
       "name": "مصطفي احمد السيد",
-      "tasks": [
-        59,
-        134,
-        13,
-        166,
-        219
-      ],
+      "tasks": [59, 134, 13, 166, 219],
       "solvedTasks": 14,
       "currentTasks": 5,
       "spareParts": [],
@@ -7156,14 +7004,7 @@
     {
       "id": "23",
       "name": "أحمد محمد محمود",
-      "tasks": [
-        49,
-        105,
-        184,
-        189,
-        104,
-        207
-      ],
+      "tasks": [49, 105, 184, 189, 104, 207],
       "solvedTasks": 10,
       "currentTasks": 6,
       "spareParts": [],
@@ -7285,53 +7126,10 @@
       "client": "QNB",
       "name": "Mohamed loly",
       "ticketsCreated": [
-        84,
-        142,
-        169,
-        82,
-        161,
-        53,
-        34,
-        132,
-        76,
-        131,
-        143,
-        79,
-        141,
-        215,
-        246,
-        65,
-        133,
-        207,
-        149,
-        235,
-        15,
-        72,
-        95,
-        217,
-        238,
-        195,
-        216,
-        80,
-        264,
-        139,
-        251,
-        213,
-        230,
-        32,
-        127,
-        257,
-        114,
-        150,
-        218,
-        167,
-        209,
-        220,
-        208,
-        178,
-        196,
-        186,
-        120
+        84, 142, 169, 82, 161, 53, 34, 132, 76, 131, 143, 79, 141, 215, 246, 65,
+        133, 207, 149, 235, 15, 72, 95, 217, 238, 195, 216, 80, 264, 139, 251,
+        213, 230, 32, 127, 257, 114, 150, 218, 167, 209, 220, 208, 178, 196,
+        186, 120
       ],
       "numberOfTicketsCreated": 48,
       "email": "operator@bigdataeg.com",
@@ -7343,54 +7141,10 @@
       "client": "Alex Bank",
       "name": "Mohamed Abdellah",
       "ticketsCreated": [
-        40,
-        92,
-        265,
-        229,
-        93,
-        158,
-        153,
-        192,
-        55,
-        162,
-        171,
-        261,
-        166,
-        190,
-        126,
-        108,
-        183,
-        48,
-        224,
-        146,
-        13,
-        180,
-        83,
-        252,
-        176,
-        187,
-        239,
-        154,
-        22,
-        61,
-        173,
-        201,
-        262,
-        18,
-        28,
-        128,
-        100,
-        118,
-        159,
-        147,
-        104,
-        54,
-        260,
-        43,
-        255,
-        2,
-        219,
-        212
+        40, 92, 265, 229, 93, 158, 153, 192, 55, 162, 171, 261, 166, 190, 126,
+        108, 183, 48, 224, 146, 13, 180, 83, 252, 176, 187, 239, 154, 22, 61,
+        173, 201, 262, 18, 28, 128, 100, 118, 159, 147, 104, 54, 260, 43, 255,
+        2, 219, 212
       ],
       "numberOfTicketsCreated": 48,
       "email": "operator@bigdataeg.com",
@@ -7402,94 +7156,12 @@
       "client": "Alex Bank",
       "name": "Yassin El-Dekn",
       "ticketsCreated": [
-        3,
-        6,
-        9,
-        12,
-        15,
-        18,
-        21,
-        24,
-        27,
-        30,
-        33,
-        36,
-        39,
-        42,
-        45,
-        48,
-        51,
-        54,
-        57,
-        60,
-        63,
-        66,
-        69,
-        72,
-        75,
-        78,
-        81,
-        84,
-        87,
-        90,
-        93,
-        96,
-        99,
-        102,
-        105,
-        108,
-        111,
-        114,
-        117,
-        120,
-        123,
-        126,
-        129,
-        132,
-        135,
-        138,
-        141,
-        144,
-        147,
-        150,
-        153,
-        156,
-        159,
-        162,
-        165,
-        168,
-        171,
-        174,
-        177,
-        180,
-        183,
-        186,
-        189,
-        192,
-        195,
-        198,
-        201,
-        204,
-        207,
-        210,
-        213,
-        216,
-        219,
-        222,
-        225,
-        228,
-        231,
-        234,
-        237,
-        240,
-        243,
-        246,
-        249,
-        252,
-        255,
-        258,
-        261,
-        264
+        3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57,
+        60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99, 102, 105, 108,
+        111, 114, 117, 120, 123, 126, 129, 132, 135, 138, 141, 144, 147, 150,
+        153, 156, 159, 162, 165, 168, 171, 174, 177, 180, 183, 186, 189, 192,
+        195, 198, 201, 204, 207, 210, 213, 216, 219, 222, 225, 228, 231, 234,
+        237, 240, 243, 246, 249, 252, 255, 258, 261, 264
       ],
       "numberOfTicketsCreated": 88,
       "email": "operator@bigdataeg.com",
@@ -7501,44 +7173,9 @@
       "client": "Banque Misr",
       "name": "Amira Ahmed",
       "ticketsCreated": [
-        170,
-        137,
-        21,
-        210,
-        211,
-        70,
-        44,
-        202,
-        205,
-        111,
-        37,
-        226,
-        203,
-        39,
-        20,
-        240,
-        86,
-        62,
-        106,
-        188,
-        221,
-        12,
-        4,
-        179,
-        199,
-        250,
-        56,
-        112,
-        10,
-        181,
-        117,
-        107,
-        237,
-        3,
-        115,
-        185,
-        182,
-        174
+        170, 137, 21, 210, 211, 70, 44, 202, 205, 111, 37, 226, 203, 39, 20,
+        240, 86, 62, 106, 188, 221, 12, 4, 179, 199, 250, 56, 112, 10, 181, 117,
+        107, 237, 3, 115, 185, 182, 174
       ],
       "numberOfTicketsCreated": 40,
       "email": "operator@bigdataeg.com",
@@ -7550,26 +7187,8 @@
       "client": "NBE",
       "name": "Ahmed Adel",
       "ticketsCreated": [
-        227,
-        66,
-        124,
-        110,
-        145,
-        14,
-        160,
-        25,
-        228,
-        89,
-        225,
-        191,
-        31,
-        99,
-        96,
-        151,
-        90,
-        71,
-        97,
-        116
+        227, 66, 124, 110, 145, 14, 160, 25, 228, 89, 225, 191, 31, 99, 96, 151,
+        90, 71, 97, 116
       ],
       "numberOfTicketsCreated": 20,
       "email": "operator@bigdataeg.com",
@@ -7581,26 +7200,8 @@
       "client": "IDB",
       "name": "Mohamed loly",
       "ticketsCreated": [
-        156,
-        17,
-        27,
-        33,
-        30,
-        168,
-        73,
-        222,
-        58,
-        125,
-        78,
-        214,
-        87,
-        6,
-        204,
-        51,
-        177,
-        193,
-        64,
-        69
+        156, 17, 27, 33, 30, 168, 73, 222, 58, 125, 78, 214, 87, 6, 204, 51,
+        177, 193, 64, 69
       ],
       "numberOfTicketsCreated": 20,
       "email": "operator@bigdataeg.com",
@@ -7611,17 +7212,7 @@
       "id": "7",
       "client": "Juhayna",
       "name": "Tarek Loly",
-      "ticketsCreated": [
-        258,
-        130,
-        256,
-        57,
-        138,
-        122,
-        88,
-        197,
-        36
-      ],
+      "ticketsCreated": [258, 130, 256, 57, 138, 122, 88, 197, 36],
       "numberOfTicketsCreated": 9,
       "email": "operator@bigdataeg.com",
       "phone": "01012345678",
@@ -7632,24 +7223,8 @@
       "client": "ADIB",
       "name": "Dalia Mohamed",
       "ticketsCreated": [
-        109,
-        81,
-        244,
-        233,
-        198,
-        101,
-        103,
-        74,
-        35,
-        163,
-        165,
-        259,
-        50,
-        206,
-        75,
-        140,
-        263,
-        47
+        109, 81, 244, 233, 198, 101, 103, 74, 35, 163, 165, 259, 50, 206, 75,
+        140, 263, 47
       ],
       "numberOfTicketsCreated": 18,
       "email": "operator@bigdataeg.com",
@@ -7660,18 +7235,7 @@
       "id": "9",
       "client": "NBE",
       "name": "Islam Mohamed",
-      "ticketsCreated": [
-        172,
-        8,
-        105,
-        1,
-        136,
-        242,
-        236,
-        254,
-        63,
-        247
-      ],
+      "ticketsCreated": [172, 8, 105, 1, 136, 242, 236, 254, 63, 247],
       "numberOfTicketsCreated": 10,
       "email": "operator@bigdataeg.com",
       "phone": "01012345678",
@@ -7681,19 +7245,7 @@
       "id": "10",
       "client": "NBE",
       "name": "Dalia Mohamed",
-      "ticketsCreated": [
-        19,
-        144,
-        23,
-        26,
-        91,
-        60,
-        121,
-        231,
-        7,
-        77,
-        119
-      ],
+      "ticketsCreated": [19, 144, 23, 26, 91, 60, 121, 231, 7, 77, 119],
       "numberOfTicketsCreated": 11,
       "email": "operator@bigdataeg.com",
       "phone": "01012345678",
@@ -7704,26 +7256,8 @@
       "client": "Abu Dhabi Commercial Bank",
       "name": "Mohamed Tarek",
       "ticketsCreated": [
-        243,
-        5,
-        184,
-        94,
-        232,
-        234,
-        38,
-        152,
-        85,
-        11,
-        49,
-        164,
-        157,
-        200,
-        46,
-        123,
-        134,
-        9,
-        98,
-        24
+        243, 5, 184, 94, 232, 234, 38, 152, 85, 11, 49, 164, 157, 200, 46, 123,
+        134, 9, 98, 24
       ],
       "numberOfTicketsCreated": 20,
       "email": "operator@bigdataeg.com",
@@ -7734,18 +7268,7 @@
       "id": "12",
       "client": "UCP",
       "name": "Mohamed Mostafa",
-      "ticketsCreated": [
-        189,
-        113,
-        16,
-        41,
-        67,
-        42,
-        249,
-        129,
-        248,
-        194
-      ],
+      "ticketsCreated": [189, 113, 16, 41, 67, 42, 249, 129, 248, 194],
       "numberOfTicketsCreated": 10,
       "email": "operator@bigdataeg.com",
       "phone": "01012345678",
@@ -7756,20 +7279,7 @@
       "client": "UCP",
       "name": "Hisham",
       "ticketsCreated": [
-        245,
-        68,
-        148,
-        135,
-        223,
-        175,
-        253,
-        52,
-        59,
-        241,
-        155,
-        29,
-        45,
-        102
+        245, 68, 148, 135, 223, 175, 253, 52, 59, 241, 155, 29, 45, 102
       ],
       "numberOfTicketsCreated": 14,
       "email": "operator@bigdataeg.com",
@@ -17742,12 +17252,12 @@
   ],
   "clients": [
     {
-      "id": "868f",
+      "id": "5412",
       "clientName": "Alex Bank",
       "rules": [
         {
           "id": 1,
-          "type": "warning",
+          "type": "success",
           "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
         }
       ],
@@ -17757,54 +17267,10 @@
           "client": "Alex Bank",
           "name": "Mohamed Abdellah",
           "ticketsCreated": [
-            40,
-            92,
-            265,
-            229,
-            93,
-            158,
-            153,
-            192,
-            55,
-            162,
-            171,
-            261,
-            166,
-            190,
-            126,
-            108,
-            183,
-            48,
-            224,
-            146,
-            13,
-            180,
-            83,
-            252,
-            176,
-            187,
-            239,
-            154,
-            22,
-            61,
-            173,
-            201,
-            262,
-            18,
-            28,
-            128,
-            100,
-            118,
-            159,
-            147,
-            104,
-            54,
-            260,
-            43,
-            255,
-            2,
-            219,
-            212
+            40, 92, 265, 229, 93, 158, 153, 192, 55, 162, 171, 261, 166, 190,
+            126, 108, 183, 48, 224, 146, 13, 180, 83, 252, 176, 187, 239, 154,
+            22, 61, 173, 201, 262, 18, 28, 128, 100, 118, 159, 147, 104, 54,
+            260, 43, 255, 2, 219, 212
           ],
           "numberOfTicketsCreated": 48,
           "email": "operator@bigdataeg.com",
@@ -17812,148 +17278,158 @@
           "address": "987 Nasr City Rd, Cairo"
         },
         {
-          "id": "3",
-          "client": "Alex Bank",
-          "name": "Yassin El-Dekn",
+          "id": "4",
+          "client": "Banque Misr",
+          "name": "Amira Ahmed",
           "ticketsCreated": [
-            3,
-            6,
-            9,
-            12,
-            15,
-            18,
-            21,
-            24,
-            27,
-            30,
-            33,
-            36,
-            39,
-            42,
-            45,
-            48,
-            51,
-            54,
-            57,
-            60,
-            63,
-            66,
-            69,
-            72,
-            75,
-            78,
-            81,
-            84,
-            87,
-            90,
-            93,
-            96,
-            99,
-            102,
-            105,
-            108,
-            111,
-            114,
-            117,
-            120,
-            123,
-            126,
-            129,
-            132,
-            135,
-            138,
-            141,
-            144,
-            147,
-            150,
-            153,
-            156,
-            159,
-            162,
-            165,
-            168,
-            171,
-            174,
-            177,
-            180,
-            183,
-            186,
-            189,
-            192,
-            195,
-            198,
-            201,
-            204,
-            207,
-            210,
-            213,
-            216,
-            219,
-            222,
-            225,
-            228,
-            231,
-            234,
-            237,
-            240,
-            243,
-            246,
-            249,
-            252,
-            255,
-            258,
-            261,
-            264
+            170, 137, 21, 210, 211, 70, 44, 202, 205, 111, 37, 226, 203, 39, 20,
+            240, 86, 62, 106, 188, 221, 12, 4, 179, 199, 250, 56, 112, 10, 181,
+            117, 107, 237, 3, 115, 185, 182, 174
           ],
-          "numberOfTicketsCreated": 88,
+          "numberOfTicketsCreated": 40,
           "email": "operator@bigdataeg.com",
           "phone": "01012345678",
           "address": "987 Nasr City Rd, Cairo"
         }
-      ],
-      "areas": []
+      ]
     },
     {
-      "id": "0304",
-      "clientName": "QNB",
+      "id": "f08e",
+      "clientName": "cib",
       "rules": [
         {
           "id": 1,
-          "type": "warning",
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "11",
+          "client": "Abu Dhabi Commercial Bank",
+          "name": "Mohamed Tarek",
+          "ticketsCreated": [
+            243, 5, 184, 94, 232, 234, 38, 152, 85, 11, 49, 164, 157, 200, 46,
+            123, 134, 9, 98, 24
+          ],
+          "numberOfTicketsCreated": 20,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ]
+    },
+    {
+      "id": "915e",
+      "clientName": "NBK",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "1",
+          "client": "QNB",
+          "name": "Mohamed loly",
+          "ticketsCreated": [
+            84, 142, 169, 82, 161, 53, 34, 132, 76, 131, 143, 79, 141, 215, 246,
+            65, 133, 207, 149, 235, 15, 72, 95, 217, 238, 195, 216, 80, 264,
+            139, 251, 213, 230, 32, 127, 257, 114, 150, 218, 167, 209, 220, 208,
+            178, 196, 186, 120
+          ],
+          "numberOfTicketsCreated": 48,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ]
+    },
+    {
+      "id": "c610",
+      "clientName": "NBE",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
           "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
         },
         {
           "id": 2,
           "type": "success",
-          "text": "من الصعب"
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
         }
       ],
       "operators": [
         {
-          "id": "6",
-          "client": "IDB",
+          "id": "4",
+          "client": "Banque Misr",
+          "name": "Amira Ahmed",
+          "ticketsCreated": [
+            170, 137, 21, 210, 211, 70, 44, 202, 205, 111, 37, 226, 203, 39, 20,
+            240, 86, 62, 106, 188, 221, 12, 4, 179, 199, 250, 56, 112, 10, 181,
+            117, 107, 237, 3, 115, 185, 182, 174
+          ],
+          "numberOfTicketsCreated": 40,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ]
+    },
+    {
+      "id": "fa7c",
+      "clientName": "Alex Bank",
+      "rules": [
+        {
+          "id": 3,
+          "type": "warning",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        },
+        {
+          "id": 4,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "1",
+          "client": "QNB",
           "name": "Mohamed loly",
           "ticketsCreated": [
-            156,
-            17,
-            27,
-            33,
-            30,
-            168,
-            73,
-            222,
-            58,
-            125,
-            78,
-            214,
-            87,
-            6,
-            204,
-            51,
-            177,
-            193,
-            64,
-            69
+            84, 142, 169, 82, 161, 53, 34, 132, 76, 131, 143, 79, 141, 215, 246,
+            65, 133, 207, 149, 235, 15, 72, 95, 217, 238, 195, 216, 80, 264,
+            139, 251, 213, 230, 32, 127, 257, 114, 150, 218, 167, 209, 220, 208,
+            178, 196, 186, 120
+          ],
+          "numberOfTicketsCreated": 48,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ]
+    },
+    {
+      "id": "858b",
+      "clientName": "SULTAN",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "5",
+          "client": "NBE",
+          "name": "Ahmed Adel",
+          "ticketsCreated": [
+            227, 66, 124, 110, 145, 14, 160, 25, 228, 89, 225, 191, 31, 99, 96,
+            151, 90, 71, 97, 116
           ],
           "numberOfTicketsCreated": 20,
           "email": "operator@bigdataeg.com",
@@ -17961,78 +17437,15 @@
           "address": "987 Nasr City Rd, Cairo"
         }
       ],
-      "areas": []
+      "governorates": []
     },
     {
-      "id": "1493",
-      "clientName": "NBK",
-      "rules": [
-        {
-          "id": 1,
-          "type": "warning",
-          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
-        },
-        {
-          "id": 2,
-          "type": "success",
-          "text": "من الصعب"
-        },
-        {
-          "id": 3,
-          "type": "success",
-          "text": "بأي حاجة خالص"
-        }
-      ],
-      "operators": [
-        {
-          "id": "7",
-          "client": "Juhayna",
-          "name": "Tarek Loly",
-          "ticketsCreated": [
-            258,
-            130,
-            256,
-            57,
-            138,
-            122,
-            88,
-            197,
-            36
-          ],
-          "numberOfTicketsCreated": 9,
-          "email": "operator@bigdataeg.com",
-          "phone": "01012345678",
-          "address": "987 Nasr City Rd, Cairo"
-        }
-      ],
+      "id": "2ba5",
+      "clientName": "Alaa",
+      "rules": [],
+      "operators": [],
       "areas": [],
-      "governorates": [
-        {
-          "id": 1727338649966,
-          "name": "Giza",
-          "areas": []
-        },
-        {
-          "id": 1727338676710,
-          "name": "Giza",
-          "areas": []
-        },
-        {
-          "id": 1727338815092,
-          "name": "Alexanderia",
-          "areas": []
-        },
-        {
-          "id": 1727536808368,
-          "name": "Fayoum",
-          "areas": []
-        },
-        {
-          "id": 1727536867472,
-          "name": "Damietta",
-          "areas": []
-        }
-      ]
+      "governorates": []
     }
   ]
 }

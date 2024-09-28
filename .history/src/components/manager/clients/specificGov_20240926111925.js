@@ -2,16 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useFetchClients from "src/hooks/useFetchClients";
 import ClientInfo from "./clientInfo";
-import { Typography } from "@mui/material";
-import { Button } from "src/ui/components/button";
+import { Button, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import NavigationCard from "src/ui/cards/navigationCard";
-import AddGovernorateModal from "./addGovernorateModal";
 
-function SpecificClient() {
+function SpecificGov() {
   const [specificClient, setSpecificClient] = useState({});
   const params = useParams();
   const client = useFetchClients(params.clientID);
+  const currentGovID = parseInt(params.govID);
   const navigate = useNavigate();
   function handleBack() {
     navigate(-1);
@@ -19,39 +18,34 @@ function SpecificClient() {
   useEffect(() => {
     setSpecificClient(client);
   }, [client]);
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
   return (
     <div className="container">
       {" "}
-      <div className="w-full my-4 flex flex-row justify-between items-center">
+      <div className="w-full my-4">
         <Button onClick={handleBack}>
           <ArrowBackIcon /> Back
         </Button>
-        <Button onClick={handleOpen}>أضف محافظة</Button>
       </div>
       <ClientInfo clients={specificClient} />
       <div className="w-full mt-4" dir="rtl">
-        <Typography>أختر المحافظة</Typography>
+        <Typography>أختر المنطقة</Typography>
         <div className="w-full flex justify-between flex-wrap flex-row gap-4">
           {" "}
-          {specificClient?.governorates?.map((gov) => {
-            return (
+          {specificClient?.governorates?.[currentGovID - 1]?.areas ? (
+            specificClient.governorates[currentGovID - 1].areas.map((area) => (
               <NavigationCard
-                key={gov.id}
-                name={gov.name}
-                path={`gov/${gov.id}`}
+                key={area.id}
+                name={area.name}
+                path={`area/${area.id}`}
               />
-            );
-          })}
+            ))
+          ) : (
+            <Typography>لا توجد مناطق متاحة</Typography>
+          )}
         </div>
       </div>
-      <AddGovernorateModal open={open} handleClose={handleClose} />
     </div>
   );
 }
 
-export default SpecificClient;
+export default SpecificGov;
