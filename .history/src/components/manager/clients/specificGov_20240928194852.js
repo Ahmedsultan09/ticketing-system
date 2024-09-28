@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useFetchClients from "src/hooks/useFetchClients";
 import ClientInfo from "./clientInfo";
-import { Typography } from "@mui/material";
-import { Button } from "src/ui/components/button";
+import { Button, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import NavigationCard from "src/ui/cards/navigationCard";
 import AddAreaModal from "./addAreaModal";
@@ -27,33 +26,25 @@ function SpecificGov() {
   return (
     <div className="container">
       {" "}
-      <div className="w-full my-4 flex flex-row justify-between items-center">
+      <div className="w-full my-4">
         <Button onClick={handleBack}>
           <ArrowBackIcon /> Back
         </Button>
         <Button onClick={handleOpen}>أضف منطقة</Button>
       </div>
       <ClientInfo clients={specificClient} />
-      <div className="w-full mt-4">
-        <Typography dir="rtl">أختر المنطقة</Typography>
-        <div className="container h-[50vh] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4  items-center">
+      <div className="w-full mt-4" dir="rtl">
+        <Typography>أختر المنطقة</Typography>
+        <div className="w-full flex justify-between flex-wrap flex-row gap-4">
           {" "}
-          {specificClient?.governorates?.length ? (
-            specificClient.governorates
-              .filter((gov) => gov.id === parseInt(currentGovID)) // Find the governorate by ID
-              .map((gov) =>
-                gov.areas.length ? (
-                  gov.areas.map((area) => (
-                    <NavigationCard
-                      key={area.id}
-                      name={area.name}
-                      path={`area/${area.id}`}
-                    />
-                  ))
-                ) : (
-                  <Typography key="no-area">لم تقم بإضافة منطقة بعد</Typography>
-                )
-              )
+          {specificClient?.governorates?.[currentGovID - 1]?.areas ? (
+            specificClient.governorates[currentGovID - 1].areas.map((area) => (
+              <NavigationCard
+                key={area.id}
+                name={area.name}
+                path={`area/${area.id}`}
+              />
+            ))
           ) : (
             <Typography>لم تقم بإضافة منطقة بعد</Typography>
           )}

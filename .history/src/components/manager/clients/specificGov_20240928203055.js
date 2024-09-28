@@ -34,9 +34,9 @@ function SpecificGov() {
         <Button onClick={handleOpen}>أضف منطقة</Button>
       </div>
       <ClientInfo clients={specificClient} />
-      <div className="w-full mt-4">
-        <Typography dir="rtl">أختر المنطقة</Typography>
-        <div className="container h-[50vh] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4  items-center">
+      <div className="w-full mt-4" dir="rtl">
+        <Typography>أختر المنطقة</Typography>
+        <div className="w-full flex justify-between flex-wrap flex-row gap-4">
           {" "}
           {specificClient?.governorates?.length ? (
             specificClient.governorates

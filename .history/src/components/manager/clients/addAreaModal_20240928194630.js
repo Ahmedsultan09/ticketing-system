@@ -3,6 +3,7 @@ import Modal from "@mui/material/Modal";
 import { useEffect, useState } from "react";
 import { TextField } from "@mui/material";
 import { Button as BlackButton } from "src/ui/components/button";
+import { v4 as uuidv4 } from "uuid";
 import axiosInstance from "../../../api/axiosInstance";
 import { useParams } from "react-router-dom";
 
@@ -23,13 +24,12 @@ const style = {
 
 export default function AddAreaModal({ handleClose, open }) {
   const [clientID, setCurrentClientID] = useState("");
-  const [governorateID, setGovernorateID] = useState("");
   const [area, setArea] = useState("");
   const params = useParams();
   useEffect(() => {
     setCurrentClientID(params.clientID);
-    setGovernorateID(params.govID);
-  }, [params.clientID, params.govID]);
+    console.log(clientID);
+  }, [params.clientID, clientID]);
 
   function handleArea(e) {
     setArea(e.target.value);
@@ -40,29 +40,22 @@ export default function AddAreaModal({ handleClose, open }) {
       .get(`/clients/${clientID}`)
       .then((res) => {
         const specificClient = res.data;
+        const existingAreas = Array.isArray(specificClient.governorates.areas)
+          ? specificClient.governorates.areas
+          : [];
 
-        // Find the governorate by governorateID
-        const updatedGovernorates = specificClient.governorates.map((gov) => {
-          if (gov.id === parseInt(governorateID)) {
-            const uniqueID = Date.now();
-            const newArea = {
-              id: uniqueID,
-              name: area,
-              branches: [],
-            };
+        // Generate a UUID
+        const uniqueID = Date.now();
 
-            // Add the new area to the governorate's areas
-            return {
-              ...gov,
-              areas: [...gov.areas, newArea],
-            };
-          }
-          return gov; // Return other governorates unchanged
-        });
+        const updatedAreas = {
+          id: uniqueID,
+          name: area,
+          branches: [],
+        };
 
         return axiosInstance.put(`/clients/${clientID}`, {
           ...specificClient,
-          governorates: updatedGovernorates,
+          governorates: [...existingAreas, updatedAreas],
         });
       })
       .then((res) => {

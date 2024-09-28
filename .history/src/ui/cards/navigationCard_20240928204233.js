@@ -1,6 +1,9 @@
 import React from "react";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link as Direct } from "react-router-dom";
-import { Card, CardContent } from "../../ui/components/card";
+import { useParams } from "react-router-dom";
+import { Paper } from "@mui/material";
+import { Card, CardContent } from "@/components/ui/card";
 import { MapPin } from "lucide-react";
 function NavigationCard({ name, path, color, children }) {
   return (
