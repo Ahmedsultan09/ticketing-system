@@ -17914,56 +17914,6 @@
       "areas": []
     },
     {
-      "id": "0304",
-      "clientName": "QNB",
-      "rules": [
-        {
-          "id": 1,
-          "type": "warning",
-          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
-        },
-        {
-          "id": 2,
-          "type": "success",
-          "text": "من الصعب"
-        }
-      ],
-      "operators": [
-        {
-          "id": "6",
-          "client": "IDB",
-          "name": "Mohamed loly",
-          "ticketsCreated": [
-            156,
-            17,
-            27,
-            33,
-            30,
-            168,
-            73,
-            222,
-            58,
-            125,
-            78,
-            214,
-            87,
-            6,
-            204,
-            51,
-            177,
-            193,
-            64,
-            69
-          ],
-          "numberOfTicketsCreated": 20,
-          "email": "operator@bigdataeg.com",
-          "phone": "01012345678",
-          "address": "987 Nasr City Rd, Cairo"
-        }
-      ],
-      "areas": []
-    },
-    {
       "id": "1493",
       "clientName": "NBK",
       "rules": [
@@ -18035,8 +17985,64 @@
               "id": 1727544020119,
               "name": "New Damietta",
               "branches": []
+            },
+            {
+              "id": 1727598449489,
+              "name": "Old Damietta",
+              "branches": []
+            },
+            {
+              "id": 1727600607049,
+              "name": "Farskour",
+              "branches": []
+            },
+            {
+              "id": 1727607115064,
+              "name": "El Zarka",
+              "branches": []
+            },
+            {
+              "id": 1727607148899,
+              "name": "Kafr Sa'ad",
+              "branches": []
             }
           ]
+        },
+        {
+          "id": 1727596838495,
+          "name": "Assiut",
+          "areas": []
+        },
+        {
+          "id": 1727596864388,
+          "name": "Cairo",
+          "areas": [
+            {
+              "id": 1727599562581,
+              "name": "Nasr City",
+              "branches": []
+            }
+          ]
+        },
+        {
+          "id": 1727602065088,
+          "name": "Port Said",
+          "areas": []
+        },
+        {
+          "id": 1727602323415,
+          "name": "Mansoura",
+          "areas": []
+        },
+        {
+          "id": 1727602956877,
+          "name": "Suez",
+          "areas": []
+        },
+        {
+          "id": 1727606156332,
+          "name": "Qena",
+          "areas": []
         }
       ]
     },
