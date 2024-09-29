@@ -11,7 +11,6 @@ export default function DeleteModal({
   handleClickClose,
   client,
   handleDelete,
-  id,
 }) {
   return (
     <React.Fragment>
@@ -39,7 +38,7 @@ export default function DeleteModal({
             variant="contained"
             color="success"
             onClick={() => {
-              handleDelete(id);
+              handleDelete(client?.id);
               handleClickClose();
             }}
             autoFocus

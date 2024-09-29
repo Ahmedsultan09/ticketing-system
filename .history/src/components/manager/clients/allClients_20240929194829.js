@@ -137,7 +137,6 @@ function AllClients() {
                     handleDelete={handleDelete}
                     handleClickClose={handleClickClose}
                     openDeleteModal={openDeleteModal}
-                    id={client.id}
                   />
                 )}{" "}
               </div>
