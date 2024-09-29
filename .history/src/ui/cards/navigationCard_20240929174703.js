@@ -12,8 +12,8 @@ function NavigationCard({
   children,
 }) {
   return (
-    <Card className="w-full max-w-3xl relative" dir="rtl">
-      <CardContent className="p-0">
+    <Card className="w-full max-w-3xl relative " dir="rtl">
+      <CardContent className="p-0 flex flex-row flex-1">
         <Direct
           to={path}
           className={`relative h-48 bg-gradient-to-r ${
@@ -60,12 +60,9 @@ function NavigationCard({
             )}
           </div>
         </Direct>
-        {children && (
-          <div className="absolute bottom-2 h-9 left-4 flex items-center  z-10  cursor-pointer">
-            {" "}
-            {children}
-          </div>
-        )}
+        <div className=" border border-red-500 text-red-700 cursor-pointer">
+          {children}
+        </div>
       </CardContent>
     </Card>
   );

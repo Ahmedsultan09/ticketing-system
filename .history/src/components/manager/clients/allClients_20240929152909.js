@@ -16,7 +16,7 @@ function AllClients() {
   const [open, setOpen] = useState(false);
   const [deleteMode, setDeleteMode] = useState(false);
   const [deleteModal, setDeleteModal] = useState(false);
-  const [openDeleteModal, setOpenDeletModal] = useState(false);
+  const [openDeleteModal, setOpenDeletModal] = React.useState(false);
 
   const handleClickOpen = () => {
     setOpenDeletModal(true);
@@ -104,7 +104,7 @@ function AllClients() {
           flexWrap: "wrap",
         }}
       >
-        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center relative">
           {" "}
           {clients?.map((client) => {
             return (
@@ -118,27 +118,10 @@ function AllClients() {
                   title="Governorates"
                 >
                   {deleteMode ? (
-                    <Button
-                      variant="contained"
-                      color="error"
-                      onClick={handleClickOpen}
-                      size="small"
-                      startIcon={<DeleteForeverIcon />}
-                      className="flex flex-row items-center gap-2 justify-center"
-                    >
-                      {" "}
-                      Delete
-                    </Button>
+                    <RemoveCircleIcon onClick={handleClickOpen} />
                   ) : null}
                 </NavigationCard>
-                {openDeleteModal && (
-                  <DeleteModal
-                    client={client}
-                    handleDelete={handleDelete}
-                    handleClickClose={handleClickClose}
-                    openDeleteModal={openDeleteModal}
-                  />
-                )}{" "}
+                <DeleteModal client={client} />
               </div>
             );
           })}

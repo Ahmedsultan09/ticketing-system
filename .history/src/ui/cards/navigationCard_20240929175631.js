@@ -60,12 +60,10 @@ function NavigationCard({
             )}
           </div>
         </Direct>
-        {children && (
-          <div className="absolute bottom-2 h-9 left-4 flex items-center  z-10  cursor-pointer">
-            {" "}
-            {children}
-          </div>
-        )}
+        <div className="absolute bottom-4 h-9 bg-red-600 text-white left-4 border">
+          {" "}
+          {children}
+        </div>
       </CardContent>
     </Card>
   );

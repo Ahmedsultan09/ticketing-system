@@ -122,12 +122,9 @@ function AllClients() {
                       variant="contained"
                       color="error"
                       onClick={handleClickOpen}
-                      size="small"
-                      startIcon={<DeleteForeverIcon />}
-                      className="flex flex-row items-center gap-2 justify-center"
                     >
                       {" "}
-                      Delete
+                      Delete <DeleteForeverIcon />
                     </Button>
                   ) : null}
                 </NavigationCard>

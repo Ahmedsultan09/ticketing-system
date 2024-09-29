@@ -12,7 +12,7 @@ function NavigationCard({
   children,
 }) {
   return (
-    <Card className="w-full max-w-3xl relative" dir="rtl">
+    <Card className="w-full max-w-3xl relative flex flex-row " dir="rtl">
       <CardContent className="p-0">
         <Direct
           to={path}
@@ -43,9 +43,7 @@ function NavigationCard({
           <div className="absolute top-4 left-4 w-24 h-24 rounded-full bg-yellow-300 opacity-30 blur-2xl"></div>
           <div className="absolute bottom-4 right-4 w-32 h-32 rounded-full bg-pink-300 opacity-30 blur-2xl"></div>
           <div className="flex-1 flex flex-col justify-center p-8 relative z-10">
-            <h2 className="text-2xl w-full font-bold text-white mb-2">
-              {name}
-            </h2>
+            <h2 className="text-2xl w-1/2 font-bold text-white mb-2">{name}</h2>
           </div>
           <div className="flex-1 flex flex-col justify-center items-end p-8 relative z-10">
             <div className="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-4 text-right">
@@ -60,13 +58,10 @@ function NavigationCard({
             )}
           </div>
         </Direct>
-        {children && (
-          <div className="absolute bottom-2 h-9 left-4 flex items-center  z-10  cursor-pointer">
-            {" "}
-            {children}
-          </div>
-        )}
       </CardContent>
+      <div className="flex-1 items-center h-full border border-red-500 text-red-700 cursor-pointer">
+        {children}
+      </div>
     </Card>
   );
 }

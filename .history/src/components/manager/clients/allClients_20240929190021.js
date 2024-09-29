@@ -124,7 +124,6 @@ function AllClients() {
                       onClick={handleClickOpen}
                       size="small"
                       startIcon={<DeleteForeverIcon />}
-                      className="flex flex-row items-center gap-2 justify-center"
                     >
                       {" "}
                       Delete

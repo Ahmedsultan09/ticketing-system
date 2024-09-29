@@ -104,7 +104,7 @@ function AllClients() {
           flexWrap: "wrap",
         }}
       >
-        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center justify-between">
           {" "}
           {clients?.map((client) => {
             return (
@@ -118,17 +118,7 @@ function AllClients() {
                   title="Governorates"
                 >
                   {deleteMode ? (
-                    <Button
-                      variant="contained"
-                      color="error"
-                      onClick={handleClickOpen}
-                      size="small"
-                      startIcon={<DeleteForeverIcon />}
-                      className="flex flex-row items-center gap-2 justify-center"
-                    >
-                      {" "}
-                      Delete
-                    </Button>
+                    <RemoveCircleIcon onClick={handleClickOpen} />
                   ) : null}
                 </NavigationCard>
                 {openDeleteModal && (

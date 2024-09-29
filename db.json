@@ -17911,7 +17911,20 @@
           "address": "987 Nasr City Rd, Cairo"
         }
       ],
-      "areas": []
+      "areas": [],
+      "governorates": [
+        {
+          "id": 1727626083426,
+          "name": "Damietta",
+          "areas": [
+            {
+              "id": 1727626093353,
+              "name": "New Damietta",
+              "branches": []
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "1493",
