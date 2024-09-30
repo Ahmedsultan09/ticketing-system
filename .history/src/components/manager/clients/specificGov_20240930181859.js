@@ -36,17 +36,27 @@ function SpecificGov() {
   const handleClose = () => setOpen(false);
 
   const handleDelete = (areaId) => {
-    const updatedGovernorates = specificClient.governorates.map((gov) => {
-      // Check if the governorate contains the area to be deleted
-      if (gov.areas.some((area) => area.id === areaId)) {
-        // Filter out the area to be deleted from the governorate's areas
-        const updatedAreas = gov.areas.filter((area) => area.id !== areaId);
+    const specificGovernorate = specificClient.governorates.find(
+      (gov) => gov.id === currentGovID
+    );
+    const filteredAreas = specificGovernorate.areas.filter(
+      (area) => area.id !== areaId
+    );
 
-        // Return the updated governorate with the filtered areas
-        return { ...gov, areas: updatedAreas };
+    const selectedArea = filteredAreas.find((area) => area.id === areaId);
+    const updatedGovernorate = specificGovernorate.areas.map((area) => {
+      if (area.id === areaId) {
+        return selectedArea;
+      } else {
+        return area;
       }
-      // If no area to delete in this governorate, return it as is
-      return gov;
+    });
+    const updatedGovernorates = specificClient.governorates.map((gov) => {
+      if (gov.id === currentGovID) {
+        return [...specificClient.governorates, updatedGovernorate];
+      } else {
+        return specificClient.governorates;
+      }
     });
 
     // Update the client object with the new governorate list

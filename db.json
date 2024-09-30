@@ -17914,20 +17914,9 @@
       "areas": [],
       "governorates": [
         {
-          "id": 1727626083426,
-          "name": "Damietta",
-          "areas": [
-            {
-              "id": 1727626093353,
-              "name": "New Damietta",
-              "branches": []
-            },
-            {
-              "id": 1727704841967,
-              "name": "Old Damietta",
-              "branches": []
-            }
-          ]
+          "id": 1727707257361,
+          "name": "Cairo",
+          "areas": []
         }
       ]
     },
@@ -18040,6 +18029,26 @@
       "rules": [],
       "operators": [],
       "areas": []
+    },
+    {
+      "id": "6095",
+      "clientName": "CIB",
+      "rules": [],
+      "operators": [],
+      "areas": [],
+      "governorates": [
+        {
+          "id": 1727709845041,
+          "name": "Damietta",
+          "areas": [
+            {
+              "id": 1727709854810,
+              "name": "Old Damietta",
+              "branches": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
