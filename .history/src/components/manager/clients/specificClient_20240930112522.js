@@ -80,34 +80,31 @@ function SpecificClient() {
           <ArrowBackIcon /> Back
         </Button>
         <Button onClick={handleOpen}>أضف محافظة</Button>
+        {!deleteMode ? (
+          <MUIButton
+            variant="contained"
+            color="error"
+            onClick={handleDeleteMode}
+            className="flex flex-row items-center w-52"
+          >
+            Delete Clients <DeleteForeverIcon className="mx-2 text-xs" />
+          </MUIButton>
+        ) : (
+          <MUIButton
+            variant="contained"
+            color="success"
+            onClick={handleSave}
+            className="flex flex-row items-center w-52"
+          >
+            Done <CheckBoxIcon className="mx-2 text-xs" />
+          </MUIButton>
+        )}
       </div>
       <ClientInfo clients={specificClient} />
       <div className="w-full mt-4" dir="rtl">
-        <div className="w-full flex flex-row justify-between items-center ">
-          <Typography className="w-fit px-2 bg-red-600 rounded-xl text-white">
-            إختر المحافظة
-          </Typography>
-          {!deleteMode ? (
-            <MUIButton
-              variant="contained"
-              color="error"
-              onClick={handleDeleteMode}
-              className="flex lg:flex-row flex-col items-center w-60"
-            >
-              Delete Governorate <DeleteForeverIcon className="mx-2 text-xs" />
-            </MUIButton>
-          ) : (
-            <MUIButton
-              variant="contained"
-              color="success"
-              onClick={handleSave}
-              className="flex flex-row items-center w-52"
-            >
-              Done <CheckBoxIcon className="mx-2 text-xs" />
-            </MUIButton>
-          )}
-        </div>
-
+        <Typography className="w-fit px-2 bg-red-600 rounded-xl text-white">
+          إختر المحافظة
+        </Typography>
         <div className="container mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center">
           {" "}
           {specificClient?.governorates?.map((gov) => {

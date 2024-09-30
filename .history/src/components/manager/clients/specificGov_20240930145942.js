@@ -6,22 +6,24 @@ import { Typography } from "@mui/material";
 import { Button } from "src/ui/components/button";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import NavigationCard from "src/ui/cards/navigationCard";
-import AddGovernorateModal from "./addGovernorateModal";
+import AddAreaModal from "./addAreaModal";
 import axiosInstance from "src/api/axiosInstance";
 import DeleteModal from "./deleteModal";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import { Button as MUIButton } from "@mui/material";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
 
-function SpecificClient() {
+function SpecificGov() {
   const [specificClient, setSpecificClient] = useState({});
+  const [open, setOpen] = useState(false);
   const [openDeleteModal, setOpenDeletModal] = useState(false);
+
   const [selectedGovId, setSelectedGovId] = useState(null);
   const [selecteGovName, setSelectedGovName] = useState("");
   const [deleteMode, setDeleteMode] = useState(false);
-
   const params = useParams();
   const client = useFetchClients(params.clientID);
+  const currentGovID = parseInt(params.govID);
   const navigate = useNavigate();
   function handleBack() {
     navigate(-1);
@@ -30,13 +32,9 @@ function SpecificClient() {
     setSpecificClient(client);
   }, [client]);
 
-  const [open, setOpen] = useState(false);
-
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  function handleGovernoratesChange(data) {
-    setSpecificClient(data);
-  }
+
   const handleDelete = (govId) => {
     const updatedGovernorates = specificClient.governorates.filter(
       (gov) => gov.id !== govId
@@ -59,6 +57,10 @@ function SpecificClient() {
       });
   };
 
+  function handleChangeArea(data) {
+    setSpecificClient(data);
+  }
+
   const handleClickOpen = (id, name) => {
     setOpenDeletModal(true);
     setSelectedGovId(id);
@@ -71,7 +73,6 @@ function SpecificClient() {
 
   const handleDeleteMode = () => setDeleteMode(true);
   const handleSave = () => setDeleteMode(false);
-
   return (
     <div className="container">
       {" "}
@@ -79,69 +80,81 @@ function SpecificClient() {
         <Button onClick={handleBack}>
           <ArrowBackIcon /> Back
         </Button>
-        <Button onClick={handleOpen}>أضف محافظة</Button>
+        <Button onClick={handleOpen}>أضف منطقة</Button>
+        {!deleteMode ? (
+          <MUIButton
+            variant="contained"
+            color="error"
+            onClick={handleDeleteMode}
+            className="flex lg:flex-row flex-col items-center w-60"
+          >
+            Delete Governorate <DeleteForeverIcon className="mx-2 text-xs" />
+          </MUIButton>
+        ) : (
+          <MUIButton
+            variant="contained"
+            color="success"
+            onClick={handleSave}
+            className="flex flex-row items-center w-52"
+          >
+            Done <CheckBoxIcon className="mx-2 text-xs" />
+          </MUIButton>
+        )}
       </div>
       <ClientInfo clients={specificClient} />
       <div className="w-full mt-4" dir="rtl">
-        <div className="w-full flex flex-row justify-between items-center ">
-          <Typography className="w-fit px-2 bg-red-600 rounded-xl text-white">
-            إختر المحافظة
-          </Typography>
-          {!deleteMode ? (
-            <MUIButton
-              variant="contained"
-              color="error"
-              onClick={handleDeleteMode}
-              className="flex lg:flex-row flex-col items-center w-60"
-            >
-              Delete Governorate <DeleteForeverIcon className="mx-2 text-xs" />
-            </MUIButton>
+        <Typography
+          dir="rtl"
+          className="w-fit px-2 bg-red-600 rounded-xl text-white"
+        >
+          أختر المنطقة
+        </Typography>
+        <div className="container grid mt-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4  items-center">
+          {" "}
+          {specificClient?.governorates?.length ? (
+            specificClient.governorates
+              .filter((gov) => gov.id === parseInt(currentGovID)) // Find the governorate by ID
+              .map((gov) =>
+                gov.areas.length ? (
+                  gov.areas.map((area) => (
+                    <NavigationCard
+                      key={area.id}
+                      name={area.name}
+                      path={`area/${area.id}`}
+                      color="area"
+                      title="Branches"
+                      govName={gov.name}
+                      count={area?.branches?.lenegth}
+                    >
+                      {" "}
+                      {deleteMode && (
+                        <MUIButton
+                          variant="contained"
+                          color="error"
+                          onClick={() => handleClickOpen(gov.id, gov.name)}
+                          size="small"
+                          startIcon={<DeleteForeverIcon />}
+                          className="flex flex-row items-center gap-2 justify-center"
+                        >
+                          {" "}
+                          Delete
+                        </MUIButton>
+                      )}
+                    </NavigationCard>
+                  ))
+                ) : (
+                  <Typography key="no-area">لم تقم بإضافة منطقة بعد</Typography>
+                )
+              )
           ) : (
-            <MUIButton
-              variant="contained"
-              color="success"
-              onClick={handleSave}
-              className="flex flex-row items-center w-52"
-            >
-              Done <CheckBoxIcon className="mx-2 text-xs" />
-            </MUIButton>
+            <Typography>لم تقم بإضافة منطقة بعد</Typography>
           )}
         </div>
-
-        <div className="container mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center">
-          {" "}
-          {specificClient?.governorates?.map((gov) => {
-            return (
-              <NavigationCard
-                key={gov.id}
-                name={gov.name}
-                path={`gov/${gov.id}`}
-                color="gov"
-                count={gov.areas.length}
-                title="Areas"
-              >
-                {deleteMode && (
-                  <MUIButton
-                    variant="contained"
-                    color="error"
-                    onClick={() => handleClickOpen(gov.id, gov.name)}
-                    size="small"
-                    startIcon={<DeleteForeverIcon />}
-                    className="flex flex-row items-center gap-2 justify-center"
-                  >
-                    {" "}
-                    Delete
-                  </MUIButton>
-                )}
-              </NavigationCard>
-            );
-          })}
-        </div>
       </div>
-      <AddGovernorateModal
-        open={open}
+      <AddAreaModal
         handleClose={handleClose}
-        handleGovernoratesChange={handleGovernoratesChange}
+        open={open}
+        handleChangeArea={handleChangeArea}
       />
       {openDeleteModal && (
         <DeleteModal
@@ -157,4 +170,4 @@ function SpecificClient() {
   );
 }
 
-export default SpecificClient;
+export default SpecificGov;

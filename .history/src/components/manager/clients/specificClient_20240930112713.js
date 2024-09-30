@@ -92,9 +92,9 @@ function SpecificClient() {
               variant="contained"
               color="error"
               onClick={handleDeleteMode}
-              className="flex lg:flex-row flex-col items-center w-60"
+              className="flex flex-row items-center w-52"
             >
-              Delete Governorate <DeleteForeverIcon className="mx-2 text-xs" />
+              Delete Clients <DeleteForeverIcon className="mx-2 text-xs" />
             </MUIButton>
           ) : (
             <MUIButton

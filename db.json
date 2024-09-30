@@ -17921,6 +17921,11 @@
               "id": 1727626093353,
               "name": "New Damietta",
               "branches": []
+            },
+            {
+              "id": 1727704841967,
+              "name": "Old Damietta",
+              "branches": []
             }
           ]
         }
@@ -17976,16 +17981,6 @@
           "areas": []
         },
         {
-          "id": 1727338676710,
-          "name": "Giza",
-          "areas": []
-        },
-        {
-          "id": 1727338815092,
-          "name": "Alexanderia",
-          "areas": []
-        },
-        {
           "id": 1727536808368,
           "name": "Fayoum",
           "areas": []
@@ -18036,28 +18031,15 @@
               "branches": []
             }
           ]
-        },
-        {
-          "id": 1727602065088,
-          "name": "Port Said",
-          "areas": []
-        },
-        {
-          "id": 1727602323415,
-          "name": "Mansoura",
-          "areas": []
-        },
-        {
-          "id": 1727602956877,
-          "name": "Suez",
-          "areas": []
-        },
-        {
-          "id": 1727606156332,
-          "name": "Qena",
-          "areas": []
         }
       ]
+    },
+    {
+      "id": "0fe9",
+      "clientName": "QNB",
+      "rules": [],
+      "operators": [],
+      "areas": []
     }
   ]
 }

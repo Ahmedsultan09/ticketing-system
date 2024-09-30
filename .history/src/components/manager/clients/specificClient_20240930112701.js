@@ -83,7 +83,7 @@ function SpecificClient() {
       </div>
       <ClientInfo clients={specificClient} />
       <div className="w-full mt-4" dir="rtl">
-        <div className="w-full flex flex-row justify-between items-center ">
+        <div className="w-full flex flex-row justify-between">
           <Typography className="w-fit px-2 bg-red-600 rounded-xl text-white">
             إختر المحافظة
           </Typography>
@@ -92,9 +92,9 @@ function SpecificClient() {
               variant="contained"
               color="error"
               onClick={handleDeleteMode}
-              className="flex lg:flex-row flex-col items-center w-60"
+              className="flex flex-row items-center w-52"
             >
-              Delete Governorate <DeleteForeverIcon className="mx-2 text-xs" />
+              Delete Clients <DeleteForeverIcon className="mx-2 text-xs" />
             </MUIButton>
           ) : (
             <MUIButton
