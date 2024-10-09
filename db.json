@@ -17981,12 +17981,67 @@
             {
               "id": 1727544020119,
               "name": "New Damietta",
-              "branches": []
+              "branches": [
+                {
+                  "id": 1727781989042,
+                  "name": "Al Kawas",
+                  "machines": []
+                },
+                {
+                  "id": 1727783524625,
+                  "name": "Central Area",
+                  "machines": []
+                },
+                {
+                  "id": 1727870023658,
+                  "name": "50 st.",
+                  "branchCode": "25",
+                  "machines": []
+                },
+                {
+                  "id": 1727870350376,
+                  "name": "المركزية",
+                  "branchCode": "22",
+                  "machines": []
+                },
+                {
+                  "id": 1727870375628,
+                  "name": "الصعيدي",
+                  "branchCode": "215",
+                  "machines": []
+                },
+                {
+                  "id": 1727878735432,
+                  "name": "هادي مول",
+                  "branchCode": "105",
+                  "machines": []
+                }
+              ],
+              "areas": [
+                {
+                  "id": 1727781878611,
+                  "name": "100 St.",
+                  "machines": []
+                }
+              ]
             },
             {
               "id": 1727598449489,
               "name": "Old Damietta",
-              "branches": []
+              "branches": [
+                {
+                  "id": 1727950901665,
+                  "name": "شارع الجلاء",
+                  "branchCode": "120",
+                  "machines": []
+                },
+                {
+                  "id": 1727950923304,
+                  "name": "عمر أفندي",
+                  "branchCode": "151",
+                  "machines": []
+                }
+              ]
             },
             {
               "id": 1727600607049,
@@ -18042,13 +18097,154 @@
           "name": "Damietta",
           "areas": [
             {
-              "id": 1727709854810,
-              "name": "Old Damietta",
+              "id": 1727773161652,
+              "name": "New Damietta",
               "branches": []
             }
           ]
         }
       ]
+    },
+    {
+      "id": "4453",
+      "clientName": "QNB",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "6",
+          "client": "IDB",
+          "name": "Mohamed loly",
+          "ticketsCreated": [
+            156,
+            17,
+            27,
+            33,
+            30,
+            168,
+            73,
+            222,
+            58,
+            125,
+            78,
+            214,
+            87,
+            6,
+            204,
+            51,
+            177,
+            193,
+            64,
+            69
+          ],
+          "numberOfTicketsCreated": 20,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "areas": []
+    },
+    {
+      "id": "7f33",
+      "clientName": "Merda",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "4",
+          "client": "Banque Misr",
+          "name": "Amira Ahmed",
+          "ticketsCreated": [
+            170,
+            137,
+            21,
+            210,
+            211,
+            70,
+            44,
+            202,
+            205,
+            111,
+            37,
+            226,
+            203,
+            39,
+            20,
+            240,
+            86,
+            62,
+            106,
+            188,
+            221,
+            12,
+            4,
+            179,
+            199,
+            250,
+            56,
+            112,
+            10,
+            181,
+            117,
+            107,
+            237,
+            3,
+            115,
+            185,
+            182,
+            174
+          ],
+          "numberOfTicketsCreated": 40,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        },
+        {
+          "id": "6",
+          "client": "IDB",
+          "name": "Mohamed loly",
+          "ticketsCreated": [
+            156,
+            17,
+            27,
+            33,
+            30,
+            168,
+            73,
+            222,
+            58,
+            125,
+            78,
+            214,
+            87,
+            6,
+            204,
+            51,
+            177,
+            193,
+            64,
+            69
+          ],
+          "numberOfTicketsCreated": 20,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "areas": []
     }
   ]
 }
