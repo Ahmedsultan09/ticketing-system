@@ -18032,6 +18032,47 @@
                       "machineType": "MFP",
                       "ownership": "non-ownership",
                       "property": "property"
+                    },
+                    {
+                      "serialNumber": "12345",
+                      "meterReading": 20518,
+                      "qrCode": 123,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "id": "17",
+                      "machineBrand": "Xerox",
+                      "machineModel": 635,
+                      "lastVisitEng": "محمد رجب",
+                      "serialNumber": "CNBBQ360NZ",
+                      "client": "NBK",
+                      "branch": "الموسكى",
+                      "area": "القاهرة",
+                      "qrCode": 136,
+                      "ownership": "non-ownership",
+                      "contractNumber": 2,
+                      "meterReading": 12602,
+                      "machineType": "MFP",
+                      "lastVisitDate": "1/21/2023"
+                    },
+                    {
+                      "id": "24",
+                      "machineBrand": "Samsung",
+                      "machineModel": "B405",
+                      "lastVisitEng": "هاني إبراهيم جلال",
+                      "serialNumber": 3718923955,
+                      "client": "Banque Misr",
+                      "branch": "الموسكى",
+                      "area": "القاهرة",
+                      "qrCode": 143,
+                      "ownership": "non-ownership",
+                      "contractNumber": 3,
+                      "meterReading": 12609,
+                      "machineType": "Scanner",
+                      "lastVisitDate": "1/28/2023"
                     }
                   ]
                 },
@@ -18183,7 +18224,7 @@
       "areas": []
     },
     {
-      "id": "9227",
+      "id": "69a5",
       "clientName": "QNB",
       "rules": [
         {
@@ -18250,7 +18291,189 @@
           "email": "operator@bigdataeg.com",
           "phone": "01012345678",
           "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2025-01-01T08:47:22.000Z",
+          "endDate": "2025-03-31T08:47:22.000Z"
         },
+        {
+          "periodNumber": 2,
+          "startDate": "2025-04-01T08:47:22.736Z",
+          "endDate": "2025-06-29T21:00:00.000Z"
+        },
+        {
+          "periodNumber": 3,
+          "startDate": "2025-07-01T07:47:22.736Z",
+          "endDate": "2025-09-30T07:47:22.736Z"
+        },
+        {
+          "periodNumber": 4,
+          "startDate": "2025-10-01T07:47:22.736Z",
+          "endDate": "2025-12-31T08:47:22.736Z"
+        }
+      ],
+      "areas": [],
+      "governorates": [
+        {
+          "id": 1728978714936,
+          "name": "Cairo",
+          "areas": []
+        },
+        {
+          "id": 1728978721152,
+          "name": "Damietta",
+          "areas": [
+            {
+              "id": 1728978732075,
+              "name": "Old Damietta",
+              "branches": [
+                {
+                  "id": 1728978782345,
+                  "name": "El Galaa'",
+                  "branchCode": "120",
+                  "machines": []
+                },
+                {
+                  "id": 1728978807683,
+                  "name": "Srour Sq.",
+                  "branchCode": "121",
+                  "machines": [
+                    {
+                      "serialNumber": "",
+                      "meterReading": null,
+                      "qrCode": null,
+                      "machineModel": "",
+                      "machineBrand": "",
+                      "machineType": "",
+                      "ownership": "non-ownership"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1728978737183,
+              "name": "New Damietta",
+              "branches": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8f05",
+      "clientName": "Quarter",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "من الصعب"
+        },
+        {
+          "id": 2,
+          "type": "warning",
+          "text": "من الصعب"
+        }
+      ],
+      "operators": [
+        {
+          "id": "1",
+          "client": "QNB",
+          "name": "Mohamed loly",
+          "ticketsCreated": [
+            84,
+            142,
+            169,
+            82,
+            161,
+            53,
+            34,
+            132,
+            76,
+            131,
+            143,
+            79,
+            141,
+            215,
+            246,
+            65,
+            133,
+            207,
+            149,
+            235,
+            15,
+            72,
+            95,
+            217,
+            238,
+            195,
+            216,
+            80,
+            264,
+            139,
+            251,
+            213,
+            230,
+            32,
+            127,
+            257,
+            114,
+            150,
+            218,
+            167,
+            209,
+            220,
+            208,
+            178,
+            196,
+            186,
+            120
+          ],
+          "numberOfTicketsCreated": 48,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2024-01-01T11:03:04.000Z",
+          "endDate": "2024-03-31T11:03:04.019Z"
+        },
+        {
+          "periodNumber": 2,
+          "startDate": "2024-04-01T11:03:04.019Z",
+          "endDate": "2024-06-30T10:03:04.019Z"
+        },
+        {
+          "periodNumber": 3,
+          "startDate": "2024-07-01T10:03:04.019Z",
+          "endDate": "2024-09-30T10:03:04.019Z"
+        },
+        {
+          "periodNumber": 4,
+          "startDate": "2024-10-01T10:03:04.019Z",
+          "endDate": "2024-12-31T11:03:04.019Z"
+        }
+      ]
+    },
+    {
+      "id": "c352",
+      "clientName": "Semi",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "من الصعب"
+        }
+      ],
+      "operators": [
         {
           "id": "2",
           "client": "Alex Bank",
@@ -18312,7 +18535,32 @@
         }
       ],
       "isRvAllowed": true,
-      "areas": []
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2024-01-01T11:03:04.019Z",
+          "endDate": "2024-05-31T10:03:04.019Z"
+        },
+        {
+          "periodNumber": 2,
+          "startDate": "2024-06-01T10:03:04.019Z",
+          "endDate": "2024-12-31T11:03:04.019Z"
+        }
+      ]
+    },
+    {
+      "id": "082a",
+      "clientName": "Annually",
+      "rules": [],
+      "operators": [],
+      "isRvAllowed": true,
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2024-01-01T11:58:33.535Z",
+          "endDate": "2024-12-31T11:58:33.535Z"
+        }
+      ]
     }
   ]
 }
