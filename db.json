@@ -17361,6 +17361,74 @@
       "meterReading": 13184,
       "machineType": "Printer",
       "lastVisitDate": "8/25/2024"
+    },
+    {
+      "id": "f34e",
+      "serialNumber": "XC2332DG",
+      "meterReading": 122354,
+      "qrCode": 120,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "non-ownership",
+      "property": "property"
+    },
+    {
+      "id": "18cd",
+      "serialNumber": "c4158w56",
+      "meterReading": 12344,
+      "qrCode": 120,
+      "machineModel": "1244",
+      "machineBrand": "HP",
+      "machineType": "Printer",
+      "ownership": "non-ownership",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "شارع الجلاء"
+    },
+    {
+      "id": "de76",
+      "serialNumber": "M321CC411",
+      "meterReading": 12445,
+      "qrCode": 125,
+      "machineModel": "3325",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "ownership": "non-ownership",
+      "property": "property",
+      "client": "NBK",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
+    },
+    {
+      "id": "4a15",
+      "serialNumber": "CBE12555533",
+      "meterReading": 24510,
+      "qrCode": 3322,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "non-ownership",
+      "client": "NBK",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
+    },
+    {
+      "id": "8b58",
+      "serialNumber": "NNED3221",
+      "meterReading": 12345,
+      "qrCode": 125,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "property": "property",
+      "client": "NBK",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
     }
   ],
   "troubleshooting": [
@@ -18105,13 +18173,274 @@
                   "id": 1727950901665,
                   "name": "شارع الجلاء",
                   "branchCode": "120",
-                  "machines": []
+                  "machines": [
+                    {
+                      "serialNumber": "123152CS",
+                      "meterReading": 12344,
+                      "qrCode": 112,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "x5481c81",
+                      "meterReading": 12344,
+                      "qrCode": 123,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "1525564",
+                      "meterReading": 122,
+                      "qrCode": 122,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "14555",
+                      "meterReading": 11222,
+                      "qrCode": 1548814,
+                      "machineModel": "21251",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "H155CSS",
+                      "meterReading": 12554,
+                      "qrCode": 418,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "CW44855",
+                      "meterReading": 22333,
+                      "qrCode": 232,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "VCS222121",
+                      "meterReading": 12333,
+                      "qrCode": 3123,
+                      "machineModel": "3322",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "ddwww22",
+                      "meterReading": 1323,
+                      "qrCode": 213123,
+                      "machineModel": "123213",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "c4158w56",
+                      "meterReading": 12344,
+                      "qrCode": 120,
+                      "machineModel": "1244",
+                      "machineBrand": "HP",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    }
+                  ]
                 },
                 {
                   "id": 1727950923304,
                   "name": "عمر أفندي",
                   "branchCode": "151",
-                  "machines": []
+                  "machines": [
+                    {
+                      "id": "8",
+                      "machineBrand": "HP",
+                      "machineModel": 4200,
+                      "lastVisitEng": "حسين فتحي محمد",
+                      "serialNumber": "v1s5272521",
+                      "client": "Banque Misr",
+                      "branch": "كونكوررد الرملي",
+                      "area": "الاسكندرية",
+                      "qrCode": 127,
+                      "ownership": "non-ownership",
+                      "contractNumber": 2,
+                      "meterReading": 12593,
+                      "machineType": "MFP",
+                      "lastVisitDate": "1/12/2023"
+                    },
+                    {
+                      "serialNumber": "12345",
+                      "meterReading": 12584,
+                      "qrCode": 158,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "123152CS",
+                      "meterReading": 12345,
+                      "qrCode": 290,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "12315EWS",
+                      "meterReading": 125252,
+                      "qrCode": 1522,
+                      "machineModel": "B401",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "id": "8",
+                      "machineBrand": "HP",
+                      "machineModel": 4200,
+                      "lastVisitEng": "حسين فتحي محمد",
+                      "serialNumber": "v1s5272521",
+                      "client": "Banque Misr",
+                      "branch": "كونكوررد الرملي",
+                      "area": "الاسكندرية",
+                      "qrCode": 127,
+                      "ownership": "non-ownership",
+                      "contractNumber": 2,
+                      "meterReading": 12593,
+                      "machineType": "MFP",
+                      "lastVisitDate": "1/12/2023"
+                    },
+                    {
+                      "serialNumber": "12345",
+                      "meterReading": 312321,
+                      "qrCode": 1231,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "332221",
+                      "meterReading": 3233,
+                      "qrCode": 3232,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "23333",
+                      "meterReading": 3222,
+                      "qrCode": 233,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "MFP",
+                      "ownership": "non-ownership"
+                    }
+                  ]
+                },
+                {
+                  "id": 1729507436198,
+                  "name": "Srour Sq.",
+                  "branchCode": "105",
+                  "machines": [
+                    {
+                      "serialNumber": "123152",
+                      "meterReading": 2331,
+                      "qrCode": 123,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "x5481c81",
+                      "meterReading": 12532,
+                      "qrCode": 122,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership",
+                      "property": "property"
+                    },
+                    {
+                      "serialNumber": "12345",
+                      "meterReading": 12511,
+                      "qrCode": 120,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership",
+                      "property": "property"
+                    },
+                    {
+                      "serialNumber": "c4158w56",
+                      "meterReading": 12344,
+                      "qrCode": 166,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "123152CS",
+                      "meterReading": 12510,
+                      "qrCode": 551,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "eqdd1222",
+                      "meterReading": 33222,
+                      "qrCode": 12312,
+                      "machineModel": "B405",
+                      "machineBrand": "HP",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "M321CC411",
+                      "meterReading": 12445,
+                      "qrCode": 125,
+                      "machineModel": "3325",
+                      "machineBrand": "Xerox",
+                      "machineType": "MFP",
+                      "ownership": "non-ownership",
+                      "property": "property"
+                    },
+                    {
+                      "serialNumber": "CBE12555533",
+                      "meterReading": 24510,
+                      "qrCode": 3322,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "NNED3221",
+                      "meterReading": 12345,
+                      "qrCode": 125,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership",
+                      "property": "property"
+                    }
+                  ]
                 }
               ]
             },
@@ -18128,7 +18457,106 @@
             {
               "id": 1727607148899,
               "name": "Kafr Sa'ad",
-              "branches": []
+              "branches": [
+                {
+                  "id": 1729595025727,
+                  "name": "Srour ",
+                  "branchCode": "251",
+                  "machines": [
+                    {
+                      "serialNumber": "123152",
+                      "meterReading": 2333,
+                      "qrCode": 232,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership",
+                      "property": "property"
+                    },
+                    {
+                      "serialNumber": "dw22112",
+                      "meterReading": 12355,
+                      "qrCode": 123,
+                      "machineModel": "B401",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "x5481c81",
+                      "meterReading": 223321,
+                      "qrCode": 322,
+                      "machineModel": "B405",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "ddwwqq",
+                      "meterReading": 232323,
+                      "qrCode": 33,
+                      "machineModel": "21251",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "123152CS",
+                      "meterReading": 23314,
+                      "qrCode": 1233,
+                      "machineModel": "3213123",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "1231521123",
+                      "meterReading": 232323,
+                      "qrCode": 233,
+                      "machineModel": "B401",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "5654115",
+                      "meterReading": 12544,
+                      "qrCode": 1115,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "33123312123312",
+                      "meterReading": 231123,
+                      "qrCode": 3123123,
+                      "machineModel": "123123123",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "eqweqweqwe",
+                      "meterReading": 23213123,
+                      "qrCode": 21312312,
+                      "machineModel": "3213123",
+                      "machineBrand": "Xerox",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "3332223",
+                      "meterReading": 3233,
+                      "qrCode": 3,
+                      "machineModel": "233",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "non-ownership"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -18144,84 +18572,34 @@
             {
               "id": 1727599562581,
               "name": "Nasr City",
-              "branches": []
+              "branches": [
+                {
+                  "id": 1729670238860,
+                  "name": "Makram Ebid",
+                  "branchCode": "115",
+                  "machines": [
+                    {
+                      "serialNumber": "x5481c81",
+                      "meterReading": 112255,
+                      "qrCode": 125,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    }
+                  ]
+                },
+                {
+                  "id": 1729671232700,
+                  "name": "Abdelrazek El Sanhoury",
+                  "branchCode": "158",
+                  "machines": []
+                }
+              ]
             }
           ]
         }
       ]
-    },
-    {
-      "id": "1641",
-      "clientName": "ADCB",
-      "rules": [
-        {
-          "id": 1,
-          "type": "success",
-          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
-        }
-      ],
-      "operators": [
-        {
-          "id": "1",
-          "client": "QNB",
-          "name": "Mohamed loly",
-          "ticketsCreated": [
-            84,
-            142,
-            169,
-            82,
-            161,
-            53,
-            34,
-            132,
-            76,
-            131,
-            143,
-            79,
-            141,
-            215,
-            246,
-            65,
-            133,
-            207,
-            149,
-            235,
-            15,
-            72,
-            95,
-            217,
-            238,
-            195,
-            216,
-            80,
-            264,
-            139,
-            251,
-            213,
-            230,
-            32,
-            127,
-            257,
-            114,
-            150,
-            218,
-            167,
-            209,
-            220,
-            208,
-            178,
-            196,
-            186,
-            120
-          ],
-          "numberOfTicketsCreated": 48,
-          "email": "operator@bigdataeg.com",
-          "phone": "01012345678",
-          "address": "987 Nasr City Rd, Cairo"
-        }
-      ],
-      "isRvAllowed": true,
-      "areas": []
     },
     {
       "id": "69a5",
@@ -18461,6 +18839,18 @@
           "startDate": "2024-10-01T10:03:04.019Z",
           "endDate": "2024-12-31T11:03:04.019Z"
         }
+      ],
+      "governorates": [
+        {
+          "id": 1729506178375,
+          "name": "Damietta",
+          "areas": []
+        },
+        {
+          "id": 1729506195270,
+          "name": "Giza",
+          "areas": []
+        }
       ]
     },
     {
@@ -18559,6 +18949,108 @@
           "periodNumber": 1,
           "startDate": "2024-01-01T11:58:33.535Z",
           "endDate": "2024-12-31T11:58:33.535Z"
+        }
+      ]
+    },
+    {
+      "id": "db59",
+      "clientName": "CIB",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "13",
+          "client": "UCP",
+          "name": "Hisham",
+          "ticketsCreated": [
+            245,
+            68,
+            148,
+            135,
+            223,
+            175,
+            253,
+            52,
+            59,
+            241,
+            155,
+            29,
+            45,
+            102
+          ],
+          "numberOfTicketsCreated": 14,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2024-10-01T10:12:15.000Z",
+          "endDate": "2024-10-31T10:12:15.000Z"
+        }
+      ],
+      "governorates": [
+        {
+          "id": 1729678358922,
+          "name": "Damietta",
+          "areas": [
+            {
+              "id": 1729678365986,
+              "name": "New Damietta",
+              "branches": [
+                {
+                  "id": 1729678384586,
+                  "name": "Central Area",
+                  "branchCode": "125",
+                  "machines": [
+                    {
+                      "serialNumber": "123152",
+                      "meterReading": 2312,
+                      "qrCode": 332,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "id": "7",
+                      "machineBrand": "Xerox",
+                      "machineModel": 4200,
+                      "lastVisitEng": "محمد جمال موسى",
+                      "serialNumber": "v1s5272519",
+                      "client": "EG Bank",
+                      "branch": "كونكوررد الرملي",
+                      "area": "الاسكندرية",
+                      "qrCode": 126,
+                      "ownership": "property",
+                      "contractNumber": 1,
+                      "meterReading": 12592,
+                      "machineType": "Scanner",
+                      "lastVisitDate": "1/11/2023"
+                    },
+                    {
+                      "serialNumber": "XC2332DG",
+                      "meterReading": 122354,
+                      "qrCode": 120,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership",
+                      "property": "property"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
