@@ -17429,6 +17429,275 @@
       "governorate": "Damietta",
       "area": "Old Damietta",
       "branch": "Srour Sq."
+    },
+    {
+      "id": "b712",
+      "serialNumber": "x5481c81",
+      "meterReading": 23331,
+      "qrCode": 125,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "748a",
+      "serialNumber": "",
+      "meterReading": null,
+      "qrCode": null,
+      "machineModel": "",
+      "machineBrand": "",
+      "machineType": "",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "97d3",
+      "serialNumber": "",
+      "meterReading": null,
+      "qrCode": null,
+      "machineModel": "",
+      "machineBrand": "",
+      "machineType": "",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "5a1b",
+      "serialNumber": "",
+      "meterReading": null,
+      "qrCode": null,
+      "machineModel": "",
+      "machineBrand": "",
+      "machineType": "",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "0827",
+      "serialNumber": "",
+      "meterReading": null,
+      "qrCode": null,
+      "machineModel": "",
+      "machineBrand": "",
+      "machineType": "",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "6c35",
+      "serialNumber": "123455512",
+      "meterReading": 23123,
+      "qrCode": 23323,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "property": "property",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "b7e6",
+      "serialNumber": "123152CS",
+      "meterReading": 12345,
+      "qrCode": 1122,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "property": "property",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "88e0",
+      "serialNumber": "c4158w56",
+      "meterReading": 12344,
+      "qrCode": 233,
+      "machineModel": "B401",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "property": "property",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "6cfa",
+      "serialNumber": "123152CS",
+      "meterReading": 12335,
+      "qrCode": 1251,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "40b5",
+      "serialNumber": "123152CS",
+      "meterReading": 12511,
+      "qrCode": 123,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "1ace",
+      "serialNumber": "x5481c81",
+      "meterReading": 1233,
+      "qrCode": 15550,
+      "machineModel": "3213123",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "37d7",
+      "serialNumber": "123152CS",
+      "meterReading": 12345,
+      "qrCode": 122,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "609b",
+      "serialNumber": "c4158w56",
+      "meterReading": 12234,
+      "qrCode": 1226,
+      "machineModel": "B405",
+      "machineBrand": "HP",
+      "machineType": "Scanner",
+      "ownership": "non-ownership",
+      "client": "CIB",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Makram Ebid"
+    },
+    {
+      "id": "422c",
+      "serialNumber": "1CX15874E",
+      "meterReading": 12500,
+      "qrCode": 126,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "Printer",
+      "ownership": "property",
+      "client": "Quarter",
+      "governorate": "Cairo",
+      "area": "Nasr City",
+      "branch": "Abbas El Akad"
+    },
+    {
+      "id": "486a",
+      "serialNumber": "1ccw2245",
+      "meterReading": 12401,
+      "qrCode": 122,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "ownership": "property",
+      "client": "Federeco Ciesa",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
+    },
+    {
+      "id": "b859",
+      "serialNumber": "232DCEW",
+      "meterReading": 12333,
+      "qrCode": 222,
+      "machineModel": "B405",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "ownership": "property",
+      "client": "Federeco Ciesa",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
+    },
+    {
+      "id": "d047",
+      "serialNumber": "DW22DDas",
+      "meterReading": 123123,
+      "qrCode": 123213,
+      "machineModel": "B401",
+      "machineBrand": "Xerox",
+      "machineType": "MFP",
+      "ownership": "property",
+      "client": "Federeco Ciesa",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
+    },
+    {
+      "id": "cd89",
+      "serialNumber": "3223dds",
+      "meterReading": 12333,
+      "qrCode": 233,
+      "machineModel": "21251",
+      "machineBrand": "HP",
+      "machineType": "MFP",
+      "ownership": "property",
+      "client": "Shalawlaw",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
+    },
+    {
+      "id": "d789",
+      "serialNumber": "ee23adc",
+      "meterReading": 23321,
+      "qrCode": 341,
+      "machineModel": "3322",
+      "machineBrand": "HP",
+      "machineType": "Scanner",
+      "ownership": "property",
+      "client": "Shalawlaw",
+      "governorate": "Damietta",
+      "area": "Old Damietta",
+      "branch": "Srour Sq."
     }
   ],
   "troubleshooting": [
@@ -18854,91 +19123,6 @@
       ]
     },
     {
-      "id": "c352",
-      "clientName": "Semi",
-      "rules": [
-        {
-          "id": 1,
-          "type": "success",
-          "text": "من الصعب"
-        }
-      ],
-      "operators": [
-        {
-          "id": "2",
-          "client": "Alex Bank",
-          "name": "Mohamed Abdellah",
-          "ticketsCreated": [
-            40,
-            92,
-            265,
-            229,
-            93,
-            158,
-            153,
-            192,
-            55,
-            162,
-            171,
-            261,
-            166,
-            190,
-            126,
-            108,
-            183,
-            48,
-            224,
-            146,
-            13,
-            180,
-            83,
-            252,
-            176,
-            187,
-            239,
-            154,
-            22,
-            61,
-            173,
-            201,
-            262,
-            18,
-            28,
-            128,
-            100,
-            118,
-            159,
-            147,
-            104,
-            54,
-            260,
-            43,
-            255,
-            2,
-            219,
-            212
-          ],
-          "numberOfTicketsCreated": 48,
-          "email": "operator@bigdataeg.com",
-          "phone": "01012345678",
-          "address": "987 Nasr City Rd, Cairo"
-        }
-      ],
-      "isRvAllowed": true,
-      "timeline": [
-        {
-          "periodNumber": 1,
-          "startDate": "2024-01-01T11:03:04.019Z",
-          "endDate": "2024-05-31T10:03:04.019Z"
-        },
-        {
-          "periodNumber": 2,
-          "startDate": "2024-06-01T10:03:04.019Z",
-          "endDate": "2024-12-31T11:03:04.019Z"
-        }
-      ]
-    },
-    {
       "id": "082a",
       "clientName": "Annually",
       "rules": [],
@@ -19047,8 +19231,507 @@
                       "property": "property"
                     }
                   ]
+                },
+                {
+                  "id": 1730288423542,
+                  "name": "HUE",
+                  "branchCode": "123",
+                  "machines": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": 1730013335077,
+          "name": "Cairo",
+          "areas": [
+            {
+              "id": 1730013345585,
+              "name": "Nasr City",
+              "branches": [
+                {
+                  "id": 1730013352681,
+                  "name": "Makram Ebid",
+                  "branchCode": "223",
+                  "machines": [
+                    {
+                      "id": "7",
+                      "machineBrand": "Xerox",
+                      "machineModel": 4200,
+                      "lastVisitEng": "محمد جمال موسى",
+                      "serialNumber": "v1s5272519",
+                      "client": "EG Bank",
+                      "branch": "كونكوررد الرملي",
+                      "area": "الاسكندرية",
+                      "qrCode": 126,
+                      "ownership": "property",
+                      "contractNumber": 1,
+                      "meterReading": 12592,
+                      "machineType": "Scanner",
+                      "lastVisitDate": "1/11/2023"
+                    },
+                    {
+                      "serialNumber": "123152CS",
+                      "meterReading": 12345,
+                      "qrCode": 122,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "non-ownership"
+                    },
+                    {
+                      "serialNumber": "c4158w56",
+                      "meterReading": 12234,
+                      "qrCode": 1226,
+                      "machineModel": "B405",
+                      "machineBrand": "HP",
+                      "machineType": "Scanner",
+                      "ownership": "property"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f957",
+      "clientName": "Quarter",
+      "rules": [
+        {
+          "id": 1,
+          "type": "warning",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "2",
+          "client": "Alex Bank",
+          "name": "Mohamed Abdellah",
+          "ticketsCreated": [
+            40,
+            92,
+            265,
+            229,
+            93,
+            158,
+            153,
+            192,
+            55,
+            162,
+            171,
+            261,
+            166,
+            190,
+            126,
+            108,
+            183,
+            48,
+            224,
+            146,
+            13,
+            180,
+            83,
+            252,
+            176,
+            187,
+            239,
+            154,
+            22,
+            61,
+            173,
+            201,
+            262,
+            18,
+            28,
+            128,
+            100,
+            118,
+            159,
+            147,
+            104,
+            54,
+            260,
+            43,
+            255,
+            2,
+            219,
+            212
+          ],
+          "numberOfTicketsCreated": 48,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2024-01-01T08:13:15.000Z",
+          "endDate": "2024-03-31T08:13:15.000Z"
+        },
+        {
+          "periodNumber": 2,
+          "startDate": "2024-04-01T08:13:15.000Z",
+          "endDate": "2024-06-30T07:13:15.000Z"
+        },
+        {
+          "periodNumber": 3,
+          "startDate": "2024-07-01T07:13:15.000Z",
+          "endDate": "2024-09-30T07:13:15.000Z"
+        },
+        {
+          "periodNumber": 4,
+          "startDate": "2024-10-01T07:13:15.000Z",
+          "endDate": "2024-12-31T08:13:15.000Z"
+        }
+      ],
+      "governorates": [
+        {
+          "id": 1730621700539,
+          "name": "Cairo",
+          "areas": [
+            {
+              "id": 1730621709573,
+              "name": "Nasr City",
+              "branches": [
+                {
+                  "id": 1730621730598,
+                  "name": "Abbas El Akad",
+                  "branchCode": "120",
+                  "machines": [
+                    {
+                      "serialNumber": "1CX15874E",
+                      "meterReading": 12500,
+                      "qrCode": 126,
+                      "machineModel": "B405",
+                      "machineBrand": "Xerox",
+                      "machineType": "Printer",
+                      "ownership": "property"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1730807332522",
+      "clientName": "Antony Hoppkins",
+      "rules": [
+        {
+          "id": 1,
+          "type": "success",
+          "text": "بتغيير اي قطعة غيار بدون الرجوع للإدارة "
+        }
+      ],
+      "operators": [
+        {
+          "id": "2",
+          "client": "Alex Bank",
+          "name": "Mohamed Abdellah",
+          "ticketsCreated": [
+            40,
+            92,
+            265,
+            229,
+            93,
+            158,
+            153,
+            192,
+            55,
+            162,
+            171,
+            261,
+            166,
+            190,
+            126,
+            108,
+            183,
+            48,
+            224,
+            146,
+            13,
+            180,
+            83,
+            252,
+            176,
+            187,
+            239,
+            154,
+            22,
+            61,
+            173,
+            201,
+            262,
+            18,
+            28,
+            128,
+            100,
+            118,
+            159,
+            147,
+            104,
+            54,
+            260,
+            43,
+            255,
+            2,
+            219,
+            212
+          ],
+          "numberOfTicketsCreated": 48,
+          "email": "operator@bigdataeg.com",
+          "phone": "01012345678",
+          "address": "987 Nasr City Rd, Cairo"
+        }
+      ],
+      "isRvAllowed": true,
+      "timeline": [
+        {
+          "periodNumber": 1,
+          "startDate": "2024-01-01T11:46:59.702Z",
+          "endDate": "2024-03-31T11:46:59.702Z"
+        },
+        {
+          "periodNumber": 2,
+          "startDate": "2024-04-01T11:46:59.702Z",
+          "endDate": "2024-06-30T10:46:59.702Z"
+        },
+        {
+          "periodNumber": 3,
+          "startDate": "2024-07-01T10:46:59.702Z",
+          "endDate": "2024-09-30T10:46:59.702Z"
+        },
+        {
+          "periodNumber": 4,
+          "startDate": "2024-10-01T10:46:59.702Z",
+          "endDate": "2024-12-31T11:46:59.702Z"
+        }
+      ]
+    }
+  ],
+  "regularVisits": [
+    {
+      "id": "e122",
+      "clientName": "Federeco Ciesa",
+      "years": [
+        {
+          "year": 2024,
+          "periods": [
+            {
+              "periodNumber": 1,
+              "startDate": "2024-01-01T12:06:33.000Z",
+              "endDate": "2024-03-31T12:06:33.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 2,
+              "startDate": "2024-04-01T12:06:33.000Z",
+              "endDate": "2024-06-30T11:06:33.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 3,
+              "startDate": "2024-07-01T11:06:33.000Z",
+              "endDate": "2024-09-30T11:06:33.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 4,
+              "startDate": "2024-10-01T11:06:33.000Z",
+              "endDate": "2024-12-31T12:06:33.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1730736194571",
+      "clientName": "Massemo",
+      "years": [
+        {
+          "year": 2024,
+          "periods": [
+            {
+              "periodNumber": 1,
+              "startDate": "2024-01-01T16:01:34.000Z",
+              "endDate": "2024-03-31T16:01:34.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 2,
+              "startDate": "2024-04-01T16:01:34.000Z",
+              "endDate": "2024-06-30T15:01:34.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 3,
+              "startDate": "2024-07-01T15:01:34.000Z",
+              "endDate": "2024-10-31T15:01:34.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 4,
+              "startDate": "2024-10-01T15:01:34.000Z",
+              "endDate": "2024-12-31T16:01:34.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1730799777806,
+      "clientName": "Massemo",
+      "years": [
+        {
+          "year": 2024,
+          "periods": [
+            {
+              "periodNumber": 1,
+              "startDate": "2024-01-01T09:40:58.000Z",
+              "endDate": "2024-03-31T09:40:58.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 2,
+              "startDate": "2024-04-01T09:40:58.000Z",
+              "endDate": "2024-06-30T08:40:58.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 3,
+              "startDate": "2024-07-01T08:40:58.000Z",
+              "endDate": "2024-09-30T08:40:58.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 4,
+              "startDate": "2024-10-01T08:40:58.000Z",
+              "endDate": "2024-12-31T09:40:58.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1730801318979",
+      "clientName": "Shalawlaw",
+      "years": [
+        {
+          "year": 2024,
+          "periods": [
+            {
+              "periodNumber": 1,
+              "startDate": "2024-11-01T10:08:20.000Z",
+              "endDate": "2024-11-30T10:08:20.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1730801533995",
+      "clientName": "Shalawlaw",
+      "years": [
+        {
+          "year": 2024,
+          "periods": [
+            {
+              "periodNumber": 1,
+              "startDate": "2024-11-01T10:11:51.000Z",
+              "endDate": "2024-11-15T10:11:51.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 2,
+              "startDate": "2024-11-16T10:11:51.000Z",
+              "endDate": "2024-11-30T10:11:51.000Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1730807332522",
+      "clientName": "Antony Hoppkins",
+      "years": [
+        {
+          "year": 2024,
+          "periods": [
+            {
+              "periodNumber": 1,
+              "startDate": "2024-01-01T11:46:59.702Z",
+              "endDate": "2024-03-31T11:46:59.702Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 2,
+              "startDate": "2024-04-01T11:46:59.702Z",
+              "endDate": "2024-06-30T10:46:59.702Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 3,
+              "startDate": "2024-07-01T10:46:59.702Z",
+              "endDate": "2024-09-30T10:46:59.702Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
+            },
+            {
+              "periodNumber": 4,
+              "startDate": "2024-10-01T10:46:59.702Z",
+              "endDate": "2024-12-31T11:46:59.702Z",
+              "visited": false,
+              "engName": "",
+              "governorates": []
             }
           ]
         }

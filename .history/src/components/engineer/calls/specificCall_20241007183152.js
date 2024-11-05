@@ -120,10 +120,6 @@ export default function SpecificCall() {
     }
   }, [callDetails]);
 
-  useEffect(() => {
-    console.log(callDetails.missuse);
-  }, [callDetails.missuse]);
-
   const BpIcon = styled("span")(({ theme }) => ({
     borderRadius: "50%",
     width: 16,
